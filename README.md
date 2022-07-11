@@ -1,5 +1,8 @@
 # JuliaSurveyForm
 
+[![CI][ci-img]][ci-url]
+[![codecov][codecov-img]](codecov-url)
+
 A package generates Julia-based survey form in many different languages and formats. This package
 is motivated by creating Chinese translation for JuliaCon's Julia survey every year and I'd like
 to automate this process with good text-diff using TOML and automated Google translate.
@@ -57,3 +60,9 @@ JuliaSurveyForm.emit_markdown("JuliaSurvey.zh_CN.md", survey_zh_CN)
 # License
 
 MIT License
+
+
+[ci-img]: https://github.com/Roger-luo/JuliaSurveyForm.jl/workflows/CI/badge.svg
+[ci-url]: https://github.com/Roger-luo/JuliaSurveyForm.jl/actions
+[codecov-img]: https://codecov.io/gh/Roger-luo/JuliaSurveyForm.jl/branch/master/graph/badge.svg?token=U604BQGRV1
+[codecov-url]: https://codecov.io/gh/Roger-luo/JuliaSurveyForm.jl
