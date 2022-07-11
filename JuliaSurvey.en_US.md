@@ -183,7 +183,7 @@ like LEAST about Julia? Please select all that apply.Please select all that appl
 - [ ] I do not feel Julia is well suited to certain tasks
 - [ ] None, there are no technical aspects or features that I dislike about Julia
 - [ ] Don't know
--[ ] Other/SPECIFY
+- [ ] Other/SPECIFY
 
 
 6. Thinking only about the NON-TECHNICAL aspects or features of Julia,
@@ -208,7 +208,7 @@ Please select all that apply.Please select all that apply.
 - [ ] I feel uncomfortable sharing my opinions with the community
 - [ ] None, there are no non-technical aspects or features I dislike about Julia
 - [ ] Don't know
--[ ] Other/SPECIFY
+- [ ] Other/SPECIFY
 
 
 7. Thinking about the tasks for which you use Julia,
@@ -251,7 +251,7 @@ language(s) would you be using? Please select all that apply.Please select all t
 - [ ] Visual Basic, VBA
 - [ ] Zig
 - [ ] Don't know
--[ ] None of the above.
+- [ ] None of the above.
 
 
 8. Why did you start using Julia? Please select all that apply.Please select all that apply.
@@ -285,7 +285,7 @@ language(s) would you be using? Please select all that apply.Please select all t
 - [ ] QQ
 - [ ] JuliaCN
 - [ ] Don't know
--[ ] None of the above.
+- [ ] None of the above.
 
 
 10. Which of the following best describe your use of Julia? Please select all that apply.Please select all that apply.
@@ -297,7 +297,7 @@ language(s) would you be using? Please select all that apply.Please select all t
 - [ ] I use Julia because it is required for classes at my university
 - [ ] I use Julia for hobby programming
 - [ ] Don't know
--[ ] None of the above.
+- [ ] None of the above.
 
 
 11. Which of the following types of Julia packages have you created?Please select all that apply.
@@ -390,8 +390,8 @@ including documentation or filing issues, but not created?Please select all that
 - [ ] Weave.jl
 - [ ] Zygote.jl
 - [ ] Don't know
--[ ] None of the above.
--[ ] Other/SPECIFY
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
 16. How robust is the current Julia package ecosystem?
@@ -910,8 +910,8 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] South Africa
 - [ ] Zambia
 - [ ] Zimbabwe
--[ ] Other/SPECIFY
--[ ] Prefer not to answer.
+- [ ] Other/SPECIFY
+- [ ] Prefer not to answer.
 
 
 35. What is the country where you are originally from?
@@ -1164,8 +1164,8 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] South Africa
 - [ ] Zambia
 - [ ] Zimbabwe
--[ ] Other/SPECIFY
--[ ] Prefer not to answer.
+- [ ] Other/SPECIFY
+- [ ] Prefer not to answer.
 
 
 36. In what language(s) are you fluent? Please select all that apply.Please select all that apply.
@@ -1238,7 +1238,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Yoruba
 - [ ] Zulu
 - [ ] Prefer not to answer
--[ ] Other/SPECIFY
+- [ ] Other/SPECIFY
 
 
 37. Which of the following best describe your race or ethnicity? Please select all that apply.Please select all that apply.
@@ -1252,7 +1252,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Australian Aboriginal
 - [ ] Maori
 - [ ] Prefer not to answer
--[ ] Other/SPECIFY
+- [ ] Other/SPECIFY
 
 
 38. What is your gender?
@@ -1260,7 +1260,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Woman
 - [ ] Non-binary
 - [ ] Prefer not to answer
--[ ] Other/SPECIFY
+- [ ] Other/SPECIFY
 
 
 39. Do you identify as LGBTQ?
@@ -1284,7 +1284,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Political or ideological beliefs
 - [ ] I do not identify as underrepresented in science or computing
 - [ ] Prefer not to answer
--[ ] Other/SPECIFY
+- [ ] Other/SPECIFY
 
 
 41. IF PROFESSIONAL: Please click here if you would like to enter a raffle to win a

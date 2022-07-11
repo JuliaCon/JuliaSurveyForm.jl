@@ -106,7 +106,7 @@ function emit_markdown(io::IO, x::ChoiceQuestion, lang::LOCALE)
     end
 
     if x.none_of_the_above
-        println(io, "-[ ] ", NON_OF_THE_ABOVE[lang])
+        println(io, "- [ ] ", NON_OF_THE_ABOVE[lang])
     end
 
     ask_for_other_answer(io, x, lang)
@@ -155,7 +155,7 @@ function emit_markdown(io::IO, x::CountryOrRegionQuestion, lang::LOCALE)
 
     ask_for_other_answer(io, x, lang)
     if x.prefer_not_to_answer
-        println(io, "-[ ] ", PREFER_NOT_TO_ANSWER[lang])
+        println(io, "- [ ] ", PREFER_NOT_TO_ANSWER[lang])
     end
     return
 end
@@ -178,7 +178,7 @@ end
 function ask_for_other_answer(io, x::Question, lang::LOCALE)
     x.ask_for_other_answer || return
     if x.ask_for_other_answer
-        println(io, "-[ ] $(OTHER_PLEASE_SPECIFY[lang])/SPECIFY")
+        println(io, "- [ ] $(OTHER_PLEASE_SPECIFY[lang])/SPECIFY")
     end
 end
 
