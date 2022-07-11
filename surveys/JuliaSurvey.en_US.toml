@@ -98,7 +98,7 @@ choices = [
 multi_choice = true
 none_of_the_above = false
 ask_for_other_answer = false
-translate_choices = true
+translate_choices = false
 
 
 [[questions]]
@@ -149,7 +149,7 @@ choices = [
 multi_choice = true
 none_of_the_above = false
 ask_for_other_answer = false
-translate_choices = true
+translate_choices = false
 
 
 [[questions]]

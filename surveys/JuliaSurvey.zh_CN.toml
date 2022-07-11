@@ -88,9 +88,9 @@ choices = [
     "Zig",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
-translate_choices = true
+none_of_the_above = true
+ask_for_other_answer = true
+translate_choices = false
 
 
 [[questions]]
@@ -139,9 +139,9 @@ choices = [
     "Zig",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
-translate_choices = true
+none_of_the_above = true
+ask_for_other_answer = true
+translate_choices = false
 
 
 [[questions]]
