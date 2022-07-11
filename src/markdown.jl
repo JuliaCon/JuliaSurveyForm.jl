@@ -114,6 +114,8 @@ end
 
 function emit_markdown(io::IO, x::QuestionForm, lang::LOCALE)
     println(io)
+    println(io)
+
     max_row_len = maximum(printed_length, x.row_titles)
     print(io, "| ", " "^max_row_len, " |")
     for column_title in x.column_titles

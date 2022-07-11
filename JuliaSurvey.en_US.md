@@ -34,6 +34,7 @@ using that language regularly or frequently during the next year, please select 
 for that question. Please leave the row blank for any language you have not used regularly
 or frequently during the past year and you do not plan to use regularly or frequently during
 the next year.
+
 |                         | Have used regularly or frequently during the  past year | Plan to use regularly or frequently during the  next year |
 | ----------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
 | Julia                   |                                                         |                                                           |
@@ -78,6 +79,7 @@ the next year.
 
 2. How much do you like each of the following languages?
 If you don't know or have not used a language, please leave it blank.
+
 |                         | One of my favorite languages | Like | Neutral | Dislike |
 | ----------------------- | ---------------------------- | ---- | ------- | ------- |
 | Julia                   |                              |      |         |         |
