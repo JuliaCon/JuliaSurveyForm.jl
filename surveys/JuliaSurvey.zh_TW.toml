@@ -245,7 +245,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-只考慮 Julia 的非技術方面的原因，以下哪些是您不喜歡 Julia 的原因？請選擇所有適用的。
+只考慮 Julia 的非技術方面的原因，以下哪些是您不喜歡 Julia 的原因？
 """
 choices = [
     "我的同事、公司或合作者使用其他語言",
@@ -327,7 +327,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-您為什麼開始使用 Julia？請選擇所有適用的。
+您為什麼開始使用 Julia？
 """
 choices = [
     "我看好Julia的未來",
@@ -468,7 +468,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-你最喜歡的 Julia 包有哪些？請選擇所有適用的。
+你最喜歡的 Julia 包有哪些？
 """
 choices = [
     "AlphaZero.jl",
@@ -630,7 +630,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-您是否參加過或打算參加 JuliaCon？請選擇所有適用的。
+您是否參加過或打算參加 JuliaCon？
 """
 choices = [
     "2022（在線）",
@@ -676,7 +676,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-您最常使用 Julia 的操作系統是什麼？請選擇所有適用的。
+您最常使用 Julia 的操作系統是什麼？
 """
 choices = [
     "Linux/x86",
@@ -700,7 +700,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-您與 Julia 一起使用哪些硬件加速器（如果有）？請選擇所有適用的。
+您與 Julia 一起使用哪些硬件加速器（如果有）？
 """
 choices = [
     "Nvidia GPU (released in the last 2 years)",
@@ -725,7 +725,7 @@ translate_choices = true
 type = "choice"
 description = """
 第一次學習 Julia 時，您發現哪些資源最有用
-學習如何在 Julia 中做某事的時間或時間？請選擇所有適用的。
+學習如何在 Julia 中做某事的時間或時間？
 """
 choices = [
     "JuliaAcademy",
@@ -751,7 +751,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-您在工作中使用以下哪項？請選擇所有適用的。
+您在工作中使用以下哪項？
 """
 choices = [
     "數據科學",
@@ -785,7 +785,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-以下那一項形容你最貼切？請選擇所有適用的。
+以下那一項形容你最貼切？
 """
 choices = [
     "學術人員 - 學生、研究員、講師、科學家",
@@ -802,7 +802,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-如果是學術人員：以下哪項最能描述您？請選擇所有適用的。
+如果是學術人員：以下哪項最能描述您？
 """
 choices = [
     "研究生或研究生或研究員",
@@ -827,7 +827,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-如果是學術人員：您的主要行業或研究領域是什麼？請選擇所有適用的。
+如果是學術人員：您的主要行業或研究領域是什麼？
 """
 choices = [
     "計算機科學",
@@ -863,7 +863,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-如果是專業人員：以下哪項最能描述您？請選擇所有適用的。
+如果是專業人員：以下哪項最能描述您？
 """
 choices = [
     "工程師、開發人員",
@@ -1506,7 +1506,7 @@ translate_countries = true
 [[questions]]
 type = "choice"
 description = """
-您精通哪種語言？請選擇所有適用的。
+您精通哪種語言？
 """
 choices = [
     "南非荷蘭語",
@@ -1588,7 +1588,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-以下哪項最能描述您的種族或民族？請選擇所有適用的。
+以下哪項最能描述您的種族或民族？
 """
 choices = [
     "白人, 高加索人, 歐洲人",

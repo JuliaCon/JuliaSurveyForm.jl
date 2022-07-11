@@ -245,7 +245,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-ジュリアの技術的でない理由だけを考えると、ジュリアが嫌いな理由は次のうちどれですか？該当するものをすべて選択してください。
+ジュリアの技術的でない理由だけを考えると、ジュリアが嫌いな理由は次のうちどれですか？
 """
 choices = [
     "私の同僚、会社、または協力者は他の言語を話します",
@@ -327,7 +327,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-なぜジュリアを使い始めたのですか？該当するものをすべて選択してください。
+なぜジュリアを使い始めたのですか？
 """
 choices = [
     "ジュリアの将来について楽観的です",
@@ -468,7 +468,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-お気に入りのジュリアパッケージは何ですか？該当するものをすべて選択してください。
+お気に入りのジュリアパッケージは何ですか？
 """
 choices = [
     "AlphaZero.jl",
@@ -630,7 +630,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-JuliaConに参加したことがありますか、または参加する予定ですか？該当するものをすべて選択してください。
+JuliaConに参加したことがありますか、または参加する予定ですか？
 """
 choices = [
     "2022年（オンライン）",
@@ -676,7 +676,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Juliaを最も頻繁に使用しているオペレーティングシステムは何ですか？該当するものをすべて選択してください。
+Juliaを最も頻繁に使用しているオペレーティングシステムは何ですか？
 """
 choices = [
     "Linux / x86",
@@ -700,7 +700,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Juliaで使用しているハードウェアアクセラレータ（ある場合）は何ですか？該当するものをすべて選択してください。
+Juliaで使用しているハードウェアアクセラレータ（ある場合）は何ですか？
 """
 choices = [
     "Nvidia GPU（過去2年間にリリース）",
@@ -725,7 +725,7 @@ translate_choices = true
 type = "choice"
 description = """
 ジュリアを初めて学ぶときに、どのようなリソースが最も役に立ちましたか？
-ジュリアで何かをする方法を学ぶ時間または時間？該当するものをすべて選択してください。
+ジュリアで何かをする方法を学ぶ時間または時間？
 """
 choices = [
     "ジュリアアカデミー",
@@ -751,7 +751,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-次のうち、職場で使用しているのはどれですか？該当するものをすべて選択してください。
+次のうち、職場で使用しているのはどれですか？
 """
 choices = [
     "データサイエンス",
@@ -785,7 +785,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-次のうち、どれがあなたをよく表していますか？該当するものをすべて選択してください。
+次のうち、どれがあなたをよく表していますか？
 """
 choices = [
     "学術スタッフ-学生、研究者、講師、科学者",
@@ -802,7 +802,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-アカデミックスタッフの場合：次のうち、あなたを最もよく表しているのはどれですか？該当するものをすべて選択してください。
+アカデミックスタッフの場合：次のうち、あなたを最もよく表しているのはどれですか？
 """
 choices = [
     "大学院生または大学院生または研究者",
@@ -827,7 +827,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-学術スタッフの場合：あなたの主な業界または研究分野は何ですか？該当するものをすべて選択してください。
+学術スタッフの場合：あなたの主な業界または研究分野は何ですか？
 """
 choices = [
     "コンピュータサイエンス",
@@ -863,7 +863,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-専門家の場合：次のうち、あなたを最もよく表しているのはどれですか？該当するものをすべて選択してください。
+専門家の場合：次のうち、あなたを最もよく表しているのはどれですか？
 """
 choices = [
     "エンジニア、開発者",
@@ -1506,7 +1506,7 @@ translate_countries = true
 [[questions]]
 type = "choice"
 description = """
-あなたはどの言語に堪能ですか？該当するものをすべて選択してください。
+あなたはどの言語に堪能ですか？
 """
 choices = [
     "アフリカーンス語",
@@ -1588,7 +1588,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-次のうち、あなたの人種や民族を最もよく表しているのはどれですか？該当するものをすべて選択してください。
+次のうち、あなたの人種や民族を最もよく表しているのはどれですか？
 """
 choices = [
     "白人、白人、ヨーロッパ人",
