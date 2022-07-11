@@ -17,6 +17,7 @@ intro = """
 Jeff Bezanson, Stefan Karpinski, Viral Shah and Alan Edelman
 Julia语言创始人
 """
+
 closing = """
 感谢您完成 2022 年 Julia 用户和开发者调查！我们非常重视
 并感谢您的参与。
@@ -39,18 +40,14 @@ I_I 如果您想参加抽奖活动，请点击此框以赢取
 I_I 如果您希望 Julia Computing 与您联系，请单击此框
 使用 Julia 帮助您的企业取得成功。
 """
+
+
 [[questions]]
-type = "form"
+type = "choice"
 description = """
-您在过去一年中日常或者经常使用以下哪种语言？或者接下来的一年中，
-您计划使用哪种语言？请勾选以下【所有】您在过去一年或者未来日常或经常使用的语言。
-对于在过去一年中没有日常使用或者经常使用的语言，请您将其留空。
+以下哪些编程语言是您过去一年里日常或者经常使用的？
 """
-column_titles = [
-    "在过去一年中经常或经常使用",
-    "计划在明年定期或频繁使用",
-]
-row_titles = [
+choices = [
     "Julia",
     "Bash, Shell, PowerShell",
     "C",
@@ -90,10 +87,61 @@ row_titles = [
     "Visual Basic, VBA",
     "Zig",
 ]
-multi_select = true
-allow_empty = true
-translate_rows = true
-translate_cols = true
+multi_choice = true
+none_of_the_above = true
+ask_for_other_answer = true
+translate_choices = false
+
+
+[[questions]]
+type = "choice"
+description = """
+以下哪些编程语言是您接下来的一年里打算日常或者经常使用的？
+"""
+choices = [
+    "Julia",
+    "Bash, Shell, PowerShell",
+    "C",
+    "C++",
+    "C#",
+    "Clojure",
+    "Crystal",
+    "Elixir",
+    "Fortran",
+    "F#",
+    "Go",
+    "Haskell",
+    "Java",
+    "JavaScript",
+    "Kotlin",
+    "Lisp",
+    "Lua",
+    "Maple",
+    "Mathematica",
+    "MATLAB",
+    "Nim",
+    "Octave",
+    "Perl",
+    "PHP",
+    "Python",
+    "R",
+    "Ruby",
+    "Rust",
+    "SAS",
+    "Scala",
+    "Scheme",
+    "Smalltalk",
+    "SQL",
+    "Stata",
+    "Swift",
+    "Typescript",
+    "Visual Basic, VBA",
+    "Zig",
+]
+multi_choice = true
+none_of_the_above = true
+ask_for_other_answer = true
+translate_choices = false
 
 
 [[questions]]
@@ -310,6 +358,7 @@ choices = [
     "SAS",
     "Scala",
     "Scheme",
+    "Smalltalk",
     "SQL",
     "Stata",
     "Swift",
@@ -368,7 +417,8 @@ choices = [
     "LinkedIn",
     "Facebook",
     "QQ",
-    "JuliaCN",
+    "JuliaCN Discourse (discourse.juliacn.com)",
+    "Julia Forem",
     "Don't know",
 ]
 multi_choice = true
@@ -661,6 +711,7 @@ description = """
 choices = [
     "来自 JuliaLang.org 的二进制文件",
     "我从源代码编译 Julia",
+    "通过JuliaUp安装",
     "来自我的 Linux 发行版",
     "从 Mac 上的 Homebrew 桶",
     "官方 Docker 容器",
