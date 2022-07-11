@@ -1,0 +1,23 @@
+name = "JuliaSurveyForm"
+uuid = "4f5cbc02-009c-11ed-1960-87d0da3937ef"
+version = "0.1.0"
+
+[deps]
+CondaPkg = "992eb4ea-22a4-4c89-a5bb-47a3300528ab"
+Configurations = "5218b696-f38b-4ac9-8b61-a12ec717816d"
+Countries = "5bf49175-83fb-4b6d-82b5-d6ded85154ae"
+GarishPrint = "b0ab02a7-8576-43f7-aa76-eaa7c3897c54"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
+PythonCall = "6099a3de-0909-46bc-b1f4-468b9a2dfc0d"
+
+[compat]
+julia = "1.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
