@@ -27,7 +27,11 @@ function emit_toml(io::IO, survey::Survey)
 
     print_quote_string(io, "lang", d["lang"])
     print_triple_quote_string(io, "intro", d["intro"])
+    println(io)
     isnothing(survey.closing) || print_triple_quote_string(io, "closing", d["closing"])
+
+    println(io)
+    println(io)
 
     for question in d["questions"]
         println(io, "[[questions]]")

@@ -24,6 +24,7 @@ Sincerely,
 Jeff Bezanson, Stefan Karpinski, Viral Shah and Alan Edelman
 Julia Co-Creators
 """
+
 closing = """
 Thank you for completing the 2022 Julia User and Developer Survey! We greatly value
 and appreciate your participation.
@@ -47,22 +48,14 @@ free Julia t-shirt.
 I_I Please click this box if you would like Julia Computing to reach out
 to you to help your business succeed using Julia.
 """
+
+
 [[questions]]
-type = "form"
+type = "choice"
 description = """
-Which of the following languages have you used regularly or frequently during the past year,
-and which do you plan to continue to use regularly or frequently during the next year? If you
-have used a language regularly or frequently during the past year AND you plan to continue
-using that language regularly or frequently during the next year, please select both boxes
-for that question. Please leave the row blank for any language you have not used regularly
-or frequently during the past year and you do not plan to use regularly or frequently during
-the next year.
+Which of the following languages have you used regularly or frequently during the past year?
 """
-column_titles = [
-    "Have used regularly or frequently during the  past year",
-    "Plan to use regularly or frequently during the  next year",
-]
-row_titles = [
+choices = [
     "Julia",
     "Bash, Shell, PowerShell",
     "C",
@@ -102,10 +95,61 @@ row_titles = [
     "Visual Basic, VBA",
     "Zig",
 ]
-multi_select = true
-allow_empty = true
-translate_rows = false
-translate_cols = true
+multi_choice = true
+none_of_the_above = false
+ask_for_other_answer = false
+translate_choices = true
+
+
+[[questions]]
+type = "choice"
+description = """
+Which of the following languages do you plan to use regularly or frequently during the next year?
+"""
+choices = [
+    "Julia",
+    "Bash, Shell, PowerShell",
+    "C",
+    "C++",
+    "C#",
+    "Clojure",
+    "Crystal",
+    "Elixir",
+    "Fortran",
+    "F#",
+    "Go",
+    "Haskell",
+    "Java",
+    "JavaScript",
+    "Kotlin",
+    "Lisp",
+    "Lua",
+    "Maple",
+    "Mathematica",
+    "MATLAB",
+    "Nim",
+    "Octave",
+    "Perl",
+    "PHP",
+    "Python",
+    "R",
+    "Ruby",
+    "Rust",
+    "SAS",
+    "Scala",
+    "Scheme",
+    "Smalltalk",
+    "SQL",
+    "Stata",
+    "Swift",
+    "Typescript",
+    "Visual Basic, VBA",
+    "Zig",
+]
+multi_choice = true
+none_of_the_above = false
+ask_for_other_answer = false
+translate_choices = true
 
 
 [[questions]]
@@ -331,6 +375,7 @@ choices = [
     "SAS",
     "Scala",
     "Scheme",
+    "Smalltalk",
     "SQL",
     "Stata",
     "Swift",
@@ -389,7 +434,8 @@ choices = [
     "LinkedIn",
     "Facebook",
     "QQ",
-    "JuliaCN",
+    "JuliaCN Discourse (discourse.juliacn.com)",
+    "Julia Forem",
     "Don't know",
 ]
 multi_choice = true
@@ -683,6 +729,7 @@ How did you download/install the Julia version you most frequently use?
 choices = [
     "Binaries from JuliaLang.org",
     "I compile Julia from source",
+    "JuliaUp",
     "From my Linux distribution",
     "From Homebrew cask on Mac",
     "Official Docker container",
@@ -1650,7 +1697,8 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Do you identify as LGBTQ?"""
+Do you identify as LGBTQ?
+"""
 choices = [
     "Yes",
     "No",
