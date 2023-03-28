@@ -57,43 +57,21 @@ Which of the following languages have you used regularly or frequently during th
 """
 choices = [
     "Julia",
-    "Bash, Shell, PowerShell",
-    "C",
-    "C++",
-    "C#",
-    "Clojure",
-    "Crystal",
-    "Elixir",
-    "Fortran",
-    "F#",
-    "Go",
-    "Haskell",
+    "Python",
+	"Shell, Bash, PowerShell",
+    "R",
+	"C, C++",
+    "SQL",
+    "MATLAB",
     "Java",
     "JavaScript",
-    "Kotlin",
-    "Lisp",
-    "Lua",
-    "Maple",
+    "Fortran",
     "Mathematica",
-    "MATLAB",
-    "Nim",
-    "Octave",
-    "Perl",
-    "PHP",
-    "Python",
-    "R",
-    "Ruby",
     "Rust",
-    "SAS",
-    "Scala",
-    "Scheme",
-    "Smalltalk",
-    "SQL",
-    "Stata",
-    "Swift",
-    "Typescript",
-    "Visual Basic, VBA",
-    "Zig",
+	"C#",
+    "Go",
+	"Octave",
+	"Typescript",
 ]
 multi_choice = true
 none_of_the_above = false
@@ -107,44 +85,22 @@ description = """
 Which of the following languages do you plan to use regularly or frequently during the next year?
 """
 choices = [
-    "Julia",
-    "Bash, Shell, PowerShell",
-    "C",
-    "C++",
-    "C#",
-    "Clojure",
-    "Crystal",
-    "Elixir",
-    "Fortran",
-    "F#",
-    "Go",
-    "Haskell",
+	"Julia",
+    "Python",
+	"Shell, Bash, PowerShell",
+    "R",
+	"C, C++",
+    "SQL",
+    "MATLAB",
     "Java",
     "JavaScript",
-    "Kotlin",
-    "Lisp",
-    "Lua",
-    "Maple",
+    "Fortran",
     "Mathematica",
-    "MATLAB",
-    "Nim",
-    "Octave",
-    "Perl",
-    "PHP",
-    "Python",
-    "R",
-    "Ruby",
     "Rust",
-    "SAS",
-    "Scala",
-    "Scheme",
-    "Smalltalk",
-    "SQL",
-    "Stata",
-    "Swift",
-    "Typescript",
-    "Visual Basic, VBA",
-    "Zig",
+	"C#",
+    "Go",
+	"Octave",
+	"Typescript",
 ]
 multi_choice = true
 none_of_the_above = false
@@ -165,44 +121,22 @@ column_titles = [
     "Dislike",
 ]
 row_titles = [
-    "Julia",
-    "Bash, Shell, PowerShell",
-    "C",
-    "C++",
-    "C#",
-    "Clojure",
-    "Crystal",
-    "Elixir",
-    "Fortran",
-    "F#",
-    "Go",
-    "Haskell",
+	"Julia",
+    "Python",
+	"Shell, Bash, PowerShell",
+    "R",
+	"C, C++",
+    "SQL",
+    "MATLAB",
     "Java",
     "JavaScript",
-    "Kotlin",
-    "Lisp",
-    "Lua",
-    "Maple",
+    "Fortran",
     "Mathematica",
-    "MATLAB",
-    "Nim",
-    "Octave",
-    "Perl",
-    "PHP",
-    "Python",
-    "R",
-    "Ruby",
     "Rust",
-    "SAS",
-    "Scala",
-    "Scheme",
-    "Smalltalk",
-    "SQL",
-    "Stata",
-    "Swift",
-    "Typescript",
-    "Visual Basic, VBA",
-    "Zig",
+	"C#",
+    "Go",
+	"Octave",
+	"Typescript",
 ]
 multi_select = false
 allow_empty = true
@@ -213,8 +147,7 @@ translate_cols = true
 [[questions]]
 type = "choice"
 description = """
-Thinking only about the TECHNICAL aspects or features of Julia,
-which of the following are the TECHNICAL aspects or features you
+Which of the following are the TECHNICAL aspects or features you
 like MOST about Julia? Please select all that apply.
 """
 choices = [
@@ -245,8 +178,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Thinking only about the NON-TECHNICAL aspects or features of Julia,
-which of the following are the NON-TECHNICAL aspects or features you
+Which of the following are the NON-TECHNICAL aspects or features you
 like MOST about Julia? Please select all that apply.
 """
 choices = [
@@ -271,29 +203,25 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Thinking only about the TECHNICAL aspects or features of Julia,
-which of the following are the TECHNICAL aspects or features you
+Which of the following are the TECHNICAL aspects or features you
 like LEAST about Julia? Please select all that apply.
 """
 choices = [
-    "It takes too long to generate the first plot",
-    "Slow compile times",
-    "Packages aren't as mature or as well maintained as I need",
+    "Slow compile times - for example, it takes too long to generate the first plot",
+	"Confusing or overly verbose error messages",
     "Cannot generate self contained binaries or libraries such as .exe, .dll, .so, etc.",
     "Immature, not ready for use in production",
     "Poor editor and IDE support",
     "Poor linter, poor syntax checking compared to statically typed languages",
-    "Doesn't have all the packages I need",
     "I require packages, libraries or tools that are only available or are more complete in another language",
     "The debugger is too slow, and/or not fully-featured",
-    "Not stable enough",
-    "Package manager is confusing, difficult or doesn't do what I expect it to",
-    "Writing performant code is difficult and requires specialized knowledge",
+    "Writing high performance code is difficult and requires specialized knowledge",
+	"Slow garbage collection",
     "Bugs",
     "One-based indexing",
-    "No in-language or built-in support for mutable, fixed size arrays",
-    "Does not integrate well with other language(s)",
-    "I do not feel Julia is well suited to certain tasks",
+    "No built-in support for mutable, fixed size arrays",
+	"No built-in support for interfaces or traits",
+	"Does not integrate well with other language(s)",
     "None, there are no technical aspects or features that I dislike about Julia",
     "Don't know",
 ]
@@ -306,28 +234,19 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Thinking only about the NON-TECHNICAL aspects or features of Julia,
-what are the NON-TECHNICAL aspects or features you like LEAST about Julia?
+Which of the following are the NON-TECHNICAL aspects or features you like LEAST about Julia?
 Please select all that apply.
 """
 choices = [
-    "My colleagues, company or collaborators use other languages",
     "There are not enough Julia users in my field or industry",
-    "Online tutorials and documentation that are outdated",
-    "There are not enough Julia users in general",
     "My company, university, clients or other organizations I work with do not allow or support Julia",
-    "Insufficient documentation",
-    "There are not enough teaching and learning resources available online",
-    "There are too many things I don't know how to do in Julia",
+    "Online tutorials and documentation are outdated or insufficient",
     "I am more comfortable in another language",
-    "Julia community is not active enough",
-    "Julia community is too closed and not welcoming enough",
-    "Julia community is not diverse enough",
-    "Don't like learning a new language",
+    "The Julia community is not active enough",
+    "The Julia community is too closed and not welcoming enough",
+    "The Julia community is not diverse enough",
     "I feel that the Julia developer team does not communicate its plans or intentions clearly enough",
     "The Julia community is too conservative and too reluctant to make useful changes to the language",
-    "The Julia community makes language changes too readily without due consideration",
-    "I feel uncomfortable sharing my opinions with the community",
     "None, there are no non-technical aspects or features I dislike about Julia",
     "Don't know",
 ]
@@ -335,60 +254,6 @@ multi_choice = true
 none_of_the_above = false
 ask_for_other_answer = true
 translate_choices = true
-
-
-[[questions]]
-type = "choice"
-description = """
-Thinking about the tasks for which you use Julia,
-if you weren't using Julia for these tasks, what programming
-language(s) would you be using? Please select all that apply.
-"""
-choices = [
-    "Bash, Shell, PowerShell",
-    "C",
-    "C++",
-    "C#",
-    "Clojure",
-    "Crystal",
-    "Elixir",
-    "Fortran",
-    "F#",
-    "Go",
-    "Haskell",
-    "Java",
-    "JavaScript",
-    "Kotlin",
-    "Lisp",
-    "Lua",
-    "Maple",
-    "Mathematica",
-    "MATLAB",
-    "Nim",
-    "Octave",
-    "Perl",
-    "PHP",
-    "Python",
-    "R",
-    "Ruby",
-    "Rust",
-    "SAS",
-    "Scala",
-    "Scheme",
-    "Smalltalk",
-    "SQL",
-    "Stata",
-    "Swift",
-    "Typescript",
-    "Visual Basic, VBA",
-    "Zig",
-    "Don't know",
-]
-multi_choice = true
-none_of_the_above = true
-ask_for_other_answer = false
-translate_choices = false
-
 
 [[questions]]
 type = "choice"
@@ -403,7 +268,6 @@ choices = [
     "Preferable syntax to other languages",
     "I heard about Julia from friends or colleagues",
     "Better packages for the work I am doing",
-    "I need or want a specific feature",
     "Because colleagues in my field use Julia and I want to collaborate with them",
     "Because my instructor or a course I wanted to take uses Julia",
     "Elegance of Julia",
@@ -426,16 +290,14 @@ choices = [
     "Discourse (discourse.julialang.org)",
     "Slack",
     "Zulip",
-    "Gitter",
     "Discord",
     "Stack Overflow",
     "Reddit",
     "Twitter",
     "LinkedIn",
-    "Facebook",
-    "QQ",
     "JuliaCN Discourse (discourse.juliacn.com)",
     "Julia Forem",
+	"YouTube",
     "Don't know",
 ]
 multi_choice = true
@@ -468,7 +330,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following types of Julia packages have you created?
+Which of the following types of Julia packages have you created or contributed to?
 """
 choices = [
     "Open source and registered in the Julia general registry",
@@ -481,26 +343,6 @@ multi_choice = true
 none_of_the_above = false
 ask_for_other_answer = false
 translate_choices = true
-
-
-[[questions]]
-type = "choice"
-description = """
-Which of the following types of Julia packages have you contributed to,
-including documentation or filing issues, but not created?
-"""
-choices = [
-    "Open source and registered in the Julia general registry",
-    "Open source and not registered in the Julia general registry",
-    "Private and not registered in the Julia general registry",
-    "None of the above",
-    "Don't know",
-]
-multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
-translate_choices = true
-
 
 [[questions]]
 type = "year"
@@ -508,7 +350,7 @@ description = """
 When did you first start using Julia? ENTER YEAR (2009-2022)
 """
 upper = 2009
-lower = 2022
+lower = 2023
 
 
 [[questions]]
@@ -532,75 +374,6 @@ none_of_the_above = false
 ask_for_other_answer = false
 translate_choices = true
 
-
-[[questions]]
-type = "choice"
-description = """
-What are some of your favorite Julia packages? Please select all that apply.
-"""
-choices = [
-    "AlphaZero.jl",
-    "ApproxFun.jl",
-    "BenchmarkTools.jl",
-    "Convex.jl",
-    "CUDA.jl",
-    "Cxx.jl",
-    "CxxWrap.jl",
-    "DataFrames.jl",
-    "DataStructures.jl",
-    "DifferentialEquations.jl",
-    "DiffEqFlux.jl",
-    "Distributions.jl",
-    "Documenter.jl",
-    "FFTW.jl",
-    "Flux.jl",
-    "ForwardDiff.jl",
-    "Franklin.jl",
-    "Gadfly.jl",
-    "Gen.jl",
-    "Genie.jl",
-    "GLM.jl",
-    "IJulia.jl",
-    "Images.jl",
-    "JavaCall.jl",
-    "JuMP.jl",
-    "Knet.jl",
-    "LightGraphs.jl",
-    "Makie.jl",
-    "MixedModels.jl",
-    "ModelingToolkit.jl",
-    "MKL.jl",
-    "MLJ.jl",
-    "OnlineStats.jl",
-    "Optim.jl",
-    "PackageCompiler.jl",
-    "Plots.jl",
-    "Pluto.jl",
-    "PyCall.jl",
-    "PyPlot.jl",
-    "QuadGK.jl",
-    "Queryverse.jl",
-    "RCall.jl",
-    "ReinforcementLearning.jl",
-    "Revise.jl",
-    "StaticArrays.jl",
-    "StatsBase.jl",
-    "StatsPlots.jl",
-    "StatsFuns.jl",
-    "Symbolics.jl",
-    "TensorFlow.jl",
-    "TensorOperations.jl",
-    "TextAnalysis.jl",
-    "Turing.jl",
-    "UnicodePlots.jl",
-    "Weave.jl",
-    "Zygote.jl",
-    "Don't know",
-]
-multi_choice = true
-none_of_the_above = true
-ask_for_other_answer = true
-translate_choices = false
 
 
 [[questions]]
@@ -635,7 +408,6 @@ choices = [
     "Nano / Pico",
     "RStudio",
     "Vi / Vim / Neovim",
-    "Atom (without Juno)",
     "Emacs",
     "Sublime Text",
     "Notepad++",
@@ -647,6 +419,21 @@ choices = [
 ]
 multi_choice = true
 none_of_the_above = false
+ask_for_other_answer = false
+translate_choices = false
+
+[[questions]]
+type = "choice"
+description = """
+What types of AI assistance do you use frequently with Julia? Please select all that apply.
+"""
+choices = [
+    "GitHub Copilot",
+	"ChatGPT",
+    "Other Web-based generative AI",
+    ]
+multi_choice = true
+none_of_the_above = true
 ask_for_other_answer = false
 translate_choices = false
 
@@ -664,9 +451,7 @@ choices = [
     "Microsoft Azure",
     "Google Colab",
     "REPL.it",
-    "CoCalc",
-    "MyBinder",
-    "NextJournal",
+	"MyBinder",
     "Other cloud provider",
     "None",
     "Don't know",
@@ -701,6 +486,7 @@ description = """
 Have you attended or do you plan to attend JuliaCon? Please select all that apply.
 """
 choices = [
+	"2023 (Boston)",
     "2022 (Online)",
     "2021 (Online)",
     "2020 (Online)",
@@ -751,7 +537,7 @@ choices = [
     "Linux/x86",
     "Windows",
     "Windows with WSL",
-    "macOS",
+    "macOS/x86",
     "macOS/ARM",
     "ChromeOS",
     "Linux/ARM",
@@ -764,6 +550,7 @@ multi_choice = true
 none_of_the_above = false
 ask_for_other_answer = false
 translate_choices = false
+
 
 
 [[questions]]
