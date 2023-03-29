@@ -2,17 +2,15 @@ lang = "en_US"
 intro = """
 Dear Participant,
  
-You are invited to participate in the fourth annual Julia user and developer survey.
+You are invited to participate in the fourth annual Julia User and Developer survey.
 The results of this survey will be presented at JuliaCon 2022 this summer and will
 also be made publicly available online. The survey is developed, administered
 and analyzed by Julia Computing with input from the Julia community.
-We value your time and appreciate your participation.
-This survey consists of 40 questions and is expected to take no
+We value your time and appreciate your participation. This survey consists of 40 questions and is expected to take no
 more than 10-15 minutes to complete.
 
-At the end of the survey, you will be invited to enter a raffle to win a free Julia t-shirt!
-Please click the link at the end of the survey to enter to win.
- 
+Thanks to Roger Luo for building JuliaSurveyForm.jl, and thank you to all of our translators for translations.
+
 Your participation is voluntary and anonymous and no personal information will ever be shared.
 
 Please feel free to forward to colleagues and friends who are Julia users.
@@ -26,26 +24,19 @@ Julia Co-Creators
 """
 
 closing = """
-Thank you for completing the 2022 Julia User and Developer Survey! We greatly value
+Thank you for completing the 2023 Julia User and Developer Survey! We greatly value
 and appreciate your participation.
 
- 
 
-Please enter your email address here if you would like to enter a raffle
-to win a free Julia t-shirt, or if you would like Julia Computing to reach
-out to you to help your business succeed using Julia.
+Please enter your email address here if you would like JuliaHub to contact you to help your business succeed using Julia.
 
- 
 
 Note that the survey responses you provided are anonymous and will not be
 connected to your email address.
 
 ENTER EMAIL ADDRESS
 
-I_I Please click this box if you would like to enter a raffle to win a
-free Julia t-shirt.
-
-I_I Please click this box if you would like Julia Computing to reach out
+I_I Please click this box if you would like JuliaHub to reach out
 to you to help your business succeed using Julia.
 """
 
@@ -58,9 +49,9 @@ Which of the following languages have you used regularly or frequently during th
 choices = [
     "Julia",
     "Python",
-	"Shell, Bash, PowerShell",
+    "Shell, Bash, PowerShell",
     "R",
-	"C, C++",
+    "C, C++",
     "SQL",
     "MATLAB",
     "Java",
@@ -68,14 +59,14 @@ choices = [
     "Fortran",
     "Mathematica",
     "Rust",
-	"C#",
+    "C#",
     "Go",
-	"Octave",
-	"Typescript",
+    "Octave",
+    "Typescript",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = false
 
 
@@ -85,11 +76,11 @@ description = """
 Which of the following languages do you plan to use regularly or frequently during the next year?
 """
 choices = [
-	"Julia",
+    "Julia",
     "Python",
-	"Shell, Bash, PowerShell",
+    "Shell, Bash, PowerShell",
     "R",
-	"C, C++",
+    "C, C++",
     "SQL",
     "MATLAB",
     "Java",
@@ -97,14 +88,14 @@ choices = [
     "Fortran",
     "Mathematica",
     "Rust",
-	"C#",
+    "C#",
     "Go",
-	"Octave",
-	"Typescript",
+    "Octave",
+    "Typescript",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = false
 
 
@@ -121,11 +112,11 @@ column_titles = [
     "Dislike",
 ]
 row_titles = [
-	"Julia",
+    "Julia",
     "Python",
-	"Shell, Bash, PowerShell",
+    "Shell, Bash, PowerShell",
     "R",
-	"C, C++",
+    "C, C++",
     "SQL",
     "MATLAB",
     "Java",
@@ -133,10 +124,10 @@ row_titles = [
     "Fortran",
     "Mathematica",
     "Rust",
-	"C#",
+    "C#",
     "Go",
-	"Octave",
-	"Typescript",
+    "Octave",
+    "Typescript",
 ]
 multi_select = false
 allow_empty = true
@@ -166,12 +157,10 @@ choices = [
     "Editor and IDE support (Emacs, Vi, Juno, VS Code)",
     "One-based indexing",
     "Metaprogramming",
-    "None, there are no technical aspects or features that I like about Julia",
-    "Don't know",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
@@ -191,12 +180,10 @@ choices = [
     "Easy to contribute to the language",
     "Lots of great teaching and learning resources available online",
     "Great documentation",
-    "None, there are no non-technical aspects or features that I like about Julia",
-    "Don't know",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
@@ -208,7 +195,7 @@ like LEAST about Julia? Please select all that apply.
 """
 choices = [
     "Slow compile times - for example, it takes too long to generate the first plot",
-	"Confusing or overly verbose error messages",
+    "Confusing or overly verbose error messages",
     "Cannot generate self contained binaries or libraries such as .exe, .dll, .so, etc.",
     "Immature, not ready for use in production",
     "Poor editor and IDE support",
@@ -216,17 +203,15 @@ choices = [
     "I require packages, libraries or tools that are only available or are more complete in another language",
     "The debugger is too slow, and/or not fully-featured",
     "Writing high performance code is difficult and requires specialized knowledge",
-	"Slow garbage collection",
+    "Slow garbage collection",
     "Bugs",
     "One-based indexing",
     "No built-in support for mutable, fixed size arrays",
-	"No built-in support for interfaces or traits",
-	"Does not integrate well with other language(s)",
-    "None, there are no technical aspects or features that I dislike about Julia",
-    "Don't know",
+    "No built-in support for interfaces or traits",
+    "Does not integrate well with other language(s)",
 ]
 multi_choice = true
-none_of_the_above = false
+none_of_the_above = true
 ask_for_other_answer = true
 translate_choices = true
 
@@ -247,11 +232,9 @@ choices = [
     "The Julia community is not diverse enough",
     "I feel that the Julia developer team does not communicate its plans or intentions clearly enough",
     "The Julia community is too conservative and too reluctant to make useful changes to the language",
-    "None, there are no non-technical aspects or features I dislike about Julia",
-    "Don't know",
 ]
 multi_choice = true
-none_of_the_above = false
+none_of_the_above = true
 ask_for_other_answer = true
 translate_choices = true
 
@@ -271,12 +254,10 @@ choices = [
     "Because colleagues in my field use Julia and I want to collaborate with them",
     "Because my instructor or a course I wanted to take uses Julia",
     "Elegance of Julia",
-    "None of the above",
-    "Don't know",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
@@ -297,12 +278,11 @@ choices = [
     "LinkedIn",
     "JuliaCN Discourse (discourse.juliacn.com)",
     "Julia Forem",
-	"YouTube",
-    "Don't know",
+    "YouTube",
 ]
 multi_choice = true
 none_of_the_above = true
-ask_for_other_answer = false
+ask_for_other_answer = true
 translate_choices = false
 
 
@@ -319,11 +299,10 @@ choices = [
     "I use Julia in production for a business critical task",
     "I use Julia because it is required for classes at my university",
     "I use Julia for hobby programming",
-    "Don't know",
 ]
 multi_choice = true
 none_of_the_above = true
-ask_for_other_answer = false
+ask_for_other_answer = true
 translate_choices = true
 
 
@@ -336,13 +315,63 @@ choices = [
     "Open source and registered in the Julia general registry",
     "Open source and not registered in the Julia general registry",
     "Private and not registered in the Julia general registry",
-    "None of the above",
-    "Don't know",
 ]
 multi_choice = true
+none_of_the_above = true
+ask_for_other_answer = true
+translate_choices = true
+
+[[questions]]
+type = "choice"
+description = """
+IF OPEN SOURCE CREATOR OR CONTRIBUTOR: What is your work status in relation to writing Julia code?
+"""
+choices = [
+	"Paid programmer",
+	"Write Julia as a component of other paid work (such as research for academics)",
+	"Part paid, part voluntary",
+	"Completely voluntary",
+	"Prefer not to say",
+]
+multi_choice = false
+none_of_the_above = true
+ask_for_other_answer = false
+translate_choices = true
+
+[[questions]]
+type = "choice"
+description = """
+IF OPEN SOURCE CREATOR OR CONTRIBUTOR: In which of the following capacities do you contribute to Julia?
+"""
+choices = [
+	"Paid programmer",
+	"Write Julia as a component of other paid work (such as research for academics)",
+	"Part paid, part voluntary",
+	"Completely voluntary",
+	"Prefer not to say",
+]
+multi_choice = false
+none_of_the_above = true
+ask_for_other_answer = false
+translate_choices = true
+
+[[questions]]
+type = "choice"
+description = """
+IF OPEN SOURCE CREATOR OR CONTRIBUTOR: How many volunteer hours do you spend working on open source Julia projects or the Julia community per week?
+"""
+choices = [
+	"None",
+	"1-10 hours",
+	"11-20 hours",
+	"More than 20 hours",
+	"Prefer not to say",
+]
+multi_choice = false
 none_of_the_above = false
 ask_for_other_answer = false
 translate_choices = true
+
 
 [[questions]]
 type = "year"
@@ -367,7 +396,6 @@ choices = [
     "80-99%",
     "100%",
     "Don't do any programming",
-    "Don't know",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -386,7 +414,7 @@ choices = [
     "Somewhat",
     "Not very",
     "Not at all",
-    "Don't know",
+	"Don't know",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -413,13 +441,11 @@ choices = [
     "Notepad++",
     "IntelliJ (or other Jetbrains product)",
     "Kate",
-    "Other",
     "None - I write all my code in the Julia REPL",
-    "Don't know",
 ]
 multi_choice = true
 none_of_the_above = false
-ask_for_other_answer = false
+ask_for_other_answer = true
 translate_choices = false
 
 [[questions]]
@@ -429,12 +455,12 @@ What types of AI assistance do you use frequently with Julia? Please select all 
 """
 choices = [
     "GitHub Copilot",
-	"ChatGPT",
+    "ChatGPT",
     "Other Web-based generative AI",
     ]
 multi_choice = true
 none_of_the_above = true
-ask_for_other_answer = false
+ask_for_other_answer = true
 translate_choices = false
 
 
@@ -451,14 +477,11 @@ choices = [
     "Microsoft Azure",
     "Google Colab",
     "REPL.it",
-	"MyBinder",
-    "Other cloud provider",
-    "None",
-    "Don't know",
+    "MyBinder",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = false
 
 
@@ -486,7 +509,7 @@ description = """
 Have you attended or do you plan to attend JuliaCon? Please select all that apply.
 """
 choices = [
-	"2023 (Boston)",
+    "2023 (Boston)",
     "2022 (Online)",
     "2021 (Online)",
     "2020 (Online)",
@@ -510,7 +533,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-How did you download/install the Julia version you most frequently use?
+How do you download and install Julia?
 """
 choices = [
     "Binaries from JuliaLang.org",
@@ -519,12 +542,10 @@ choices = [
     "From my Linux distribution",
     "From Homebrew cask on Mac",
     "Official Docker container",
-    "Other package manager",
-    "Don't know",
 ]
-multi_choice = false
-none_of_the_above = false
-ask_for_other_answer = false
+multi_choice = true
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
@@ -543,12 +564,29 @@ choices = [
     "Linux/ARM",
     "Linux/PPC",
     "FreeBSD",
-    "Other",
-    "Don't know",
 ]
 multi_choice = true
 none_of_the_above = false
-ask_for_other_answer = false
+ask_for_other_answer = true
+translate_choices = false
+
+[[questions]]
+type = "choice"
+description = """
+Which kind of parallelism, if any, do you use together with Julia? Please select all that apply.
+"""
+choices = [
+	"Tasks/coroutines",
+	"Julia multi-threading (Threads)",
+	"Other multi-threading (e.g., Polyester.jl)",
+	"GPU computing",
+	"Julia distributed computing (Distributed)",
+	"Other distributed computing (e.g., MPI.jl, UCX.jl)",
+	"Large-scale parallel computing (>100 nodes)", 
+	]
+multi_choice = true
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = false
 
 
@@ -560,20 +598,17 @@ Which hardware accelerators, if any, do you use together with Julia? Please sele
 """
 choices = [
     "Nvidia GPU (released in the last 2 years)",
-    "Nvidia GPU (Older than 2 years)",
-    "Multiple Nvidia GPUs in one box",
-    "AMD GPU",
+    "Nvidia GPU (older than 2 years)",
+    "Multiple Nvidia GPUs in one system",
+	"Apple M-series GPU",
+	"AMD GPU",
     "Intel GPU",
     "Distributed cluster of GPUs",
-    "Google TPU",
-    "Google TPU Pod",
-    "Other",
-    "None",
-    "Don't know",
+	"Quantum computer",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = false
 
 
@@ -584,57 +619,50 @@ What resources have you found most useful when learning Julia for the first
 time or when learning how to do something in Julia? Please select all that apply.
 """
 choices = [
-    "JuliaAcademy",
-    "Exercism Julia track",
     "Julia manual",
-    "Webinars",
-    "In-person university courses",
-    "Online university courses",
-    "Other online courses",
-    "JuliaCon presentations",
-    "Other presentations",
     "YouTube tutorials",
+    "JuliaCon presentations",
     "Julia books",
-    "None of the above",
-    "Don't know",
+    "JuliaAcademy",
+    "Online courses",
+    "Webinars",
+    "Exercism Julia track",
+    "University courses",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
 [[questions]]
 type = "choice"
 description = """
-Which of the following do you use as part of your work? Please select all that apply.
+Which of the following do you use? Please select all that apply.
 """
 choices = [
     "Data science",
     "Modeling and simulation",
-    "Optimal control",
     "Statistics",
     "Optimization",
     "Machine learning",
-    "Visualization",
-    "Blockchain",
-    "Differential equations",
+	"Scientific machine learning",
     "Artificial intelligence",
+	"Automatic differentiation",
+	"Scripting",
+    "Visualization",
+    "Differential equations",
     "Graphics",
-    "Signal processing",
+    "Controls",
+	"Signal processing",
     "Image processing",
     "Supercomputing",
     "Computer vision",
-    "Genetic data processing",
-    "Robotics",
-    "Quantum computing",
-    "Scripting",
-    "None of the above",
-    "Don't know",
+	"Probabilistic programming",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
@@ -646,11 +674,10 @@ Which of the following best describes you? Please select all that apply.
 choices = [
     "Academic - student, researcher, instructor, scientist",
     "Professional - analyst, engineer, developer, researcher, manager, scientist",
-    "None of the above",
-    "Don't know",
+	"Hobbyist",
 ]
 multi_choice = true
-none_of_the_above = false
+none_of_the_above = true
 ask_for_other_answer = false
 translate_choices = true
 
@@ -661,41 +688,40 @@ description = """
 IF ACADEMIC: Which of the following best describes you? Please select all that apply.
 """
 choices = [
-    "Graduate or postgraduate student or researcher",
+    "Graduate student",
+	"Postdoctoral researcher or fellow",
     "Faculty",
     "Instructor",
-    "Undergraduate student or researcher",
-    "High school student or researcher",
-    "Research scientist",
-    "Research assistant",
+    "Undergraduate student",
+    "High school student",
+    "Researcher",
     "Research software engineer",
-    "Consultant",
     "System administrator",
-    "None of the above",
-    "Don't know",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
 [[questions]]
 type = "choice"
 description = """
-IF ACADEMIC: What is your primary industry or field of study? Please select all that apply.
+IF ACADEMIC: What are your primary fields of study or research? Please select all that apply.
 """
 choices = [
     "Computer science",
     "Mathematics",
+	"Statistics",
     "Physics",
-    "Biology",
+    "Biology, life sciences",
     "Electrical engineering",
     "Mechanical engineering",
+	"Industrial engineering",
     "Economics",
     "Geosciences",
     "Astronomy",
-    "Medicine",
+    "Medicine, pharmaceuticals",
     "Aerospace engineering",
     "Finance",
     "Civil engineering",
@@ -707,12 +733,10 @@ choices = [
     "Humanities",
     "Political science",
     "Sociology",
-    "None of these",
-    "Don’t know",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
@@ -727,71 +751,48 @@ choices = [
     "Analyst",
     "Manager",
     "Product manager",
-    "None of the above",
-    "Don't know",
 ]
 multi_choice = true
-none_of_the_above = false
-ask_for_other_answer = false
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
 [[questions]]
 type = "choice"
 description = """
-IF PROFESSIONAL: What is the primary industry in which you work?
+IF PROFESSIONAL: What are the primary industries in which you work?
 """
 choices = [
     "Software, IT",
     "Engineering",
     "Finance",
     "Aerospace, aviation",
+	"Automotive",
     "Energy",
     "Consulting",
-    "Life sciences, health care",
+    "Life sciences, health care, pharmaceuticals",
     "Telecommunications",
     "Government",
     "Manufacturing",
-    "Transport",
+    "Transportation",
     "Retail",
     "Logistics",
     "Semiconductors",
     "Ecommerce",
-    "Pharmaceuticals",
     "Automation",
-    "None of these",
-    "Don't know",
+	"Agriculture",
 ]
-multi_choice = false
-none_of_the_above = false
-ask_for_other_answer = false
+multi_choice = true
+none_of_the_above = true
+ask_for_other_answer = true
 translate_choices = true
 
 
 [[questions]]
 type = "choice"
 description = """
-What type of improvements to Julia would make you more likely to recommend Julia to other people?
-"""
-choices = [
-    "More statistical functionality",
-    "More web development functionality",
-    "More machine learning functionality",
-    "Reduced startup time (time to first X)",
-    "No improvements are necessary",
-    "There is nothing that would make me likely to recommend Julia to other people",
-    "Don’t know",
-]
-multi_choice = false
-none_of_the_above = false
-ask_for_other_answer = false
-translate_choices = true
-
-
-[[questions]]
-type = "choice"
-description = """
-How many years of coding experience do you have?
+How many years of programming experience do you have?
 """
 choices = [
     "0",
