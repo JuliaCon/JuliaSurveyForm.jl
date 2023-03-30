@@ -1,16 +1,14 @@
 Dear Participant,
  
-You are invited to participate in the fourth annual Julia user and developer survey.
-The results of this survey will be presented at JuliaCon 2022 this summer and will
+You are invited to participate in the fourth annual Julia User and Developer survey.
+The results of this survey will be presented at JuliaCon 2023 this summer and will
 also be made publicly available online. The survey is developed, administered
-and analyzed by Julia Computing with input from the Julia community.
-We value your time and appreciate your participation.
-This survey consists of 40 questions and is expected to take no
+and analyzed by JuliaHub with input from the Julia community.
+We value your time and appreciate your participation. This survey consists of 40 questions and is expected to take no
 more than 10-15 minutes to complete.
 
-At the end of the survey, you will be invited to enter a raffle to win a free Julia t-shirt!
-Please click the link at the end of the survey to enter to win.
- 
+Thanks to Roger Luo for building JuliaSurveyForm.jl, and thank you to all of our translators for translations.
+
 Your participation is voluntary and anonymous and no personal information will ever be shared.
 
 Please feel free to forward to colleagues and friends who are Julia users.
@@ -27,103 +25,72 @@ Julia Co-Creators
 ---
 
 
-1. Which of the following languages have you used regularly or frequently during the past year,
-and which do you plan to continue to use regularly or frequently during the next year? If you
-have used a language regularly or frequently during the past year AND you plan to continue
-using that language regularly or frequently during the next year, please select both boxes
-for that question. Please leave the row blank for any language you have not used regularly
-or frequently during the past year and you do not plan to use regularly or frequently during
-the next year.
-
-|                         | Have used regularly or frequently during the  past year | Plan to use regularly or frequently during the  next year |
-| ----------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
-| Julia                   |                                                         |                                                           |
-| Bash, Shell, PowerShell |                                                         |                                                           |
-| C                       |                                                         |                                                           |
-| C++                     |                                                         |                                                           |
-| C#                      |                                                         |                                                           |
-| Clojure                 |                                                         |                                                           |
-| Crystal                 |                                                         |                                                           |
-| Elixir                  |                                                         |                                                           |
-| Fortran                 |                                                         |                                                           |
-| F#                      |                                                         |                                                           |
-| Go                      |                                                         |                                                           |
-| Haskell                 |                                                         |                                                           |
-| Java                    |                                                         |                                                           |
-| JavaScript              |                                                         |                                                           |
-| Kotlin                  |                                                         |                                                           |
-| Lisp                    |                                                         |                                                           |
-| Lua                     |                                                         |                                                           |
-| Maple                   |                                                         |                                                           |
-| Mathematica             |                                                         |                                                           |
-| MATLAB                  |                                                         |                                                           |
-| Nim                     |                                                         |                                                           |
-| Octave                  |                                                         |                                                           |
-| Perl                    |                                                         |                                                           |
-| PHP                     |                                                         |                                                           |
-| Python                  |                                                         |                                                           |
-| R                       |                                                         |                                                           |
-| Ruby                    |                                                         |                                                           |
-| Rust                    |                                                         |                                                           |
-| SAS                     |                                                         |                                                           |
-| Scala                   |                                                         |                                                           |
-| Scheme                  |                                                         |                                                           |
-| Smalltalk               |                                                         |                                                           |
-| SQL                     |                                                         |                                                           |
-| Stata                   |                                                         |                                                           |
-| Swift                   |                                                         |                                                           |
-| Typescript              |                                                         |                                                           |
-| Visual Basic, VBA       |                                                         |                                                           |
-| Zig                     |                                                         |                                                           |
+1. Which of the following languages have you used regularly or frequently during the past year?Please select all that apply.
+- [ ] Julia
+- [ ] Python
+- [ ] Shell, Bash, PowerShell
+- [ ] R
+- [ ] C, C++
+- [ ] SQL
+- [ ] MATLAB
+- [ ] Java
+- [ ] JavaScript
+- [ ] Fortran
+- [ ] Mathematica
+- [ ] Rust
+- [ ] C#
+- [ ] Go
+- [ ] Octave
+- [ ] Typescript
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-2. How much do you like each of the following languages?
+2. Which of the following languages do you plan to use regularly or frequently during the next year?Please select all that apply.
+- [ ] Julia
+- [ ] Python
+- [ ] Shell, Bash, PowerShell
+- [ ] R
+- [ ] C, C++
+- [ ] SQL
+- [ ] MATLAB
+- [ ] Java
+- [ ] JavaScript
+- [ ] Fortran
+- [ ] Mathematica
+- [ ] Rust
+- [ ] C#
+- [ ] Go
+- [ ] Octave
+- [ ] Typescript
+- [ ] None of the above.
+- [ ] Other/SPECIFY
+
+
+3. How much do you like each of the following languages?
 If you don't know or have not used a language, please leave it blank.
 
 |                         | One of my favorite languages | Like | Neutral | Dislike |
 | ----------------------- | ---------------------------- | ---- | ------- | ------- |
 | Julia                   |                              |      |         |         |
-| Bash, Shell, PowerShell |                              |      |         |         |
-| C                       |                              |      |         |         |
-| C++                     |                              |      |         |         |
-| C#                      |                              |      |         |         |
-| Clojure                 |                              |      |         |         |
-| Crystal                 |                              |      |         |         |
-| Elixir                  |                              |      |         |         |
-| Fortran                 |                              |      |         |         |
-| F#                      |                              |      |         |         |
-| Go                      |                              |      |         |         |
-| Haskell                 |                              |      |         |         |
+| Python                  |                              |      |         |         |
+| Shell, Bash, PowerShell |                              |      |         |         |
+| R                       |                              |      |         |         |
+| C, C++                  |                              |      |         |         |
+| SQL                     |                              |      |         |         |
+| MATLAB                  |                              |      |         |         |
 | Java                    |                              |      |         |         |
 | JavaScript              |                              |      |         |         |
-| Kotlin                  |                              |      |         |         |
-| Lisp                    |                              |      |         |         |
-| Lua                     |                              |      |         |         |
-| Maple                   |                              |      |         |         |
+| Fortran                 |                              |      |         |         |
 | Mathematica             |                              |      |         |         |
-| MATLAB                  |                              |      |         |         |
-| Nim                     |                              |      |         |         |
-| Octave                  |                              |      |         |         |
-| Perl                    |                              |      |         |         |
-| PHP                     |                              |      |         |         |
-| Python                  |                              |      |         |         |
-| R                       |                              |      |         |         |
-| Ruby                    |                              |      |         |         |
 | Rust                    |                              |      |         |         |
-| SAS                     |                              |      |         |         |
-| Scala                   |                              |      |         |         |
-| Scheme                  |                              |      |         |         |
-| Smalltalk               |                              |      |         |         |
-| SQL                     |                              |      |         |         |
-| Stata                   |                              |      |         |         |
-| Swift                   |                              |      |         |         |
+| C#                      |                              |      |         |         |
+| Go                      |                              |      |         |         |
+| Octave                  |                              |      |         |         |
 | Typescript              |                              |      |         |         |
-| Visual Basic, VBA       |                              |      |         |         |
-| Zig                     |                              |      |         |         |
 
 
-3. Thinking only about the TECHNICAL aspects or features of Julia,
-which of the following are the TECHNICAL aspects or features you
+4. Which of the following are the TECHNICAL aspects or features you
 like MOST about Julia? Please select all that apply.Please select all that apply.
 - [ ] Speed, performance
 - [ ] Ease of use
@@ -140,12 +107,11 @@ like MOST about Julia? Please select all that apply.Please select all that apply
 - [ ] Editor and IDE support (Emacs, Vi, Juno, VS Code)
 - [ ] One-based indexing
 - [ ] Metaprogramming
-- [ ] None, there are no technical aspects or features that I like about Julia
-- [ ] Don't know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-4. Thinking only about the NON-TECHNICAL aspects or features of Julia,
-which of the following are the NON-TECHNICAL aspects or features you
+5. Which of the following are the NON-TECHNICAL aspects or features you
 like MOST about Julia? Please select all that apply.Please select all that apply.
 - [ ] Free – don't have to pay to use Julia
 - [ ] Julia community of developers is talented and active
@@ -156,102 +122,44 @@ like MOST about Julia? Please select all that apply.Please select all that apply
 - [ ] Easy to contribute to the language
 - [ ] Lots of great teaching and learning resources available online
 - [ ] Great documentation
-- [ ] None, there are no non-technical aspects or features that I like about Julia
-- [ ] Don't know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-5. Thinking only about the TECHNICAL aspects or features of Julia,
-which of the following are the TECHNICAL aspects or features you
+6. Which of the following are the TECHNICAL aspects or features you
 like LEAST about Julia? Please select all that apply.Please select all that apply.
-- [ ] It takes too long to generate the first plot
-- [ ] Slow compile times
-- [ ] Packages aren't as mature or as well maintained as I need
+- [ ] Slow compile times - for example, it takes too long to generate the first plot
+- [ ] Confusing or overly verbose error messages
 - [ ] Cannot generate self contained binaries or libraries such as .exe, .dll, .so, etc.
 - [ ] Immature, not ready for use in production
 - [ ] Poor editor and IDE support
 - [ ] Poor linter, poor syntax checking compared to statically typed languages
-- [ ] Doesn't have all the packages I need
 - [ ] I require packages, libraries or tools that are only available or are more complete in another language
 - [ ] The debugger is too slow, and/or not fully-featured
-- [ ] Not stable enough
-- [ ] Package manager is confusing, difficult or doesn't do what I expect it to
-- [ ] Writing performant code is difficult and requires specialized knowledge
+- [ ] Writing high performance code is difficult and requires specialized knowledge
+- [ ] Slow garbage collection
 - [ ] Bugs
 - [ ] One-based indexing
-- [ ] No in-language or built-in support for mutable, fixed size arrays
+- [ ] No built-in support for mutable, fixed size arrays
+- [ ] No built-in support for interfaces or traits
 - [ ] Does not integrate well with other language(s)
-- [ ] I do not feel Julia is well suited to certain tasks
-- [ ] None, there are no technical aspects or features that I dislike about Julia
-- [ ] Don't know
+- [ ] None of the above.
 - [ ] Other/SPECIFY
 
 
-6. Thinking only about the NON-TECHNICAL aspects or features of Julia,
-what are the NON-TECHNICAL aspects or features you like LEAST about Julia?
+7. Which of the following are the NON-TECHNICAL aspects or features you like LEAST about Julia?
 Please select all that apply.Please select all that apply.
-- [ ] My colleagues, company or collaborators use other languages
 - [ ] There are not enough Julia users in my field or industry
-- [ ] Online tutorials and documentation that are outdated
-- [ ] There are not enough Julia users in general
 - [ ] My company, university, clients or other organizations I work with do not allow or support Julia
-- [ ] Insufficient documentation
-- [ ] There are not enough teaching and learning resources available online
-- [ ] There are too many things I don't know how to do in Julia
+- [ ] Online tutorials and documentation are outdated or insufficient
 - [ ] I am more comfortable in another language
-- [ ] Julia community is not active enough
-- [ ] Julia community is too closed and not welcoming enough
-- [ ] Julia community is not diverse enough
-- [ ] Don't like learning a new language
+- [ ] The Julia community is not active enough
+- [ ] The Julia community is too closed and not welcoming enough
+- [ ] The Julia community is not diverse enough
 - [ ] I feel that the Julia developer team does not communicate its plans or intentions clearly enough
 - [ ] The Julia community is too conservative and too reluctant to make useful changes to the language
-- [ ] The Julia community makes language changes too readily without due consideration
-- [ ] I feel uncomfortable sharing my opinions with the community
-- [ ] None, there are no non-technical aspects or features I dislike about Julia
-- [ ] Don't know
-- [ ] Other/SPECIFY
-
-
-7. Thinking about the tasks for which you use Julia,
-if you weren't using Julia for these tasks, what programming
-language(s) would you be using? Please select all that apply.Please select all that apply.
-- [ ] Bash, Shell, PowerShell
-- [ ] C
-- [ ] C++
-- [ ] C#
-- [ ] Clojure
-- [ ] Crystal
-- [ ] Elixir
-- [ ] Fortran
-- [ ] F#
-- [ ] Go
-- [ ] Haskell
-- [ ] Java
-- [ ] JavaScript
-- [ ] Kotlin
-- [ ] Lisp
-- [ ] Lua
-- [ ] Maple
-- [ ] Mathematica
-- [ ] MATLAB
-- [ ] Nim
-- [ ] Octave
-- [ ] Perl
-- [ ] PHP
-- [ ] Python
-- [ ] R
-- [ ] Ruby
-- [ ] Rust
-- [ ] SAS
-- [ ] Scala
-- [ ] Scheme
-- [ ] SQL
-- [ ] Stata
-- [ ] Swift
-- [ ] Typescript
-- [ ] Visual Basic, VBA
-- [ ] Zig
-- [ ] Don't know
 - [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
 8. Why did you start using Julia? Please select all that apply.Please select all that apply.
@@ -262,12 +170,11 @@ language(s) would you be using? Please select all that apply.Please select all t
 - [ ] Preferable syntax to other languages
 - [ ] I heard about Julia from friends or colleagues
 - [ ] Better packages for the work I am doing
-- [ ] I need or want a specific feature
 - [ ] Because colleagues in my field use Julia and I want to collaborate with them
 - [ ] Because my instructor or a course I wanted to take uses Julia
 - [ ] Elegance of Julia
-- [ ] None of the above
-- [ ] Don't know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
 9. Where do you interact with the Julia community? Please select all that apply.Please select all that apply.
@@ -275,17 +182,16 @@ language(s) would you be using? Please select all that apply.Please select all t
 - [ ] Discourse (discourse.julialang.org)
 - [ ] Slack
 - [ ] Zulip
-- [ ] Gitter
 - [ ] Discord
 - [ ] Stack Overflow
 - [ ] Reddit
 - [ ] Twitter
 - [ ] LinkedIn
-- [ ] Facebook
-- [ ] QQ
-- [ ] JuliaCN
-- [ ] Don't know
+- [ ] JuliaCN Discourse (discourse.juliacn.com)
+- [ ] Julia Forem
+- [ ] YouTube
 - [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
 10. Which of the following best describe your use of Julia? Please select all that apply.Please select all that apply.
@@ -296,31 +202,48 @@ language(s) would you be using? Please select all that apply.Please select all t
 - [ ] I use Julia in production for a business critical task
 - [ ] I use Julia because it is required for classes at my university
 - [ ] I use Julia for hobby programming
-- [ ] Don't know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
+
+
+11. Which of the following types of Julia packages have you created or contributed to?Please select all that apply.
+- [ ] Open source and registered in the Julia general registry
+- [ ] Open source and not registered in the Julia general registry
+- [ ] Private and not registered in the Julia general registry
+- [ ] None of the above.
+- [ ] Other/SPECIFY
+
+
+12. IF OPEN SOURCE CREATOR OR CONTRIBUTOR: What is your work status in relation to writing Julia code?
+- [ ] Paid programmer
+- [ ] Write Julia as a component of other paid work (such as research for academics)
+- [ ] Part paid, part voluntary
+- [ ] Completely voluntary
+- [ ] Prefer not to say
 - [ ] None of the above.
 
 
-11. Which of the following types of Julia packages have you created?Please select all that apply.
-- [ ] Open source and registered in the Julia general registry
-- [ ] Open source and not registered in the Julia general registry
-- [ ] Private and not registered in the Julia general registry
-- [ ] None of the above
-- [ ] Don't know
+13. IF OPEN SOURCE CREATOR OR CONTRIBUTOR: In which of the following capacities do you contribute to Julia?
+- [ ] Paid programmer
+- [ ] Write Julia as a component of other paid work (such as research for academics)
+- [ ] Part paid, part voluntary
+- [ ] Completely voluntary
+- [ ] Prefer not to say
+- [ ] None of the above.
 
 
-12. Which of the following types of Julia packages have you contributed to,
-including documentation or filing issues, but not created?Please select all that apply.
-- [ ] Open source and registered in the Julia general registry
-- [ ] Open source and not registered in the Julia general registry
-- [ ] Private and not registered in the Julia general registry
-- [ ] None of the above
-- [ ] Don't know
+14. IF OPEN SOURCE CREATOR OR CONTRIBUTOR: How many volunteer hours do you spend working on open source Julia projects or the Julia community per week?
+- [ ] None
+- [ ] 1-10 hours
+- [ ] 11-20 hours
+- [ ] More than 20 hours
+- [ ] Prefer not to say
 
 
-13. When did you first start using Julia? ENTER YEAR (2009-2022)enter year from 2022 to 2009
+15. When did you first start using Julia? ENTER YEAR (2009-2022)enter year from 2023 to 2009
 
 
-14. What percentage of the programming you do is in Julia?
+16. What percentage of the programming you do is in Julia?
 - [ ] 0%
 - [ ] 1-19%
 - [ ] 20-39%
@@ -329,72 +252,9 @@ including documentation or filing issues, but not created?Please select all that
 - [ ] 80-99%
 - [ ] 100%
 - [ ] Don't do any programming
-- [ ] Don't know
 
 
-15. What are some of your favorite Julia packages? Please select all that apply.Please select all that apply.
-- [ ] AlphaZero.jl
-- [ ] ApproxFun.jl
-- [ ] BenchmarkTools.jl
-- [ ] Convex.jl
-- [ ] CUDA.jl
-- [ ] Cxx.jl
-- [ ] CxxWrap.jl
-- [ ] DataFrames.jl
-- [ ] DataStructures.jl
-- [ ] DifferentialEquations.jl
-- [ ] DiffEqFlux.jl
-- [ ] Distributions.jl
-- [ ] Documenter.jl
-- [ ] FFTW.jl
-- [ ] Flux.jl
-- [ ] ForwardDiff.jl
-- [ ] Franklin.jl
-- [ ] Gadfly.jl
-- [ ] Gen.jl
-- [ ] Genie.jl
-- [ ] GLM.jl
-- [ ] IJulia.jl
-- [ ] Images.jl
-- [ ] JavaCall.jl
-- [ ] JuMP.jl
-- [ ] Knet.jl
-- [ ] LightGraphs.jl
-- [ ] Makie.jl
-- [ ] MixedModels.jl
-- [ ] ModelingToolkit.jl
-- [ ] MKL.jl
-- [ ] MLJ.jl
-- [ ] OnlineStats.jl
-- [ ] Optim.jl
-- [ ] PackageCompiler.jl
-- [ ] Plots.jl
-- [ ] Pluto.jl
-- [ ] PyCall.jl
-- [ ] PyPlot.jl
-- [ ] QuadGK.jl
-- [ ] Queryverse.jl
-- [ ] RCall.jl
-- [ ] ReinforcementLearning.jl
-- [ ] Revise.jl
-- [ ] StaticArrays.jl
-- [ ] StatsBase.jl
-- [ ] StatsPlots.jl
-- [ ] StatsFuns.jl
-- [ ] Symbolics.jl
-- [ ] TensorFlow.jl
-- [ ] TensorOperations.jl
-- [ ] TextAnalysis.jl
-- [ ] Turing.jl
-- [ ] UnicodePlots.jl
-- [ ] Weave.jl
-- [ ] Zygote.jl
-- [ ] Don't know
-- [ ] None of the above.
-- [ ] Other/SPECIFY
-
-
-16. How robust is the current Julia package ecosystem?
+17. How robust is the current Julia package ecosystem?
 - [ ] Very
 - [ ] Somewhat
 - [ ] Not very
@@ -402,7 +262,7 @@ including documentation or filing issues, but not created?Please select all that
 - [ ] Don't know
 
 
-17. Which editors or IDEs do you use frequently? Please select all that apply.Please select all that apply.
+18. Which editors or IDEs do you use frequently? Please select all that apply.Please select all that apply.
 - [ ] VS Code
 - [ ] Pluto
 - [ ] Jupyter
@@ -411,18 +271,24 @@ including documentation or filing issues, but not created?Please select all that
 - [ ] Nano / Pico
 - [ ] RStudio
 - [ ] Vi / Vim / Neovim
-- [ ] Atom (without Juno)
 - [ ] Emacs
 - [ ] Sublime Text
 - [ ] Notepad++
 - [ ] IntelliJ (or other Jetbrains product)
 - [ ] Kate
-- [ ] Other
 - [ ] None - I write all my code in the Julia REPL
-- [ ] Don't know
+- [ ] Other/SPECIFY
 
 
-18. Which cloud solutions, if any, do you use together with Julia? Please select all that apply.Please select all that apply.
+19. What types of AI assistance do you use frequently with Julia? Please select all that apply.Please select all that apply.
+- [ ] GitHub Copilot
+- [ ] ChatGPT
+- [ ] Other Web-based generative AI
+- [ ] None of the above.
+- [ ] Other/SPECIFY
+
+
+20. Which cloud solutions, if any, do you use together with Julia? Please select all that apply.Please select all that apply.
 - [ ] Local cluster
 - [ ] JuliaHub
 - [ ] Amazon Web Services, AWS
@@ -430,15 +296,12 @@ including documentation or filing issues, but not created?Please select all that
 - [ ] Microsoft Azure
 - [ ] Google Colab
 - [ ] REPL.it
-- [ ] CoCalc
 - [ ] MyBinder
-- [ ] NextJournal
-- [ ] Other cloud provider
-- [ ] None
-- [ ] Don't know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-19. How helpful and collaborative is the Julia community?
+21. How helpful and collaborative is the Julia community?
 - [ ] Very
 - [ ] Somewhat
 - [ ] Not very
@@ -446,7 +309,8 @@ including documentation or filing issues, but not created?Please select all that
 - [ ] Don't know
 
 
-20. Have you attended or do you plan to attend JuliaCon? Please select all that apply.Please select all that apply.
+22. Have you attended or do you plan to attend JuliaCon? Please select all that apply.Please select all that apply.
+- [ ] 2023 (Boston)
 - [ ] 2022 (Online)
 - [ ] 2021 (Online)
 - [ ] 2020 (Online)
@@ -462,118 +326,127 @@ including documentation or filing issues, but not created?Please select all that
 - [ ] Don't know
 
 
-21. How did you download/install the Julia version you most frequently use?
+23. How do you download and install Julia?Please select all that apply.
 - [ ] Binaries from JuliaLang.org
 - [ ] I compile Julia from source
+- [ ] JuliaUp
 - [ ] From my Linux distribution
 - [ ] From Homebrew cask on Mac
 - [ ] Official Docker container
-- [ ] Other package manager
-- [ ] Don't know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-22. With which operating system(s) do you use Julia most frequently? Please select all that apply.Please select all that apply.
+24. With which operating system(s) do you use Julia most frequently? Please select all that apply.Please select all that apply.
 - [ ] Linux/x86
 - [ ] Windows
 - [ ] Windows with WSL
-- [ ] macOS
+- [ ] macOS/x86
 - [ ] macOS/ARM
 - [ ] ChromeOS
 - [ ] Linux/ARM
 - [ ] Linux/PPC
 - [ ] FreeBSD
-- [ ] Other
-- [ ] Don't know
+- [ ] Other/SPECIFY
 
 
-23. Which hardware accelerators, if any, do you use together with Julia? Please select all that apply.Please select all that apply.
+25. Which kind of parallelism, if any, do you use together with Julia? Please select all that apply.Please select all that apply.
+- [ ] Tasks/coroutines
+- [ ] Julia multi-threading (Threads)
+- [ ] Other multi-threading (e.g., Polyester.jl)
+- [ ] GPU computing
+- [ ] Julia distributed computing (Distributed)
+- [ ] Other distributed computing (e.g., MPI.jl, UCX.jl)
+- [ ] Large-scale parallel computing (>100 nodes)
+- [ ] None of the above.
+- [ ] Other/SPECIFY
+
+
+26. Which hardware accelerators, if any, do you use together with Julia? Please select all that apply.Please select all that apply.
 - [ ] Nvidia GPU (released in the last 2 years)
-- [ ] Nvidia GPU (Older than 2 years)
-- [ ] Multiple Nvidia GPUs in one box
+- [ ] Nvidia GPU (older than 2 years)
+- [ ] Multiple Nvidia GPUs in one system
+- [ ] Apple M-series GPU
 - [ ] AMD GPU
 - [ ] Intel GPU
 - [ ] Distributed cluster of GPUs
-- [ ] Google TPU
-- [ ] Google TPU Pod
-- [ ] Other
-- [ ] None
-- [ ] Don't know
+- [ ] Quantum computer
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-24. What resources have you found most useful when learning Julia for the first
+27. What resources have you found most useful when learning Julia for the first
 time or when learning how to do something in Julia? Please select all that apply.Please select all that apply.
-- [ ] JuliaAcademy
-- [ ] Exercism Julia track
 - [ ] Julia manual
-- [ ] Webinars
-- [ ] In-person university courses
-- [ ] Online university courses
-- [ ] Other online courses
-- [ ] JuliaCon presentations
-- [ ] Other presentations
 - [ ] YouTube tutorials
+- [ ] JuliaCon presentations
 - [ ] Julia books
-- [ ] None of the above
-- [ ] Don't know
+- [ ] JuliaAcademy
+- [ ] Online courses
+- [ ] Webinars
+- [ ] Exercism Julia track
+- [ ] University courses
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-25. Which of the following do you use as part of your work? Please select all that apply.Please select all that apply.
+28. Which of the following do you use? Please select all that apply.Please select all that apply.
 - [ ] Data science
 - [ ] Modeling and simulation
-- [ ] Optimal control
 - [ ] Statistics
 - [ ] Optimization
 - [ ] Machine learning
-- [ ] Visualization
-- [ ] Blockchain
-- [ ] Differential equations
+- [ ] Scientific machine learning
 - [ ] Artificial intelligence
+- [ ] Automatic differentiation
+- [ ] Scripting
+- [ ] Visualization
+- [ ] Differential equations
 - [ ] Graphics
+- [ ] Controls
 - [ ] Signal processing
 - [ ] Image processing
 - [ ] Supercomputing
 - [ ] Computer vision
-- [ ] Genetic data processing
-- [ ] Robotics
-- [ ] Quantum computing
-- [ ] Scripting
-- [ ] None of the above
-- [ ] Don't know
+- [ ] Probabilistic programming
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-26. Which of the following best describes you? Please select all that apply.Please select all that apply.
+29. Which of the following best describes you? Please select all that apply.Please select all that apply.
 - [ ] Academic - student, researcher, instructor, scientist
 - [ ] Professional - analyst, engineer, developer, researcher, manager, scientist
-- [ ] None of the above
-- [ ] Don't know
+- [ ] Hobbyist
+- [ ] None of the above.
 
 
-27. IF ACADEMIC: Which of the following best describes you? Please select all that apply.Please select all that apply.
-- [ ] Graduate or postgraduate student or researcher
+30. IF ACADEMIC: Which of the following best describes you? Please select all that apply.Please select all that apply.
+- [ ] Graduate student
+- [ ] Postdoctoral researcher or fellow
 - [ ] Faculty
 - [ ] Instructor
-- [ ] Undergraduate student or researcher
-- [ ] High school student or researcher
-- [ ] Research scientist
-- [ ] Research assistant
+- [ ] Undergraduate student
+- [ ] High school student
+- [ ] Researcher
 - [ ] Research software engineer
-- [ ] Consultant
 - [ ] System administrator
-- [ ] None of the above
-- [ ] Don't know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-28. IF ACADEMIC: What is your primary industry or field of study? Please select all that apply.Please select all that apply.
+31. IF ACADEMIC: What are your primary fields of study or research? Please select all that apply.Please select all that apply.
 - [ ] Computer science
 - [ ] Mathematics
+- [ ] Statistics
 - [ ] Physics
-- [ ] Biology
+- [ ] Biology, life sciences
 - [ ] Electrical engineering
 - [ ] Mechanical engineering
+- [ ] Industrial engineering
 - [ ] Economics
 - [ ] Geosciences
 - [ ] Astronomy
-- [ ] Medicine
+- [ ] Medicine, pharmaceuticals
 - [ ] Aerospace engineering
 - [ ] Finance
 - [ ] Civil engineering
@@ -585,53 +458,44 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Humanities
 - [ ] Political science
 - [ ] Sociology
-- [ ] None of these
-- [ ] Don’t know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-29. IF PROFESSIONAL: Which of the following best describes you? Please select all that apply.Please select all that apply.
+32. IF PROFESSIONAL: Which of the following best describes you? Please select all that apply.Please select all that apply.
 - [ ] Engineer, developer
 - [ ] Researcher
 - [ ] Analyst
 - [ ] Manager
 - [ ] Product manager
-- [ ] None of the above
-- [ ] Don't know
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-30. IF PROFESSIONAL: What is the primary industry in which you work?
+33. IF PROFESSIONAL: What are the primary industries in which you work?Please select all that apply.
 - [ ] Software, IT
 - [ ] Engineering
 - [ ] Finance
 - [ ] Aerospace, aviation
+- [ ] Automotive
 - [ ] Energy
 - [ ] Consulting
-- [ ] Life sciences, health care
+- [ ] Life sciences, health care, pharmaceuticals
 - [ ] Telecommunications
 - [ ] Government
 - [ ] Manufacturing
-- [ ] Transport
+- [ ] Transportation
 - [ ] Retail
 - [ ] Logistics
 - [ ] Semiconductors
 - [ ] Ecommerce
-- [ ] Pharmaceuticals
 - [ ] Automation
-- [ ] None of these
-- [ ] Don't know
+- [ ] Agriculture
+- [ ] None of the above.
+- [ ] Other/SPECIFY
 
 
-31. What type of improvements to Julia would make you more likely to recommend Julia to other people?
-- [ ] More statistical functionality
-- [ ] More web development functionality
-- [ ] More machine learning functionality
-- [ ] Reduced startup time (time to first X)
-- [ ] No improvements are necessary
-- [ ] There is nothing that would make me likely to recommend Julia to other people
-- [ ] Don’t know
-
-
-32. How many years of coding experience do you have?
+34. How many years of programming experience do you have?
 - [ ] 0
 - [ ] 1-5
 - [ ] 6-10
@@ -643,7 +507,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Don’t know, prefer not to answer
 
 
-33. What is your age?
+35. What is your age?
 - [ ] Under 15
 - [ ] 15-17
 - [ ] 18-22
@@ -660,515 +524,423 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Don’t know, prefer not to answer
 
 
-34. What is the country or region where you currently live or work?
-- [ ] Andorra
-- [ ] United Arab Emirates
+36. What is the country or region where you currently live or work?
 - [ ] Afghanistan
-- [ ] Antigua and Barbuda
-- [ ] Anguilla
 - [ ] Albania
-- [ ] Armenia
+- [ ] Algeria
+- [ ] Andorra
 - [ ] Angola
-- [ ] Antarctica
+- [ ] Antigua and Barbuda
 - [ ] Argentina
-- [ ] American Samoa
-- [ ] Austria
+- [ ] Armenia
 - [ ] Australia
-- [ ] Aruba
-- [ ] Aland Islands
+- [ ] Austria
 - [ ] Azerbaijan
-- [ ] Bosnia and Herzegovina
-- [ ] Barbados
-- [ ] Bangladesh
-- [ ] Belgium
-- [ ] Burkina Faso
-- [ ] Bulgaria
-- [ ] Bahrain
-- [ ] Burundi
-- [ ] Benin
-- [ ] Saint Barthelemy
-- [ ] Bermuda
-- [ ] Brunei Darussalam
-- [ ] Bolivia (Plurinational State of)
-- [ ] Bonaire, Sint Eustatius and Saba
-- [ ] Brazil
 - [ ] Bahamas
-- [ ] Bhutan
-- [ ] Bouvet Island
-- [ ] Botswana
+- [ ] Bahrain
+- [ ] Bangladesh
+- [ ] Barbados
 - [ ] Belarus
+- [ ] Belgium
 - [ ] Belize
-- [ ] Canada
-- [ ] Cocos (Keeling) Islands
-- [ ] Congo (Democratic Republic of the)
-- [ ] Central African Republic
-- [ ] Congo
-- [ ] Switzerland
-- [ ] Cote d'Ivoire
-- [ ] Cook Islands
-- [ ] Chile
+- [ ] Benin
+- [ ] Bhutan
+- [ ] Bolivia
+- [ ] Bosnia and Herzegovina
+- [ ] Botswana
+- [ ] Brazil
+- [ ] Brunei
+- [ ] Bulgaria
+- [ ] Burkina Faso
+- [ ] Burundi
+- [ ] Cambodia
 - [ ] Cameroon
+- [ ] Canada
+- [ ] Cape Verde
+- [ ] Central African Republic
+- [ ] Chad
+- [ ] Chile
 - [ ] China
 - [ ] Colombia
+- [ ] Comoros
+- [ ] Congo-Brazzaville (RotC)
+- [ ] Congo-Kinshasa (DRC)
 - [ ] Costa Rica
+- [ ] Croatia
 - [ ] Cuba
-- [ ] Cabo Verde
-- [ ] Curaçao
-- [ ] Christmas Island
 - [ ] Cyprus
-- [ ] Czechia
-- [ ] Germany
-- [ ] Djibouti
+- [ ] Czech Republic
 - [ ] Denmark
+- [ ] Djibouti
 - [ ] Dominica
 - [ ] Dominican Republic
-- [ ] Algeria
 - [ ] Ecuador
-- [ ] Estonia
 - [ ] Egypt
-- [ ] Western Sahara
+- [ ] El Salvador
+- [ ] Equatorial Guinea
 - [ ] Eritrea
-- [ ] Spain
+- [ ] Estonia
+- [ ] Eswatini
 - [ ] Ethiopia
-- [ ] Finland
 - [ ] Fiji
-- [ ] Falkland Islands (Malvinas)
-- [ ] Micronesia (Federated States of)
-- [ ] Faroe Islands
+- [ ] Finland
 - [ ] France
 - [ ] Gabon
-- [ ] United Kingdom of Great Britain and Northern Ireland
-- [ ] Grenada
-- [ ] Georgia
-- [ ] French Guiana
-- [ ] Guernsey
-- [ ] Ghana
-- [ ] Gibraltar
-- [ ] Greenland
 - [ ] Gambia
-- [ ] Guinea
-- [ ] Guadeloupe
-- [ ] Equatorial Guinea
+- [ ] Georgia
+- [ ] Germany
+- [ ] Ghana
 - [ ] Greece
-- [ ] South Georgia and the South Sandwich Islands
+- [ ] Greenland
+- [ ] Grenada
 - [ ] Guatemala
-- [ ] Guam
+- [ ] Guinea
 - [ ] Guinea-Bissau
 - [ ] Guyana
-- [ ] Hong Kong
-- [ ] Heard Island and McDonald Islands
-- [ ] Honduras
-- [ ] Croatia
 - [ ] Haiti
+- [ ] Honduras
+- [ ] Hong Kong
 - [ ] Hungary
+- [ ] Iceland
+- [ ] India
 - [ ] Indonesia
+- [ ] Iran
+- [ ] Iraq
 - [ ] Ireland
 - [ ] Israel
-- [ ] Isle of Man
-- [ ] India
-- [ ] British Indian Ocean Territory
-- [ ] Iraq
-- [ ] Iran (Islamic Republic of)
-- [ ] Iceland
+- [ ] Ivory Coast (Côte d’Ivoire)
 - [ ] Italy
-- [ ] Jersey
 - [ ] Jamaica
-- [ ] Jordan
 - [ ] Japan
-- [ ] Kenya
-- [ ] Kyrgyzstan
-- [ ] Cambodia
-- [ ] Kiribati
-- [ ] Comoros
-- [ ] Saint Kitts and Nevis
-- [ ] Korea (Democratic People's Republic of)
-- [ ] Korea (Republic of)
-- [ ] Kuwait
-- [ ] Cayman Islands
+- [ ] Jordan
 - [ ] Kazakhstan
-- [ ] Lao People's Democratic Republic
+- [ ] Kenya
+- [ ] Kiribati
+- [ ] Kosovo
+- [ ] Kuwait
+- [ ] Kyrgyzstan
+- [ ] Laos
+- [ ] Latvia
 - [ ] Lebanon
-- [ ] Saint Lucia
-- [ ] Liechtenstein
-- [ ] Sri Lanka
-- [ ] Liberia
 - [ ] Lesotho
+- [ ] Liberia
+- [ ] Libya
+- [ ] Liechtenstein
 - [ ] Lithuania
 - [ ] Luxembourg
-- [ ] Latvia
-- [ ] Libya
-- [ ] Morocco
-- [ ] Monaco
-- [ ] Moldova (Republic of)
-- [ ] Montenegro
-- [ ] Saint Martin (French Part)
-- [ ] Madagascar
-- [ ] Marshall Islands
-- [ ] North Macedonia
-- [ ] Mali
-- [ ] Myanmar
-- [ ] Mongolia
 - [ ] Macao
-- [ ] Northern Mariana Islands
-- [ ] Martinique
-- [ ] Mauritania
-- [ ] Montserrat
-- [ ] Malta
-- [ ] Mauritius
-- [ ] Maldives
+- [ ] Macedonia
+- [ ] Madagascar
 - [ ] Malawi
-- [ ] Mexico
 - [ ] Malaysia
+- [ ] Maldives
+- [ ] Mali
+- [ ] Malta
+- [ ] Marshall Islands
+- [ ] Mauritania
+- [ ] Mauritius
+- [ ] Mexico
+- [ ] Micronesia
+- [ ] Moldova
 - [ ] Mozambique
+- [ ] Monaco
+- [ ] Mongolia
+- [ ] Montenegro
+- [ ] Morocco
+- [ ] Myanmar
 - [ ] Namibia
-- [ ] New Caledonia
-- [ ] Niger
-- [ ] Norfolk Island
-- [ ] Nigeria
-- [ ] Nicaragua
-- [ ] Netherlands
-- [ ] Norway
-- [ ] Nepal
 - [ ] Nauru
-- [ ] Niue
+- [ ] Nepal
+- [ ] Netherlands
 - [ ] New Zealand
+- [ ] Nicaragua
+- [ ] Niger
+- [ ] Nigeria
+- [ ] North Korea
+- [ ] North Macedonia
+- [ ] Norway
 - [ ] Oman
-- [ ] Panama
-- [ ] Peru
-- [ ] French Polynesia
-- [ ] Papua New Guinea
-- [ ] Philippines
 - [ ] Pakistan
-- [ ] Poland
-- [ ] Saint Pierre and Miquelon
-- [ ] Pitcairn
-- [ ] Puerto Rico
-- [ ] Palestine, State of
-- [ ] Portugal
 - [ ] Palau
+- [ ] Palestine, West Bank, Gaza
+- [ ] Panama
+- [ ] Papua New Guinea
 - [ ] Paraguay
+- [ ] Peru
+- [ ] Philippines
+- [ ] Poland
+- [ ] Portugal
+- [ ] Puerto Rico
 - [ ] Qatar
-- [ ] Reunion
 - [ ] Romania
-- [ ] Serbia
-- [ ] Russian Federation
+- [ ] Russia
 - [ ] Rwanda
-- [ ] Saudi Arabia
-- [ ] Solomon Islands
-- [ ] Seychelles
-- [ ] Sudan
-- [ ] Sweden
-- [ ] Singapore
-- [ ] Saint Helena, Ascension and Tristan da Cunha
-- [ ] Slovenia
-- [ ] Svalbard and Jan Mayen
-- [ ] Slovakia
-- [ ] Sierra Leone
+- [ ] Saint Kitts and Nevis
+- [ ] Saint Lucia
+- [ ] Saint Vincent and the Grenadines
+- [ ] Samoa
 - [ ] San Marino
-- [ ] Senegal
-- [ ] Somalia
-- [ ] Suriname
-- [ ] South Sudan
 - [ ] Sao Tome and Principe
-- [ ] El Salvador
-- [ ] Sint Maarten (Dutch Part)
-- [ ] Syrian Arab Republic
-- [ ] Eswatini
-- [ ] Turks and Caicos Islands
-- [ ] Chad
-- [ ] French Southern Territories
-- [ ] Togo
-- [ ] Thailand
+- [ ] Saudi Arabia
+- [ ] Senegal
+- [ ] Serbia
+- [ ] Seychelles
+- [ ] Sierra Leone
+- [ ] Singapore
+- [ ] Slovakia
+- [ ] Slovenia
+- [ ] Solomon Islands
+- [ ] Somalia
+- [ ] South Africa
+- [ ] South Korea
+- [ ] South Sudan
+- [ ] Spain
+- [ ] Sri Lanka
+- [ ] Sudan
+- [ ] Suriname
+- [ ] Sweden
+- [ ] Switzerland
+- [ ] Syria
+- [ ] Taiwan
 - [ ] Tajikistan
-- [ ] Tokelau
-- [ ] Timor-Leste
-- [ ] Turkmenistan
-- [ ] Tunisia
+- [ ] Tanzania
+- [ ] Thailand
+- [ ] Timor-Leste (East Timor)
+- [ ] Togo
 - [ ] Tonga
-- [ ] Turkey
 - [ ] Trinidad and Tobago
+- [ ] Tunisia
+- [ ] Turkey
+- [ ] Turkmenistan
 - [ ] Tuvalu
-- [ ] Taiwan (Province of China)
-- [ ] Tanzania, United Republic of
-- [ ] Ukraine
 - [ ] Uganda
-- [ ] United States Minor Outlying Islands
-- [ ] United States of America
+- [ ] Ukraine
+- [ ] United Arab Emirates
+- [ ] United Kingdom
+- [ ] United States
 - [ ] Uruguay
 - [ ] Uzbekistan
-- [ ] Holy See
-- [ ] Saint Vincent and the Grenadines
-- [ ] Venezuela (Bolivarian Republic of)
-- [ ] Virgin Islands (British)
-- [ ] Virgin Islands (U.S.)
-- [ ] Viet Nam
 - [ ] Vanuatu
-- [ ] Wallis and Futuna
-- [ ] Samoa
+- [ ] Vatican City
+- [ ] Venezuela
+- [ ] Vietnam
+- [ ] Western Sahara
 - [ ] Yemen
-- [ ] Mayotte
-- [ ] South Africa
 - [ ] Zambia
 - [ ] Zimbabwe
 - [ ] Other/SPECIFY
 - [ ] Prefer not to answer.
 
 
-35. What is the country where you are originally from?
-- [ ] Andorra
-- [ ] United Arab Emirates
+37. What is the country where you are originally from?
 - [ ] Afghanistan
-- [ ] Antigua and Barbuda
-- [ ] Anguilla
 - [ ] Albania
-- [ ] Armenia
+- [ ] Algeria
+- [ ] Andorra
 - [ ] Angola
-- [ ] Antarctica
+- [ ] Antigua and Barbuda
 - [ ] Argentina
-- [ ] American Samoa
-- [ ] Austria
+- [ ] Armenia
 - [ ] Australia
-- [ ] Aruba
-- [ ] Aland Islands
+- [ ] Austria
 - [ ] Azerbaijan
-- [ ] Bosnia and Herzegovina
-- [ ] Barbados
-- [ ] Bangladesh
-- [ ] Belgium
-- [ ] Burkina Faso
-- [ ] Bulgaria
-- [ ] Bahrain
-- [ ] Burundi
-- [ ] Benin
-- [ ] Saint Barthelemy
-- [ ] Bermuda
-- [ ] Brunei Darussalam
-- [ ] Bolivia (Plurinational State of)
-- [ ] Bonaire, Sint Eustatius and Saba
-- [ ] Brazil
 - [ ] Bahamas
-- [ ] Bhutan
-- [ ] Bouvet Island
-- [ ] Botswana
+- [ ] Bahrain
+- [ ] Bangladesh
+- [ ] Barbados
 - [ ] Belarus
+- [ ] Belgium
 - [ ] Belize
-- [ ] Canada
-- [ ] Cocos (Keeling) Islands
-- [ ] Congo (Democratic Republic of the)
-- [ ] Central African Republic
-- [ ] Congo
-- [ ] Switzerland
-- [ ] Cote d'Ivoire
-- [ ] Cook Islands
-- [ ] Chile
+- [ ] Benin
+- [ ] Bhutan
+- [ ] Bolivia
+- [ ] Bosnia and Herzegovina
+- [ ] Botswana
+- [ ] Brazil
+- [ ] Brunei
+- [ ] Bulgaria
+- [ ] Burkina Faso
+- [ ] Burundi
+- [ ] Cambodia
 - [ ] Cameroon
+- [ ] Canada
+- [ ] Cape Verde
+- [ ] Central African Republic
+- [ ] Chad
+- [ ] Chile
 - [ ] China
 - [ ] Colombia
+- [ ] Comoros
+- [ ] Congo-Brazzaville (RotC)
+- [ ] Congo-Kinshasa (DRC)
 - [ ] Costa Rica
+- [ ] Croatia
 - [ ] Cuba
-- [ ] Cabo Verde
-- [ ] Curaçao
-- [ ] Christmas Island
 - [ ] Cyprus
-- [ ] Czechia
-- [ ] Germany
-- [ ] Djibouti
+- [ ] Czech Republic
 - [ ] Denmark
+- [ ] Djibouti
 - [ ] Dominica
 - [ ] Dominican Republic
-- [ ] Algeria
 - [ ] Ecuador
-- [ ] Estonia
 - [ ] Egypt
-- [ ] Western Sahara
+- [ ] El Salvador
+- [ ] Equatorial Guinea
 - [ ] Eritrea
-- [ ] Spain
+- [ ] Estonia
+- [ ] Eswatini
 - [ ] Ethiopia
-- [ ] Finland
 - [ ] Fiji
-- [ ] Falkland Islands (Malvinas)
-- [ ] Micronesia (Federated States of)
-- [ ] Faroe Islands
+- [ ] Finland
 - [ ] France
 - [ ] Gabon
-- [ ] United Kingdom of Great Britain and Northern Ireland
-- [ ] Grenada
-- [ ] Georgia
-- [ ] French Guiana
-- [ ] Guernsey
-- [ ] Ghana
-- [ ] Gibraltar
-- [ ] Greenland
 - [ ] Gambia
-- [ ] Guinea
-- [ ] Guadeloupe
-- [ ] Equatorial Guinea
+- [ ] Georgia
+- [ ] Germany
+- [ ] Ghana
 - [ ] Greece
-- [ ] South Georgia and the South Sandwich Islands
+- [ ] Greenland
+- [ ] Grenada
 - [ ] Guatemala
-- [ ] Guam
+- [ ] Guinea
 - [ ] Guinea-Bissau
 - [ ] Guyana
-- [ ] Hong Kong
-- [ ] Heard Island and McDonald Islands
-- [ ] Honduras
-- [ ] Croatia
 - [ ] Haiti
+- [ ] Honduras
+- [ ] Hong Kong
 - [ ] Hungary
+- [ ] Iceland
+- [ ] India
 - [ ] Indonesia
+- [ ] Iran
+- [ ] Iraq
 - [ ] Ireland
 - [ ] Israel
-- [ ] Isle of Man
-- [ ] India
-- [ ] British Indian Ocean Territory
-- [ ] Iraq
-- [ ] Iran (Islamic Republic of)
-- [ ] Iceland
+- [ ] Ivory Coast (Côte d’Ivoire)
 - [ ] Italy
-- [ ] Jersey
 - [ ] Jamaica
-- [ ] Jordan
 - [ ] Japan
-- [ ] Kenya
-- [ ] Kyrgyzstan
-- [ ] Cambodia
-- [ ] Kiribati
-- [ ] Comoros
-- [ ] Saint Kitts and Nevis
-- [ ] Korea (Democratic People's Republic of)
-- [ ] Korea (Republic of)
-- [ ] Kuwait
-- [ ] Cayman Islands
+- [ ] Jordan
 - [ ] Kazakhstan
-- [ ] Lao People's Democratic Republic
+- [ ] Kenya
+- [ ] Kiribati
+- [ ] Kosovo
+- [ ] Kuwait
+- [ ] Kyrgyzstan
+- [ ] Laos
+- [ ] Latvia
 - [ ] Lebanon
-- [ ] Saint Lucia
-- [ ] Liechtenstein
-- [ ] Sri Lanka
-- [ ] Liberia
 - [ ] Lesotho
+- [ ] Liberia
+- [ ] Libya
+- [ ] Liechtenstein
 - [ ] Lithuania
 - [ ] Luxembourg
-- [ ] Latvia
-- [ ] Libya
-- [ ] Morocco
-- [ ] Monaco
-- [ ] Moldova (Republic of)
-- [ ] Montenegro
-- [ ] Saint Martin (French Part)
-- [ ] Madagascar
-- [ ] Marshall Islands
-- [ ] North Macedonia
-- [ ] Mali
-- [ ] Myanmar
-- [ ] Mongolia
 - [ ] Macao
-- [ ] Northern Mariana Islands
-- [ ] Martinique
-- [ ] Mauritania
-- [ ] Montserrat
-- [ ] Malta
-- [ ] Mauritius
-- [ ] Maldives
+- [ ] Macedonia
+- [ ] Madagascar
 - [ ] Malawi
-- [ ] Mexico
 - [ ] Malaysia
+- [ ] Maldives
+- [ ] Mali
+- [ ] Malta
+- [ ] Marshall Islands
+- [ ] Mauritania
+- [ ] Mauritius
+- [ ] Mexico
+- [ ] Micronesia
+- [ ] Moldova
 - [ ] Mozambique
+- [ ] Monaco
+- [ ] Mongolia
+- [ ] Montenegro
+- [ ] Morocco
+- [ ] Myanmar
 - [ ] Namibia
-- [ ] New Caledonia
-- [ ] Niger
-- [ ] Norfolk Island
-- [ ] Nigeria
-- [ ] Nicaragua
-- [ ] Netherlands
-- [ ] Norway
-- [ ] Nepal
 - [ ] Nauru
-- [ ] Niue
+- [ ] Nepal
+- [ ] Netherlands
 - [ ] New Zealand
+- [ ] Nicaragua
+- [ ] Niger
+- [ ] Nigeria
+- [ ] North Korea
+- [ ] North Macedonia
+- [ ] Norway
 - [ ] Oman
-- [ ] Panama
-- [ ] Peru
-- [ ] French Polynesia
-- [ ] Papua New Guinea
-- [ ] Philippines
 - [ ] Pakistan
-- [ ] Poland
-- [ ] Saint Pierre and Miquelon
-- [ ] Pitcairn
-- [ ] Puerto Rico
-- [ ] Palestine, State of
-- [ ] Portugal
 - [ ] Palau
+- [ ] Palestine, West Bank, Gaza
+- [ ] Panama
+- [ ] Papua New Guinea
 - [ ] Paraguay
+- [ ] Peru
+- [ ] Philippines
+- [ ] Poland
+- [ ] Portugal
+- [ ] Puerto Rico
 - [ ] Qatar
-- [ ] Reunion
 - [ ] Romania
-- [ ] Serbia
-- [ ] Russian Federation
+- [ ] Russia
 - [ ] Rwanda
-- [ ] Saudi Arabia
-- [ ] Solomon Islands
-- [ ] Seychelles
-- [ ] Sudan
-- [ ] Sweden
-- [ ] Singapore
-- [ ] Saint Helena, Ascension and Tristan da Cunha
-- [ ] Slovenia
-- [ ] Svalbard and Jan Mayen
-- [ ] Slovakia
-- [ ] Sierra Leone
+- [ ] Saint Kitts and Nevis
+- [ ] Saint Lucia
+- [ ] Saint Vincent and the Grenadines
+- [ ] Samoa
 - [ ] San Marino
-- [ ] Senegal
-- [ ] Somalia
-- [ ] Suriname
-- [ ] South Sudan
 - [ ] Sao Tome and Principe
-- [ ] El Salvador
-- [ ] Sint Maarten (Dutch Part)
-- [ ] Syrian Arab Republic
-- [ ] Eswatini
-- [ ] Turks and Caicos Islands
-- [ ] Chad
-- [ ] French Southern Territories
-- [ ] Togo
-- [ ] Thailand
+- [ ] Saudi Arabia
+- [ ] Senegal
+- [ ] Serbia
+- [ ] Seychelles
+- [ ] Sierra Leone
+- [ ] Singapore
+- [ ] Slovakia
+- [ ] Slovenia
+- [ ] Solomon Islands
+- [ ] Somalia
+- [ ] South Africa
+- [ ] South Korea
+- [ ] South Sudan
+- [ ] Spain
+- [ ] Sri Lanka
+- [ ] Sudan
+- [ ] Suriname
+- [ ] Sweden
+- [ ] Switzerland
+- [ ] Syria
+- [ ] Taiwan
 - [ ] Tajikistan
-- [ ] Tokelau
-- [ ] Timor-Leste
-- [ ] Turkmenistan
-- [ ] Tunisia
+- [ ] Tanzania
+- [ ] Thailand
+- [ ] Timor-Leste (East Timor)
+- [ ] Togo
 - [ ] Tonga
-- [ ] Turkey
 - [ ] Trinidad and Tobago
+- [ ] Tunisia
+- [ ] Turkey
+- [ ] Turkmenistan
 - [ ] Tuvalu
-- [ ] Taiwan (Province of China)
-- [ ] Tanzania, United Republic of
-- [ ] Ukraine
 - [ ] Uganda
-- [ ] United States Minor Outlying Islands
-- [ ] United States of America
+- [ ] Ukraine
+- [ ] United Arab Emirates
+- [ ] United Kingdom
+- [ ] United States
 - [ ] Uruguay
 - [ ] Uzbekistan
-- [ ] Holy See
-- [ ] Saint Vincent and the Grenadines
-- [ ] Venezuela (Bolivarian Republic of)
-- [ ] Virgin Islands (British)
-- [ ] Virgin Islands (U.S.)
-- [ ] Viet Nam
 - [ ] Vanuatu
-- [ ] Wallis and Futuna
-- [ ] Samoa
+- [ ] Vatican City
+- [ ] Venezuela
+- [ ] Vietnam
+- [ ] Western Sahara
 - [ ] Yemen
-- [ ] Mayotte
-- [ ] South Africa
 - [ ] Zambia
 - [ ] Zimbabwe
 - [ ] Other/SPECIFY
 - [ ] Prefer not to answer.
 
 
-36. In what language(s) are you fluent? Please select all that apply.Please select all that apply.
+38. In what language(s) are you fluent? Please select all that apply.Please select all that apply.
 - [ ] Afrikaans
 - [ ] Albanian
 - [ ] American Sign Language
@@ -1241,7 +1013,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Other/SPECIFY
 
 
-37. Which of the following best describe your race or ethnicity? Please select all that apply.Please select all that apply.
+39. Which of the following best describe your race or ethnicity? Please select all that apply.Please select all that apply.
 - [ ] White, Caucasian, European
 - [ ] Asian, Asian-American
 - [ ] Latin American, Latino, Hispanic
@@ -1255,7 +1027,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Other/SPECIFY
 
 
-38. What is your gender?
+40. What is your gender?
 - [ ] Man
 - [ ] Woman
 - [ ] Non-binary
@@ -1263,13 +1035,13 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Other/SPECIFY
 
 
-39. Do you identify as LGBTQ?
+41. Do you identify as LGBTQ?
 - [ ] Yes
 - [ ] No
 - [ ] Prefer not to answer
 
 
-40. Do you identify as underrepresented in science or computing because of your:
+42. Do you identify as underrepresented in science or computing because of your:
 - [ ] Age
 - [ ] Gender
 - [ ] Gender identity
@@ -1287,8 +1059,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Other/SPECIFY
 
 
-41. IF PROFESSIONAL: Please click here if you would like to enter a raffle to win a
-free Julia t-shirt, or if you would like Julia Computing to reach out to you to
+43. IF PROFESSIONAL: Please click here if you would like JuliaHub to contact you to
 help your business succeed using Julia.
 
 
@@ -1296,25 +1067,18 @@ help your business succeed using Julia.
 ---
 
 
-Thank you for completing the 2022 Julia User and Developer Survey! We greatly value
+Thank you for completing the 2023 Julia User and Developer Survey! We greatly value
 and appreciate your participation.
 
- 
 
-Please enter your email address here if you would like to enter a raffle
-to win a free Julia t-shirt, or if you would like Julia Computing to reach
-out to you to help your business succeed using Julia.
+Please enter your email address here if you would like JuliaHub to contact you to help your business succeed using Julia.
 
- 
 
 Note that the survey responses you provided are anonymous and will not be
 connected to your email address.
 
 ENTER EMAIL ADDRESS
 
-I_I Please click this box if you would like to enter a raffle to win a
-free Julia t-shirt.
-
-I_I Please click this box if you would like Julia Computing to reach out
+I_I Please click this box if you would like JuliaHub to reach out
 to you to help your business succeed using Julia.
 
