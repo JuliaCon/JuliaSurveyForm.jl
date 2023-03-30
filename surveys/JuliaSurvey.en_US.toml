@@ -238,6 +238,7 @@ none_of_the_above = true
 ask_for_other_answer = true
 translate_choices = true
 
+
 [[questions]]
 type = "choice"
 description = """
@@ -321,22 +322,24 @@ none_of_the_above = true
 ask_for_other_answer = true
 translate_choices = true
 
+
 [[questions]]
 type = "choice"
 description = """
 IF OPEN SOURCE CREATOR OR CONTRIBUTOR: What is your work status in relation to writing Julia code?
 """
 choices = [
-	"Paid programmer",
-	"Write Julia as a component of other paid work (such as research for academics)",
-	"Part paid, part voluntary",
-	"Completely voluntary",
-	"Prefer not to say",
+    "Paid programmer",
+    "Write Julia as a component of other paid work (such as research for academics)",
+    "Part paid, part voluntary",
+    "Completely voluntary",
+    "Prefer not to say",
 ]
 multi_choice = false
 none_of_the_above = true
 ask_for_other_answer = false
 translate_choices = true
+
 
 [[questions]]
 type = "choice"
@@ -344,16 +347,17 @@ description = """
 IF OPEN SOURCE CREATOR OR CONTRIBUTOR: In which of the following capacities do you contribute to Julia?
 """
 choices = [
-	"Paid programmer",
-	"Write Julia as a component of other paid work (such as research for academics)",
-	"Part paid, part voluntary",
-	"Completely voluntary",
-	"Prefer not to say",
+    "Paid programmer",
+    "Write Julia as a component of other paid work (such as research for academics)",
+    "Part paid, part voluntary",
+    "Completely voluntary",
+    "Prefer not to say",
 ]
 multi_choice = false
 none_of_the_above = true
 ask_for_other_answer = false
 translate_choices = true
+
 
 [[questions]]
 type = "choice"
@@ -361,11 +365,11 @@ description = """
 IF OPEN SOURCE CREATOR OR CONTRIBUTOR: How many volunteer hours do you spend working on open source Julia projects or the Julia community per week?
 """
 choices = [
-	"None",
-	"1-10 hours",
-	"11-20 hours",
-	"More than 20 hours",
-	"Prefer not to say",
+    "None",
+    "1-10 hours",
+    "11-20 hours",
+    "More than 20 hours",
+    "Prefer not to say",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -403,7 +407,6 @@ ask_for_other_answer = false
 translate_choices = true
 
 
-
 [[questions]]
 type = "choice"
 description = """
@@ -414,7 +417,7 @@ choices = [
     "Somewhat",
     "Not very",
     "Not at all",
-	"Don't know",
+    "Don't know",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -448,6 +451,7 @@ none_of_the_above = false
 ask_for_other_answer = true
 translate_choices = false
 
+
 [[questions]]
 type = "choice"
 description = """
@@ -457,7 +461,7 @@ choices = [
     "GitHub Copilot",
     "ChatGPT",
     "Other Web-based generative AI",
-    ]
+]
 multi_choice = true
 none_of_the_above = true
 ask_for_other_answer = true
@@ -570,25 +574,25 @@ none_of_the_above = false
 ask_for_other_answer = true
 translate_choices = false
 
+
 [[questions]]
 type = "choice"
 description = """
 Which kind of parallelism, if any, do you use together with Julia? Please select all that apply.
 """
 choices = [
-	"Tasks/coroutines",
-	"Julia multi-threading (Threads)",
-	"Other multi-threading (e.g., Polyester.jl)",
-	"GPU computing",
-	"Julia distributed computing (Distributed)",
-	"Other distributed computing (e.g., MPI.jl, UCX.jl)",
-	"Large-scale parallel computing (>100 nodes)", 
-	]
+    "Tasks/coroutines",
+    "Julia multi-threading (Threads)",
+    "Other multi-threading (e.g., Polyester.jl)",
+    "GPU computing",
+    "Julia distributed computing (Distributed)",
+    "Other distributed computing (e.g., MPI.jl, UCX.jl)",
+    "Large-scale parallel computing (>100 nodes)",
+]
 multi_choice = true
 none_of_the_above = true
 ask_for_other_answer = true
 translate_choices = false
-
 
 
 [[questions]]
@@ -600,11 +604,11 @@ choices = [
     "Nvidia GPU (released in the last 2 years)",
     "Nvidia GPU (older than 2 years)",
     "Multiple Nvidia GPUs in one system",
-	"Apple M-series GPU",
-	"AMD GPU",
+    "Apple M-series GPU",
+    "AMD GPU",
     "Intel GPU",
     "Distributed cluster of GPUs",
-	"Quantum computer",
+    "Quantum computer",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -646,19 +650,19 @@ choices = [
     "Statistics",
     "Optimization",
     "Machine learning",
-	"Scientific machine learning",
+    "Scientific machine learning",
     "Artificial intelligence",
-	"Automatic differentiation",
-	"Scripting",
+    "Automatic differentiation",
+    "Scripting",
     "Visualization",
     "Differential equations",
     "Graphics",
     "Controls",
-	"Signal processing",
+    "Signal processing",
     "Image processing",
     "Supercomputing",
     "Computer vision",
-	"Probabilistic programming",
+    "Probabilistic programming",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -674,7 +678,7 @@ Which of the following best describes you? Please select all that apply.
 choices = [
     "Academic - student, researcher, instructor, scientist",
     "Professional - analyst, engineer, developer, researcher, manager, scientist",
-	"Hobbyist",
+    "Hobbyist",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -689,7 +693,7 @@ IF ACADEMIC: Which of the following best describes you? Please select all that a
 """
 choices = [
     "Graduate student",
-	"Postdoctoral researcher or fellow",
+    "Postdoctoral researcher or fellow",
     "Faculty",
     "Instructor",
     "Undergraduate student",
@@ -712,12 +716,12 @@ IF ACADEMIC: What are your primary fields of study or research? Please select al
 choices = [
     "Computer science",
     "Mathematics",
-	"Statistics",
+    "Statistics",
     "Physics",
     "Biology, life sciences",
     "Electrical engineering",
     "Mechanical engineering",
-	"Industrial engineering",
+    "Industrial engineering",
     "Economics",
     "Geosciences",
     "Astronomy",
@@ -768,7 +772,7 @@ choices = [
     "Engineering",
     "Finance",
     "Aerospace, aviation",
-	"Automotive",
+    "Automotive",
     "Energy",
     "Consulting",
     "Life sciences, health care, pharmaceuticals",
@@ -781,7 +785,7 @@ choices = [
     "Semiconductors",
     "Ecommerce",
     "Automation",
-	"Agriculture",
+    "Agriculture",
 ]
 multi_choice = true
 none_of_the_above = true
