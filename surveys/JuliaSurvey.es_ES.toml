@@ -1,50 +1,41 @@
 lang = "es_ES"
 intro = """
-Dear Participant,
+Estimada/o participante,
 
-You are invited to participate in the fourth annual Julia User and Developer survey.
-The results of this survey will be presented at JuliaCon 2023 this summer and will
-also be made publicly available online. The survey is developed, administered
-and analyzed by JuliaHub with input from the Julia community.
-We value your time and appreciate your participation. This survey consists of 40 questions and is expected to take no
-more than 10-15 minutes to complete.
+Se le ha invitado a participar de la quinta encuesta anual de usuarias/os y desarrolladores de Julia. Los resultados serán presentados durante JuliaCon 2023 (este verano) y estarán disponibles en línea para el público general. La encuesta ha sido desarrollada, es administrada y será analizada por JuliaHub con las aportaciones de la comunidad de Julia. Valoramos su tiempo y agradecemos su participación. Este cuestionario consiste en 40 preguntas y debería tomar no más de 10-15 minutos para completar.
 
-Thanks to Roger Luo for building JuliaSurveyForm.jl, and thank you to all of our translators for translations.
+Gracias a Roger Luo por crear JuliaSurveyForm.jl, y nos agradecemos a todos traductores por traducción.
 
-Your participation is voluntary and anonymous and no personal information will ever be shared.
+Su participación es voluntaria y anónima. Ninguna información personal será compartida.
 
-Please feel free to forward to colleagues and friends who are Julia users.
+Le invitamos a compartir el documento con sus colegas y amigos que sean parte de la comunidad de Julia.
 
-Thank you for your participation!
+¡Gracias por su participación!
 
-Sincerely,
+Sinceramente,
 
-Jeff Bezanson, Stefan Karpinski, Viral Shah and Alan Edelman
-Julia Co-Creators
+Jeff Bezanson, Stefan Karpinski, Viral Shah, and Alan Edelman
+Co-creadores de Julia
 """
 
 closing = """
-Thank you for completing the 2023 Julia User and Developer Survey! We greatly value
-and appreciate your participation.
+¡Gracias por completar la encuesta de usuarios y desarrolladores de Julia de 2022! 
+Valoramos y agradecemos enormemente su participación.
 
+Ingrese su dirección de correo electrónico aquí si JuliaHub le debe contactar a Ud. para ayudarle a su empresa a tener éxito usando Julia.
 
-Please enter your email address here if you would like JuliaHub to contact you to help your business succeed using Julia.
+Tenga en cuenta que las respuestas de la encuesta que proporcionó son anónimas y no serán asociadas a su dirección de correo electrónico.
 
+INTRODUZCA SU DIRECCIÓN DE CORREO ELECTRÓNICO
 
-Note that the survey responses you provided are anonymous and will not be
-connected to your email address.
-
-ENTER EMAIL ADDRESS
-
-I_I Please click this box if you would like JuliaHub to reach out
-to you to help your business succeed using Julia.
+I_I Haga clic en este recuadro si JuliaHub le debe contactar a Ud. para ayudarle a su empresa a tener éxito usando Julia.
 """
 
 
 [[questions]]
 type = "choice"
 description = """
-Which of the following languages have you used regularly or frequently during the past year?
+¿Cuáles de los siguientes lenguajes de programación ha utilizado frecuentemente durante el año pasado? Favor de seleccionar todos los que apliquen.
 """
 choices = [
     "Julia",
@@ -73,7 +64,7 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which of the following languages do you plan to use regularly or frequently during the next year?
+¿Cuáles de los siguientes lenguajes de programación piensa Ud. utilizar frecuentemente durante el año que viene? Favor de seleccionar todos los que apliquen.
 """
 choices = [
     "Julia",
@@ -102,14 +93,13 @@ translate_choices = false
 [[questions]]
 type = "form"
 description = """
-How much do you like each of the following languages?
-If you don't know or have not used a language, please leave it blank.
+¿Cuánto le gustan cada uno de los siguientes lenguajes de programación? Si no conoce o no ha usado el lenguaje deje la casilla en blanco, por favor.
 """
 column_titles = [
-    "One of my favorite languages",
-    "Like",
+    "Uno de mis lenguajes de programación favoritos",
+    "Me gusta",
     "Neutral",
-    "Dislike",
+    "No me gusta",
 ]
 row_titles = [
     "Julia",
@@ -138,25 +128,24 @@ translate_cols = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following are the TECHNICAL aspects or features you
-like MOST about Julia? Please select all that apply.
+De los aspectos o características TÉCNICAS de Julia, ¿cuáles de los siguiente son sus favoritos? Por favor, seleccione todas las opciones que apliquen.
 """
 choices = [
-    "Speed, performance",
-    "Ease of use",
-    "Open source - code is available and can be modified",
-    "Composable",
-    "Ease of installation",
-    "Package manager",
-    "Solves the two language problem",
-    "Multiple dispatch",
-    "Distributed / GPU computing",
-    "Type system",
-    "Specific package(s)",
-    "Integrates well with other language(s)",
-    "Editor and IDE support (Emacs, Vi, Juno, VS Code)",
-    "One-based indexing",
-    "Metaprogramming",
+    "Rapidez, rendimiento",
+    "Facilidad de uso",
+    "Código abierto – el código está disponible y puede ser modificado",
+    "Componibilidad",
+    "Facilidad de instalación",
+    "Gestor de paquetes",
+    "Soluciona el problema de los dos lenguajes",
+    "Despacho múltiple",
+    "Computación distribuida / computación GPU",
+    "Sistema de tipos",
+    "Paquetes específicos",
+    "Se integra bien con otros lenguajes de programación",
+    "Disponibilidad de entornos de desarrollo integrado y editores (Emacs, Vi(m), Juno, VS Code)",
+    "Indizado desde uno",
+    "Meta-programación",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -167,19 +156,18 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following are the NON-TECHNICAL aspects or features you
-like MOST about Julia? Please select all that apply.
+De los aspectos o características NO-TÉCNICAS de Julia, ¿cuáles son sus favoritos? Por favor, seleccione todas las opciones que apliquen.
 """
 choices = [
-    "Free – don't have to pay to use Julia",
-    "Julia community of developers is talented and active",
-    "MIT license",
-    "Easy to create packages",
-    "Julia community of developers is warm and welcoming",
-    "Easy to get help and information online",
-    "Easy to contribute to the language",
-    "Lots of great teaching and learning resources available online",
-    "Great documentation",
+    "Es gratis, no hay coste por usar Julia",
+    "La comunidad de desarrolladores de Julia es talentosa y activa",
+    "Licencia MIT",
+    "Facilidad de creación de paquetes",
+    "La comunidad de desarrolladores de Julia es cordial y acogedora",
+    "Facilidad para conseguir información y ayuda en línea",
+    "Facilidad para contribuir al desarrollo del lenguaje",
+    "Abundante material de enseñanza y aprendizaje disponible en línea",
+    "La documentación es buena",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -190,25 +178,25 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following are the TECHNICAL aspects or features you
-like LEAST about Julia? Please select all that apply.
+De los aspectos técnicos, ¿cuáles son sus menos favoritos? Por favor, seleccione todas las opciones que apliquen.
 """
 choices = [
-    "Slow compile times - for example, it takes too long to generate the first plot",
-    "Confusing or overly verbose error messages",
-    "Cannot generate self contained binaries or libraries such as .exe, .dll, .so, etc.",
-    "Immature, not ready for use in production",
-    "Poor editor and IDE support",
-    "Poor linter, poor syntax checking compared to statically typed languages",
-    "I require packages, libraries or tools that are only available or are more complete in another language",
-    "The debugger is too slow, and/or not fully-featured",
-    "Writing high performance code is difficult and requires specialized knowledge",
-    "Slow garbage collection",
-    "Bugs",
-    "One-based indexing",
-    "No built-in support for mutable, fixed size arrays",
-    "No built-in support for interfaces or traits",
-    "Does not integrate well with other language(s)",
+
+    "La compilación tarda mucho tiempo - tarda demasiado tiempo generar la primera gráfica",
+    "Mensajes de errores verbosos o difíciles de entender",
+    "No puedo generar binarios o bibliotecas autocontenidas como .exe, .dll, .so, etc.",
+    "El lenguaje es muy joven, no está listo para usarlo en producción",
+    "Pobreza del editor o entornos de desarrollo integrados",
+    "Falta de capacidad de analizar el código para detectar errores automáticamente (comparado con lenguajes de programación de tipado estático)",
+    "Requiero paquetes o herramientas que no están disponibles o son más exhaustivas en otro lenguaje",
+    "El depurador tarda demasiado tiempo o no tiene la funcionalidad requerida",
+    "Escribir código de alto rendimiento es difícil y requiere de conocimiento especializado",
+    "Recolección lenta de basura",
+    "Errores de programación",
+    "Indexado desde uno",
+    "No soporta arreglos mutables de tamaño fijo",
+    "No se integra bien con interfaces o características",
+    "No se integra bien con otros lenguajes",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -219,19 +207,18 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following are the NON-TECHNICAL aspects or features you like LEAST about Julia?
-Please select all that apply.
+De los aspectos o características NO-TÉCNICOS de Julia, ¿cuáles son sus menos favoritos? Por favor, seleccione todas las opciones que apliquen.
 """
 choices = [
-    "There are not enough Julia users in my field or industry",
-    "My company, university, clients or other organizations I work with do not allow or support Julia",
-    "Online tutorials and documentation are outdated or insufficient",
-    "I am more comfortable in another language",
-    "The Julia community is not active enough",
-    "The Julia community is too closed and not welcoming enough",
-    "The Julia community is not diverse enough",
-    "I feel that the Julia developer team does not communicate its plans or intentions clearly enough",
-    "The Julia community is too conservative and too reluctant to make useful changes to the language",
+    "No hay suficiente usuarios de Julia en mi campo o industria",
+    "Mi compañía, universidad, clientes u otras organizaciones con las que trabajo no soportan o no permiten usar Julia",
+    "Documentación o tutorías en línea están anticuados o insuficientes",
+    "Me siento más cómodo/a usando otro lenguaje",
+    "La comunidad de Julia no es suficientemente activa",
+    "La comunidad de Julia es demasiado cerrada y no suficientemente acogedora",
+    "La comunidad de Julia no incluye suficiente diversidad",
+    "Considero que los desarrolladores de Julia no comunican sus planes e intenciones adecuadamente",
+    "La comunidad de Julia es muy conservadora y reticente a realizar cambios útiles al lenguaje",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -242,19 +229,19 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Why did you start using Julia? Please select all that apply.
+¿Por qué razones comenzó a utilizar Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Julia seems like the language of the future",
-    "Julia solves the two language problem",
-    "Faster for the work I am doing",
-    "I like learning new languages",
-    "Preferable syntax to other languages",
-    "I heard about Julia from friends or colleagues",
-    "Better packages for the work I am doing",
-    "Because colleagues in my field use Julia and I want to collaborate with them",
-    "Because my instructor or a course I wanted to take uses Julia",
-    "Elegance of Julia",
+    "Me parecía el lenguaje del futuro",
+    "Resuelve el problema de tener que usar dos lenguajes (uno para desarrollar prototipos y otro para la eficiencia)",
+    "Es más eficiente para el trabajo que hago",
+    "Disfruto aprendiendo nuevos lenguajes",
+    "La sintaxis es preferible a la de otros lenguajes de programación",
+    "Escuché a mis amigos o colegas y quería experimentar",
+    "Mejores paquetes para el trabajo que hago",
+    "Porque colegas en mi campo usan Julia y quería colaborar con ellos",
+    "Porque mi instructor para un curso quería que usáramos Julia para la clase",
+    "La elegancia del lenguaje",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -265,13 +252,14 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Where do you interact with the Julia community? Please select all that apply.
+¿Dónde interactúa con la comunidad de Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
     "GitHub",
     "Discourse (discourse.julialang.org)",
     "Slack",
     "Zulip",
+    "Gitter",
     "Discord",
     "Stack Overflow",
     "Reddit",
@@ -290,16 +278,17 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which of the following best describe your use of Julia? Please select all that apply.
+¿Cuáles de los siguientes describen mejor su uso de Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "I use Julia for research",
-    "I use Julia for work individually",
-    "I use Julia for teaching",
-    "I use Julia for development as part of a team",
-    "I use Julia in production for a business critical task",
-    "I use Julia because it is required for classes at my university",
-    "I use Julia for hobby programming",
+
+    "Uso Julia para investigación",
+    "Uso Julia para trabajo individual",
+    "Uso Julia para enseñar",
+    "Uso Julia para desarrollo como parte de un equipo",
+    "Uso Julia en producción como parte de tareas críticas para mi empresa",
+    "Uso Julia porque es requerido para clases en mi universidad",
+    "Uso Julia como afición a la programación",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -310,12 +299,12 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following types of Julia packages have you created or contributed to?
+¿En cuáles de los siguientes tipos de paquetes para Julia ha participado como creador o colaborador?
 """
 choices = [
-    "Open source and registered in the Julia general registry",
-    "Open source and not registered in the Julia general registry",
-    "Private and not registered in the Julia general registry",
+    "Paquete de código abierto publicado en el registro general",
+    "Paquete de código abierto no publicado en el registro general",
+    "Privado y no publicado en el registro genera",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -326,14 +315,14 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF OPEN SOURCE CREATOR OR CONTRIBUTOR: What is your work status in relation to writing Julia code?
+SI CREADOR O COLABORADOR: ¿Cuál es su estado laboral con respeto a la programación en Julia?
 """
 choices = [
-    "Paid programmer",
-    "Write Julia as a component of other paid work (such as research for academics)",
-    "Part paid, part voluntary",
-    "Completely voluntary",
-    "Prefer not to say",
+    "Programador profesional pagado",
+    "Programación en Julia como parte de otro trabajo pagado (como investigación académica)",
+    "Pagado en parte, voluntario en parte",
+    "Enteramente voluntario",
+    "Prefiero no contestar",
 ]
 multi_choice = false
 none_of_the_above = true
@@ -344,32 +333,14 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF OPEN SOURCE CREATOR OR CONTRIBUTOR: In which of the following capacities do you contribute to Julia?
+SI CREADOR O COLABORADOR: ¿Cuántas horas no pagadas contribuye Ud. a la comunidad de Julia o a proyectos de código abierto cada semana?
 """
 choices = [
-    "Paid programmer",
-    "Write Julia as a component of other paid work (such as research for academics)",
-    "Part paid, part voluntary",
-    "Completely voluntary",
-    "Prefer not to say",
-]
-multi_choice = false
-none_of_the_above = true
-ask_for_other_answer = false
-translate_choices = true
-
-
-[[questions]]
-type = "choice"
-description = """
-IF OPEN SOURCE CREATOR OR CONTRIBUTOR: How many volunteer hours do you spend working on open source Julia projects or the Julia community per week?
-"""
-choices = [
-    "None",
-    "1-10 hours",
-    "11-20 hours",
-    "More than 20 hours",
-    "Prefer not to say",
+    "Ninguno",
+    "1-10 horas",
+    "11-20 horas",
+    "Más de 20 horas",
+    "Prefiero no contestar",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -380,7 +351,7 @@ translate_choices = true
 [[questions]]
 type = "year"
 description = """
-When did you first start using Julia? ENTER YEAR (2009-2022)
+¿En qué año comenzó a usar Julia? INDIQUE EL AÑO (2009-2023)
 """
 upper = 2009
 lower = 2023
@@ -389,7 +360,7 @@ lower = 2023
 [[questions]]
 type = "choice"
 description = """
-What percentage of the programming you do is in Julia?
+¿Qué porcentaje de su trabajo de programación lo hace utilizando Julia?
 """
 choices = [
     "0%",
@@ -399,7 +370,7 @@ choices = [
     "60-79%",
     "80-99%",
     "100%",
-    "Don't do any programming",
+    "No hago trabajo de programación",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -410,14 +381,14 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-How robust is the current Julia package ecosystem?
+¿Cómo de robusto es el ecosistema de paquetes en Julia actualmente?
 """
 choices = [
-    "Very",
-    "Somewhat",
-    "Not very",
-    "Not at all",
-    "Don't know",
+    "Muchísimo",
+    "Más o menos",
+    "No mucho",
+    "Para nada",
+    "Desconozco",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -428,7 +399,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which editors or IDEs do you use frequently? Please select all that apply.
+¿Cuáles de los editores o entornos de desarrollo integrado utiliza frecuentemente? Selecciona todas las opciones que apliquen.
 """
 choices = [
     "VS Code",
@@ -442,9 +413,9 @@ choices = [
     "Emacs",
     "Sublime Text",
     "Notepad++",
-    "IntelliJ (or other Jetbrains product)",
+    "IntelliJ (u otro producto de Jetbrains)",
     "Kate",
-    "None - I write all my code in the Julia REPL",
+    "Ninguno - Escribo todo mi código en la REPL de Julia",
 ]
 multi_choice = true
 none_of_the_above = false
@@ -455,12 +426,12 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-What types of AI assistance do you use frequently with Julia? Please select all that apply.
+¿Qué tipos de asistencia de inteligencia artificial utiliza con frecuencia con Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
     "GitHub Copilot",
     "ChatGPT",
-    "Other Web-based generative AI",
+    "Otra inteligencia artificial generativa en línea",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -471,10 +442,10 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which cloud solutions, if any, do you use together with Julia? Please select all that apply.
+¿Cuáles de las soluciones de computación en la nube o supercomputadoras, si usa alguna, utiliza con Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Local cluster",
+    "Cluster local",
     "JuliaHub",
     "Amazon Web Services, AWS",
     "Google Cloud",
@@ -492,14 +463,14 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-How helpful and collaborative is the Julia community?
+¿Cómo de útil y colaborativa es la comunidad de Julia?
 """
 choices = [
-    "Very",
-    "Somewhat",
-    "Not very",
-    "Not at all",
-    "Don't know",
+    "Muchísimo",
+    "Más o menos",
+    "No mucho",
+    "Para nada",
+    "Desconozco",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -510,23 +481,23 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Have you attended or do you plan to attend JuliaCon? Please select all that apply.
+¿Ha asistido o contempla asistir a JuliaCon? Seleccione todas las convenciones que apliquen.
 """
 choices = [
     "2023 (Boston)",
-    "2022 (Online)",
-    "2021 (Online)",
-    "2020 (Online)",
+    "2022 (en línea)",
+    "2021 (en línea)",
+    "2020 (en línea)",
     "2019 (Baltimore)",
     "2018 (London)",
     "2017 (Berkeley)",
     "2016 (Boston)",
     "2015 (Boston)",
     "2014 (Chicago)",
-    "Will likely attend in the future",
-    "Would like to attend, if funds, schedule and location permit",
-    "Unlikely to attend JuliaCon in future",
-    "Don't know",
+    "Asistiré a alguna en el futuro",
+    "Asistiré a alguna en el futuro dependiendo del costo, calendario y ubicación",
+    "Es poco probable que asista a algún JuliaCon en el futuro",
+    "Desconozco",
 ]
 multi_choice = true
 none_of_the_above = false
@@ -537,15 +508,15 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-How do you download and install Julia?
+¿De qué maneras frecuentemente instala la versión de Julia que más usa? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Binaries from JuliaLang.org",
-    "I compile Julia from source",
+    "Binarias de JuliaLang.org",
+    "Compio Julia de la fuente",
     "JuliaUp",
-    "From my Linux distribution",
-    "From Homebrew cask on Mac",
-    "Official Docker container",
+    "A través de mi distribución de Linux",
+    "A través de Homebrew cask en Mac",
+    "Imagen oficial de Docker",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -556,12 +527,12 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-With which operating system(s) do you use Julia most frequently? Please select all that apply.
+¿Cuáles de los siguientes sistemas operativos utiliza con Julia frecuentemente? Selecciona todas las opciones que apliquen.
 """
 choices = [
     "Linux/x86",
     "Windows",
-    "Windows with WSL",
+    "Windows con WSL",
     "macOS/x86",
     "macOS/ARM",
     "ChromeOS",
@@ -578,16 +549,16 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which kind of parallelism, if any, do you use together with Julia? Please select all that apply.
+¿Cuáles de los siguientes tipos de paralelismo usa junto con Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Tasks/coroutines",
-    "Julia multi-threading (Threads)",
-    "Other multi-threading (e.g., Polyester.jl)",
-    "GPU computing",
-    "Julia distributed computing (Distributed)",
-    "Other distributed computing (e.g., MPI.jl, UCX.jl)",
-    "Large-scale parallel computing (>100 nodes)",
+    "Tasks/coroutines", TRANSLATE
+    "Julia multi-threading (Threads)", TRANSLATE
+    "Other multi-threading (e.g., Polyester.jl)", TRANSLATE
+    "GPU computing", TRANSLATE
+    "Julia distributed computing (Distributed)", TRANSLATE
+    "Other distributed computing (e.g., MPI.jl, UCX.jl)", TRANSLATE
+    "Large-scale parallel computing (>100 nodes)", TRANSLATE
 ]
 multi_choice = true
 none_of_the_above = true
@@ -598,17 +569,17 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which hardware accelerators, if any, do you use together with Julia? Please select all that apply.
+¿Cuáles de los siguientes tipos de acelerador de hardware utiliza con Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Nvidia GPU (released in the last 2 years)",
-    "Nvidia GPU (older than 2 years)",
-    "Multiple Nvidia GPUs in one system",
-    "Apple M-series GPU",
+    "Nvidia GPU (disponible desde hace menos de 2 años)",
+    "Nvidia GPU (disponible desde hace más de 2 años)",
+    "Multiple Nvidia GPUs en un gabinete",
+    "Apple M-serie GPU",
     "AMD GPU",
     "Intel GPU",
-    "Distributed cluster of GPUs",
-    "Quantum computer",
+    "Cluster distribuido de GPUs",
+    "Computadora cuántica",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -619,19 +590,20 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-What resources have you found most useful when learning Julia for the first
-time or when learning how to do something in Julia? Please select all that apply.
+
+
+¿Qué recursos le han resultado más útiles al aprender Julia por primera vez o al aprender a hacer algo en Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Julia manual",
-    "YouTube tutorials",
-    "JuliaCon presentations",
-    "Julia books",
-    "JuliaAcademy",
-    "Online courses",
-    "Webinars",
-    "Exercism Julia track",
-    "University courses",
+Manual de Julia
+Tutoriales de YouTube
+Presentaciones de JuliaCon
+Libros de Julia
+JuliaAcademy
+Cursos en línea
+Seminarios web
+Ruta de Julia en Exercism
+Cursos universitarios
 ]
 multi_choice = true
 none_of_the_above = true
@@ -642,27 +614,28 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following do you use? Please select all that apply.
+¿Cuál de los siguientes campos aplica en su trabajo? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Data science",
-    "Modeling and simulation",
-    "Statistics",
-    "Optimization",
-    "Machine learning",
-    "Scientific machine learning",
-    "Artificial intelligence",
-    "Automatic differentiation",
-    "Scripting",
-    "Visualization",
-    "Differential equations",
-    "Graphics",
-    "Controls",
-    "Signal processing",
-    "Image processing",
-    "Supercomputing",
-    "Computer vision",
-    "Probabilistic programming",
+
+    "Ciencia de datos",
+    "Modelización y simulación",
+    "Estadística",
+    "Optimización",
+    "Aprendizaje automático",
+    "Aprendizaje automático científico",
+    "Inteligencia artificial",
+    "Diferenciación automática",
+    "Scripting", TRANSLATE
+    "Visualización",
+    "Ecuaciones diferenciales",
+    "Gráficos",
+    "Controls", TRANSLATE
+    "Procesamiento digital de señales",
+    "Procesamiento de imágenes",
+    "Supercomputación",
+    "Visión artificial",
+    "Programación probabilística",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -673,12 +646,12 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following best describes you? Please select all that apply.
+¿Cuáles de las siguientes opciones le describen mejor? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Academic - student, researcher, instructor, scientist",
-    "Professional - analyst, engineer, developer, researcher, manager, scientist",
-    "Hobbyist",
+    "Trabajo en la academia - estudiante, investigador, profesor, hago investigación científica",
+    "Soy profesional - en el área de análisis, ingeniería, desarrollo, investigación, gerencia, investigación científica",
+    "Aficionado/a",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -689,18 +662,17 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF ACADEMIC: Which of the following best describes you? Please select all that apply.
+SI USTED TRABAJA EN LA ACADEMIA: ¿Cuáles de las siguientes opciones mejor describen su rol? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Graduate student",
-    "Postdoctoral researcher or fellow",
-    "Faculty",
-    "Instructor",
-    "Undergraduate student",
-    "High school student",
-    "Researcher",
-    "Research software engineer",
-    "System administrator",
+    "Estudiante de posgrado / investigador",
+    "Facultad",
+    "Instructor/a",
+    "Estudiante investigador de pregrado",
+    "Estudiante o investigador de educación media superior",
+    "Investigación científica",
+    "Ingeniero de software investigador",
+    "Administración de sistemas",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -711,32 +683,33 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF ACADEMIC: What are your primary fields of study or research? Please select all that apply.
+SI USTED TRABAJA EN LA ACADEMIA: ¿Cuál es su campo de estudio o investigación principal? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Computer science",
-    "Mathematics",
-    "Statistics",
-    "Physics",
-    "Biology, life sciences",
-    "Electrical engineering",
-    "Mechanical engineering",
-    "Industrial engineering",
-    "Economics",
-    "Geosciences",
-    "Astronomy",
-    "Medicine, pharmaceuticals",
-    "Aerospace engineering",
-    "Finance",
-    "Civil engineering",
-    "Education",
-    "Climate science",
-    "Chemistry",
-    "Chemical engineering",
-    "Business",
-    "Humanities",
-    "Political science",
-    "Sociology",
+
+    "Ciencias de la computación",
+    "Matemáticas",
+    "Estadísticas",
+    "Física",
+    "Biología, ciencias de la vida",
+    "Ingeniería eléctrica",
+    "Ingeniería mecánica",
+    "Ingeniería industrial",
+    "Economía",
+    "Geociencias",
+    "Astronomía",
+    "Medicina, farmacéutica",
+    "Ingeniería aeroespacial",
+    "Finanzas",
+    "Ingeniería civil",
+    "Educación",
+    "Ciencias del clima",
+    "Química",
+    "Ingeniería química",
+    "Negocios",
+    "Humanidades",
+    "Ciencias políticas",
+    "Sociología",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -747,14 +720,14 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF PROFESSIONAL: Which of the following best describes you? Please select all that apply.
+SI ES PROFESIONAL: ¿Cuáles de las siguientes opciones mejor describen su rol? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Engineer, developer",
-    "Researcher",
-    "Analyst",
-    "Manager",
-    "Product manager",
+    "Ingeniería, programación",
+    "Investigación",
+    "Analista",
+    "Gerencia",
+    "Gerencia de producto",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -765,27 +738,27 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF PROFESSIONAL: What are the primary industries in which you work?
+SI ES PROFESIONAL, ¿En qué industrias trabaja? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Software, IT",
-    "Engineering",
-    "Finance",
-    "Aerospace, aviation",
-    "Automotive",
-    "Energy",
-    "Consulting",
-    "Life sciences, health care, pharmaceuticals",
-    "Telecommunications",
-    "Government",
-    "Manufacturing",
-    "Transportation",
-    "Retail",
-    "Logistics",
-    "Semiconductors",
-    "Ecommerce",
-    "Automation",
-    "Agriculture",
+    "Computación, sistemas de información",
+    "Ingeniería",
+    "Finanzas",
+    "Aeroespacial, aviación",
+    "Automóviles",
+    "Energía",
+    "Consultoría",
+    "Ciencias de la vida, cuidado de la salud, farmacéutica",
+    "Telecomunicaciones",
+    "Gobierno",
+    "Manufactura",
+    "Transporte",
+    "Comercio de mercancías",
+    "Logística",
+    "Semiconductores",
+    "Comercio electrónico",
+    "Automatización",
+    "Agricultura",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -796,7 +769,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-How many years of programming experience do you have?
+¿Cuántos años de experiencia en programación tiene?
 """
 choices = [
     "0",
@@ -806,8 +779,8 @@ choices = [
     "16-20",
     "21-25",
     "26-30",
-    "More than 30",
-    "Don’t know, prefer not to answer",
+    "Más de 30",
+    "No sé, prefiero no contestar",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -818,10 +791,10 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-What is your age?
+¿Cuál es su edad?
 """
 choices = [
-    "Under 15",
+    "Menos de 15",
     "15-17",
     "18-22",
     "23-29",
@@ -833,8 +806,8 @@ choices = [
     "56-60",
     "61-65",
     "66-70",
-    "More than 70",
-    "Don’t know, prefer not to answer",
+    "Más de 70",
+    "No sé, prefiero no contestar",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -845,212 +818,210 @@ translate_choices = true
 [[questions]]
 type = "country"
 description = """
-What is the country or region where you currently live or work?
+¿En qué país o región trabaja y/o vive actualmente? Seleccione todas las opciones que correspondan.
 """
 countries = [
-    "Afghanistan",
+    "Afganistán",
     "Albania",
-    "Algeria",
+    "Argelia",
     "Andorra",
     "Angola",
-    "Antigua and Barbuda",
+    "Antigua y Barbuda",
     "Argentina",
     "Armenia",
     "Australia",
     "Austria",
-    "Azerbaijan",
+    "Azerbaiyán",
     "Bahamas",
-    "Bahrain",
+    "Bahrein",
     "Bangladesh",
     "Barbados",
-    "Belarus",
-    "Belgium",
-    "Belize",
+    "Bielorrusia",
+    "Bélgica",
+    "Belice",
     "Benin",
-    "Bhutan",
+    "Bután",
     "Bolivia",
-    "Bosnia and Herzegovina",
-    "Botswana",
-    "Brazil",
+    "Bosnia y Herzegovina",
+    "Botsuana",
+    "Brasil",
     "Brunei",
     "Bulgaria",
     "Burkina Faso",
     "Burundi",
-    "Cambodia",
-    "Cameroon",
-    "Canada",
-    "Cape Verde",
-    "Central African Republic",
+    "Camboya",
+    "Camerún",
+    "Canadá",
+    "Cabo Verde",
+    "República Centroafricana",
     "Chad",
     "Chile",
     "China",
     "Colombia",
-    "Comoros",
+    "Comoras",
     "Congo-Brazzaville (RotC)",
-    "Congo-Kinshasa (DRC)",
+    "Congo-Kinshasa (RDC)",
     "Costa Rica",
-    "Croatia",
+    "Croacia",
     "Cuba",
-    "Cyprus",
-    "Czech Republic",
-    "Denmark",
+    "Chipre",
+    "República Checa",
+    "Dinamarca",
     "Djibouti",
     "Dominica",
-    "Dominican Republic",
+    "República Dominicana",
     "Ecuador",
-    "Egypt",
+    "Egipto",
     "El Salvador",
-    "Equatorial Guinea",
+    "Guinea Ecuatorial",
     "Eritrea",
     "Estonia",
-    "Eswatini",
-    "Ethiopia",
-    "Fiji",
-    "Finland",
-    "France",
-    "Gabon",
+    "Etiopía",
+    "Fiyi",
+    "Finlandia",
+    "Francia",
+    "Gabón",
     "Gambia",
     "Georgia",
-    "Germany",
+    "Alemania",
     "Ghana",
-    "Greece",
-    "Greenland",
-    "Grenada",
+    "Grecia",
+    "Groenlandia",
+    "Granada",
     "Guatemala",
     "Guinea",
     "Guinea-Bissau",
-    "Guyana",
-    "Haiti",
+    "Guayana",
+    "Haití",
     "Honduras",
     "Hong Kong",
-    "Hungary",
-    "Iceland",
+    "Hungría",
+    "Islandia",
     "India",
     "Indonesia",
-    "Iran",
-    "Iraq",
-    "Ireland",
+    "Corrí",
+    "Irak",
+    "Irlanda",
     "Israel",
-    "Ivory Coast (Côte d’Ivoire)",
-    "Italy",
+    "Costa de Marfil (Côte d’Ivoire)",
+    "Italia",
     "Jamaica",
-    "Japan",
-    "Jordan",
-    "Kazakhstan",
-    "Kenya",
+    "Japón",
+    "Jordán",
+    "Kazajstán",
+    "Kenia",
     "Kiribati",
     "Kosovo",
     "Kuwait",
-    "Kyrgyzstan",
+    "Kirguistán",
     "Laos",
-    "Latvia",
-    "Lebanon",
-    "Lesotho",
+    "Letonia",
+    "Líbano",
+    "Lesoto",
     "Liberia",
-    "Libya",
+    "Libia",
     "Liechtenstein",
-    "Lithuania",
-    "Luxembourg",
+    "Lituania",
+    "Luxemburgo",
     "Macao",
-    "Macedonia",
     "Madagascar",
     "Malawi",
-    "Malaysia",
-    "Maldives",
+    "Malasia",
+    "Maldivas",
     "Mali",
     "Malta",
-    "Marshall Islands",
+    "Islas Marshall",
     "Mauritania",
-    "Mauritius",
-    "Mexico",
+    "Mauricio",
+    "México",
     "Micronesia",
-    "Moldova",
+    "Moldavia",
     "Mozambique",
-    "Monaco",
+    "Mónaco",
     "Mongolia",
     "Montenegro",
-    "Morocco",
+    "Marruecos",
     "Myanmar",
     "Namibia",
     "Nauru",
     "Nepal",
-    "Netherlands",
-    "New Zealand",
+    "Países Bajos",
+    "Nueva Zelanda",
     "Nicaragua",
-    "Niger",
+    "Níger",
     "Nigeria",
-    "North Korea",
-    "North Macedonia",
-    "Norway",
-    "Oman",
-    "Pakistan",
+    "Corea del Norte",
+    "Macedonia del Norte",
+    "Noruega",
+    "Omán",
+    "Pakistán",
     "Palau",
-    "Palestine, West Bank, Gaza",
-    "Panama",
-    "Papua New Guinea",
+    "Palestina, Cisjordania, Gaza",
+    "Panamá",
+    "Papúa Nueva Guinea",
     "Paraguay",
-    "Peru",
-    "Philippines",
-    "Poland",
+    "Perú",
+    "Filipinas",
+    "Polonia",
     "Portugal",
     "Puerto Rico",
-    "Qatar",
-    "Romania",
-    "Russia",
-    "Rwanda",
-    "Saint Kitts and Nevis",
-    "Saint Lucia",
-    "Saint Vincent and the Grenadines",
+    "Katar",
+    "Rumania",
+    "Rusia",
+    "Ruanda",
+    "San Cristóbal y Nieves",
+    "Santa Lucía",
+    "San Vicente y las Granadinas",
     "Samoa",
     "San Marino",
-    "Sao Tome and Principe",
-    "Saudi Arabia",
+    "Santo Tomé y Príncipe",
+    "Arabia Saudita",
     "Senegal",
     "Serbia",
     "Seychelles",
-    "Sierra Leone",
-    "Singapore",
-    "Slovakia",
-    "Slovenia",
-    "Solomon Islands",
+    "Sierra Leona",
+    "Singapur",
+    "Eslovaquia",
+    "Eslovenia",
+    "Islas Salomón",
     "Somalia",
-    "South Africa",
-    "South Korea",
-    "South Sudan",
-    "Spain",
+    "Sudáfrica",
+    "Corea del Sur",
+    "Sudán del Sur",
+    "España",
     "Sri Lanka",
-    "Sudan",
-    "Suriname",
-    "Sweden",
-    "Switzerland",
-    "Syria",
-    "Taiwan",
-    "Tajikistan",
+    "Sudán",
+    "Surinam",
+    "Swazilandia",
+    "Suecia",
+    "Suiza",
+    "Siria",
+    "Taiwán",
+    "Tayikistán",
     "Tanzania",
-    "Thailand",
-    "Timor-Leste (East Timor)",
+    "Tailandia",
+    "Timor Oriental",
     "Togo",
     "Tonga",
-    "Trinidad and Tobago",
-    "Tunisia",
-    "Turkey",
-    "Turkmenistan",
+    "Trinidad y Tobago",
+    "Túnez",
+    "Turquía",
+    "Turkmenistán",
     "Tuvalu",
     "Uganda",
-    "Ukraine",
-    "United Arab Emirates",
-    "United Kingdom",
-    "United States",
+    "Ucrania",
+    "Emiratos Árabes Unidos",
+    "Reino Unido",
+    "Estados Unidos",
     "Uruguay",
-    "Uzbekistan",
+    "Uzbekistán",
     "Vanuatu",
-    "Vatican City",
+    "Ciudad del Vaticano",
     "Venezuela",
     "Vietnam",
-    "Western Sahara",
     "Yemen",
     "Zambia",
-    "Zimbabwe",
+    "Zimbabue",
 ]
 ask_for_other_answer = true
 prefer_not_to_answer = true
@@ -1060,212 +1031,210 @@ translate_countries = true
 [[questions]]
 type = "country"
 description = """
-What is the country where you are originally from?
+¿Cuál es su país de origen?
 """
 countries = [
-    "Afghanistan",
+    "Afganistán",
     "Albania",
-    "Algeria",
+    "Argelia",
     "Andorra",
     "Angola",
-    "Antigua and Barbuda",
+    "Antigua y Barbuda",
     "Argentina",
     "Armenia",
     "Australia",
     "Austria",
-    "Azerbaijan",
+    "Azerbaiyán",
     "Bahamas",
-    "Bahrain",
+    "Bahrein",
     "Bangladesh",
     "Barbados",
-    "Belarus",
-    "Belgium",
-    "Belize",
+    "Bielorrusia",
+    "Bélgica",
+    "Belice",
     "Benin",
-    "Bhutan",
+    "Bután",
     "Bolivia",
-    "Bosnia and Herzegovina",
-    "Botswana",
-    "Brazil",
+    "Bosnia y Herzegovina",
+    "Botsuana",
+    "Brasil",
     "Brunei",
     "Bulgaria",
     "Burkina Faso",
     "Burundi",
-    "Cambodia",
-    "Cameroon",
-    "Canada",
-    "Cape Verde",
-    "Central African Republic",
+    "Camboya",
+    "Camerún",
+    "Canadá",
+    "Cabo Verde",
+    "República Centroafricana",
     "Chad",
     "Chile",
     "China",
     "Colombia",
-    "Comoros",
+    "Comoras",
     "Congo-Brazzaville (RotC)",
-    "Congo-Kinshasa (DRC)",
+    "Congo-Kinshasa (RDC)",
     "Costa Rica",
-    "Croatia",
+    "Croacia",
     "Cuba",
-    "Cyprus",
-    "Czech Republic",
-    "Denmark",
+    "Chipre",
+    "República Checa",
+    "Dinamarca",
     "Djibouti",
     "Dominica",
-    "Dominican Republic",
+    "República Dominicana",
     "Ecuador",
-    "Egypt",
+    "Egipto",
     "El Salvador",
-    "Equatorial Guinea",
+    "Guinea Ecuatorial",
     "Eritrea",
     "Estonia",
-    "Eswatini",
-    "Ethiopia",
-    "Fiji",
-    "Finland",
-    "France",
-    "Gabon",
+    "Etiopía",
+    "Fiyi",
+    "Finlandia",
+    "Francia",
+    "Gabón",
     "Gambia",
     "Georgia",
-    "Germany",
+    "Alemania",
     "Ghana",
-    "Greece",
-    "Greenland",
-    "Grenada",
+    "Grecia",
+    "Groenlandia",
+    "Granada",
     "Guatemala",
     "Guinea",
     "Guinea-Bissau",
-    "Guyana",
-    "Haiti",
+    "Guayana",
+    "Haití",
     "Honduras",
     "Hong Kong",
-    "Hungary",
-    "Iceland",
+    "Hungría",
+    "Islandia",
     "India",
     "Indonesia",
-    "Iran",
-    "Iraq",
-    "Ireland",
+    "Corrí",
+    "Irak",
+    "Irlanda",
     "Israel",
-    "Ivory Coast (Côte d’Ivoire)",
-    "Italy",
+    "Costa de Marfil (Côte d’Ivoire)",
+    "Italia",
     "Jamaica",
-    "Japan",
-    "Jordan",
-    "Kazakhstan",
-    "Kenya",
+    "Japón",
+    "Jordán",
+    "Kazajstán",
+    "Kenia",
     "Kiribati",
     "Kosovo",
     "Kuwait",
-    "Kyrgyzstan",
+    "Kirguistán",
     "Laos",
-    "Latvia",
-    "Lebanon",
-    "Lesotho",
+    "Letonia",
+    "Líbano",
+    "Lesoto",
     "Liberia",
-    "Libya",
+    "Libia",
     "Liechtenstein",
-    "Lithuania",
-    "Luxembourg",
+    "Lituania",
+    "Luxemburgo",
     "Macao",
-    "Macedonia",
     "Madagascar",
     "Malawi",
-    "Malaysia",
-    "Maldives",
+    "Malasia",
+    "Maldivas",
     "Mali",
     "Malta",
-    "Marshall Islands",
+    "Islas Marshall",
     "Mauritania",
-    "Mauritius",
-    "Mexico",
+    "Mauricio",
+    "México",
     "Micronesia",
-    "Moldova",
+    "Moldavia",
     "Mozambique",
-    "Monaco",
+    "Mónaco",
     "Mongolia",
     "Montenegro",
-    "Morocco",
+    "Marruecos",
     "Myanmar",
     "Namibia",
     "Nauru",
     "Nepal",
-    "Netherlands",
-    "New Zealand",
+    "Países Bajos",
+    "Nueva Zelanda",
     "Nicaragua",
-    "Niger",
+    "Níger",
     "Nigeria",
-    "North Korea",
-    "North Macedonia",
-    "Norway",
-    "Oman",
-    "Pakistan",
+    "Corea del Norte",
+    "Macedonia del Norte",
+    "Noruega",
+    "Omán",
+    "Pakistán",
     "Palau",
-    "Palestine, West Bank, Gaza",
-    "Panama",
-    "Papua New Guinea",
+    "Palestina, Cisjordania, Gaza",
+    "Panamá",
+    "Papúa Nueva Guinea",
     "Paraguay",
-    "Peru",
-    "Philippines",
-    "Poland",
+    "Perú",
+    "Filipinas",
+    "Polonia",
     "Portugal",
     "Puerto Rico",
-    "Qatar",
-    "Romania",
-    "Russia",
-    "Rwanda",
-    "Saint Kitts and Nevis",
-    "Saint Lucia",
-    "Saint Vincent and the Grenadines",
+    "Katar",
+    "Rumania",
+    "Rusia",
+    "Ruanda",
+    "San Cristóbal y Nieves",
+    "Santa Lucía",
+    "San Vicente y las Granadinas",
     "Samoa",
     "San Marino",
-    "Sao Tome and Principe",
-    "Saudi Arabia",
+    "Santo Tomé y Príncipe",
+    "Arabia Saudita",
     "Senegal",
     "Serbia",
     "Seychelles",
-    "Sierra Leone",
-    "Singapore",
-    "Slovakia",
-    "Slovenia",
-    "Solomon Islands",
+    "Sierra Leona",
+    "Singapur",
+    "Eslovaquia",
+    "Eslovenia",
+    "Islas Salomón",
     "Somalia",
-    "South Africa",
-    "South Korea",
-    "South Sudan",
-    "Spain",
+    "Sudáfrica",
+    "Corea del Sur",
+    "Sudán del Sur",
+    "España",
     "Sri Lanka",
-    "Sudan",
-    "Suriname",
-    "Sweden",
-    "Switzerland",
-    "Syria",
-    "Taiwan",
-    "Tajikistan",
+    "Sudán",
+    "Surinam",
+    "Swazilandia",
+    "Suecia",
+    "Suiza",
+    "Siria",
+    "Taiwán",
+    "Tayikistán",
     "Tanzania",
-    "Thailand",
-    "Timor-Leste (East Timor)",
+    "Tailandia",
+    "Timor Oriental",
     "Togo",
     "Tonga",
-    "Trinidad and Tobago",
-    "Tunisia",
-    "Turkey",
-    "Turkmenistan",
+    "Trinidad y Tobago",
+    "Túnez",
+    "Turquía",
+    "Turkmenistán",
     "Tuvalu",
     "Uganda",
-    "Ukraine",
-    "United Arab Emirates",
-    "United Kingdom",
-    "United States",
+    "Ucrania",
+    "Emiratos Árabes Unidos",
+    "Reino Unido",
+    "Estados Unidos",
     "Uruguay",
-    "Uzbekistan",
+    "Uzbekistán",
     "Vanuatu",
-    "Vatican City",
+    "Ciudad del Vaticano",
     "Venezuela",
     "Vietnam",
-    "Western Sahara",
     "Yemen",
     "Zambia",
-    "Zimbabwe",
+    "Zimbabue",
 ]
 ask_for_other_answer = true
 prefer_not_to_answer = true
@@ -1275,78 +1244,78 @@ translate_countries = true
 [[questions]]
 type = "choice"
 description = """
-In what language(s) are you fluent? Please select all that apply.
+¿En qué idiomas habla fluidamente? Seleccione todas las opciones que correspondan.
 """
 choices = [
-    "Afrikaans",
-    "Albanian",
-    "American Sign Language",
-    "Amharic",
-    "Arabic",
-    "Bengali",
-    "Bosnian",
-    "Bulgarian",
-    "Chinese",
-    "Croatian",
-    "Czech",
-    "Danish",
-    "Dutch",
-    "English",
-    "Estonian",
+    "Africaans",
+    "Albanés",
+    "Lenguaje de signos americano",
+    "Amárico",
+    "Árabe",
+    "Bengalí",
+    "Bosnio",
+    "Búlgaro",
+    "Chino",
+    "Croata",
+    "Checo",
+    "Danés",
+    "Holandés",
+    "Inglés",
+    "Estonio",
     "Farsi",
-    "Finnish",
-    "French",
-    "Georgian",
-    "German",
-    "Greek",
+    "Finlandés",
+    "Francés",
+    "Georgiano",
+    "Alemán",
+    "Griego",
     "Gujarati",
     "Hausa",
-    "Hebrew",
+    "Hebreo",
     "Hindi",
-    "Hungarian",
-    "Icelandic",
+    "Húngaro",
+    "Islandés",
     "Igbo",
-    "Indonesian",
-    "Italian",
-    "Japanese",
+    "Indonesio",
+    "Italiano",
+    "Japonés",
     "Kannada",
-    "Kazakh",
-    "Korean",
-    "Lithuanian",
-    "Luxembourgish",
-    "Macedonian",
-    "Malay",
+    "Kazajo",
+    "Coreano",
+    "Lituano",
+    "Luxemburgués",
+    "Macedónio",
+    "Malayo",
     "Marathi",
-    "Malayalam",
-    "Mongolian",
-    "Nepali",
-    "Norwegian",
+    "Malabar",
+    "Mongol",
+    "Nepalí",
+    "Noruego",
     "Oriya",
     "Oromo",
     "Pashto",
-    "Polish",
-    "Portuguese",
+    "Polaco",
+    "Portugués",
     "Punjabi",
-    "Romanian",
-    "Russian",
-    "Serbian",
+    "Rumano",
+    "Ruso",
+    "Serbio",
     "Shona",
-    "Slovakian",
-    "Slovenian",
-    "Spanish",
+    "Eslovaco",
+    "Esloveno",
+    "Español",
     "Swahili",
-    "Swedish",
-    "Tagalog",
+    "Sueco",
+    "Tagalo",
     "Tamil",
     "Telugu",
-    "Thai",
-    "Turkish",
-    "Ukrainian",
+    "Tailandés",
+    "Turco",
+    "Ucranio",
     "Urdu",
-    "Vietnamese",
+    "Vietnamita",
     "Yoruba",
-    "Zulu",
-    "Prefer not to answer",
+    "Zulú",
+    "Prefiero no contestar",
 ]
 multi_choice = true
 none_of_the_above = false
@@ -1357,19 +1326,19 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following best describe your race or ethnicity? Please select all that apply.
+¿Cómo se describe a sí mismo en términos de raza o etnia? Seleccione todas las opciones que correspondan.
 """
 choices = [
-    "White, Caucasian, European",
-    "Asian, Asian-American",
-    "Latin American, Latino, Hispanic",
-    "Black, African, African-American, Caribbean Black",
-    "Middle Eastern, Arab, Persian, Turkish",
-    "American Indian, Alaska Native, Inuit, First Nations, Métis",
-    "Native Hawaiian, Pacific Islander",
-    "Australian Aboriginal",
+    "Caucásico, europeo",
+    "Asiático, asiático-americano",
+    "Latinoamericano, latino, hispano",
+    "Africano, afroamericano, negro-caribeño",
+    "Medio-oriental, árabe, persa, turco",
+    "Indígena de las Américas",
+    "Indígena de Hawái o de las Islas de Pacífico",
+    "Indígena de Australia",
     "Maori",
-    "Prefer not to answer",
+    "Prefiero no contestar",
 ]
 multi_choice = true
 none_of_the_above = false
@@ -1380,13 +1349,13 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-What is your gender?
+¿Cuál es su género?
 """
 choices = [
-    "Man",
-    "Woman",
-    "Non-binary",
-    "Prefer not to answer",
+    "Hombre",
+    "Mujer",
+    "No binario",
+    "Prefiero no contestar",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -1397,12 +1366,12 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Do you identify as LGBTQ?
+¿Se identifica como LGBTQIA+ (lesbiana, gay, bisexual, transgenero, queer, intersexual, asexual/agender)?
 """
 choices = [
-    "Yes",
+    "Sí",
     "No",
-    "Prefer not to answer",
+    "Prefiero no contestar",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -1413,23 +1382,23 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Do you identify as underrepresented in science or computing because of your:
+Se identifica como subrepresentado en los campos de ciencias o cómputo por razón de su:
 """
 choices = [
-    "Age",
-    "Gender",
-    "Gender identity",
-    "Language(s) or language proficiency",
-    "Religion",
-    "Race, ethnicity, national origin",
-    "Disability",
-    "Sexual orientation",
-    "Education level",
-    "Parents’ education level",
-    "Income or socioeconomic status",
-    "Political or ideological beliefs",
-    "I do not identify as underrepresented in science or computing",
-    "Prefer not to answer",
+    "Edad",
+    "Género",
+    "Identidad de género",
+    "Idioma o dominio de éste",
+    "Religión",
+    "Raza, etnicidad, nacionalidad de origen",
+    "Discapacidad",
+    "Orientación sexual",
+    "Nivel de educación",
+    "Nivel de educación de los padres",
+    "Ingreso o estatus socioeconómico",
+    "Creencias políticas o ideológicas",
+    "No me identifico como poco/a representado/a en los campos de ciencias o cómputo",
+    "Prefiero no contestar",
 ]
 multi_choice = false
 none_of_the_above = false
@@ -1440,6 +1409,5 @@ translate_choices = true
 [[questions]]
 type = "click"
 description = """
-IF PROFESSIONAL: Please click here if you would like JuliaHub to contact you to
-help your business succeed using Julia.
+SI PROFESIONAL: Haga clic aquí si desea que JuliaHub se ponga en contacto con usted y ayude a su empresa a sacar el mayor provecho de Julia.
 """
