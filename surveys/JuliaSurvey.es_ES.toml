@@ -1,8 +1,8 @@
 lang = "es_ES"
 intro = """
-Estimada/o participante,
+Estimado/a participante,
 
-Se le ha invitado a participar de la quinta encuesta anual de usuarias/os y desarrolladores de Julia. Los resultados serán presentados durante JuliaCon 2023 (este verano) y estarán disponibles en línea para el público general. La encuesta ha sido desarrollada, es administrada y será analizada por JuliaHub con las aportaciones de la comunidad de Julia. Valoramos su tiempo y agradecemos su participación. Este cuestionario consiste en 40 preguntas y debería tomar no más de 10-15 minutos para completar.
+Se le ha invitado a participar de la quinta encuesta anual de usuarios y desarrolladores de Julia. Los resultados serán presentados durante JuliaCon 2023 (este verano) y estarán disponibles en línea para el público general. La encuesta ha sido desarrollada, es administrada y será analizada por JuliaHub con las aportaciones de la comunidad de Julia. Valoramos su tiempo y agradecemos su participación. Este cuestionario consiste en 40 preguntas y debería tomar no más de 10-15 minutos para completar.
 
 Gracias a Roger Luo por crear JuliaSurveyForm.jl, y nos agradecemos a todos traductores por traducción.
 
@@ -64,7 +64,7 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-¿Cuáles de los siguientes lenguajes de programación piensa Ud. utilizar frecuentemente durante el año que viene? Favor de seleccionar todos los que apliquen.
+¿Cuáles de los siguientes lenguajes de programación piensa utilizar frecuentemente durante el año que viene? Favor de seleccionar todos los que apliquen.
 """
 choices = [
     "Julia",
@@ -93,7 +93,7 @@ translate_choices = false
 [[questions]]
 type = "form"
 description = """
-¿Cuánto le gustan cada uno de los siguientes lenguajes de programación? Si no conoce o no ha usado el lenguaje deje la casilla en blanco, por favor.
+¿Cuánto le gusta cada uno de los siguientes lenguajes de programación? Si no conoce o no ha usado el lenguaje deje la casilla en blanco, por favor.
 """
 column_titles = [
     "Uno de mis lenguajes de programación favoritos",
@@ -333,7 +333,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-SI CREADOR O COLABORADOR: ¿Cuántas horas no pagadas contribuye Ud. a la comunidad de Julia o a proyectos de código abierto cada semana?
+SI CREADOR O COLABORADOR: ¿Cuántas horas no pagadas contribuye a la comunidad de Julia o a proyectos de código abierto cada semana?
 """
 choices = [
     "Ninguno",
@@ -381,7 +381,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-¿Cómo de robusto es el ecosistema de paquetes en Julia actualmente?
+¿Qué robusto es el ecosistema de paquetes en Julia actualmente?
 """
 choices = [
     "Muchísimo",
@@ -463,7 +463,7 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-¿Cómo de útil y colaborativa es la comunidad de Julia?
+¿Qué tan útil y colaborativa es la comunidad de Julia?
 """
 choices = [
     "Muchísimo",
@@ -552,13 +552,13 @@ description = """
 ¿Cuáles de los siguientes tipos de paralelismo usa junto con Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Tasks/coroutines", TRANSLATE
-    "Julia multi-threading (Threads)", TRANSLATE
-    "Other multi-threading (e.g., Polyester.jl)", TRANSLATE
-    "GPU computing", TRANSLATE
-    "Julia distributed computing (Distributed)", TRANSLATE
-    "Other distributed computing (e.g., MPI.jl, UCX.jl)", TRANSLATE
-    "Large-scale parallel computing (>100 nodes)", TRANSLATE
+    "Tareas/corutinas",
+    "Multihilo en Julia",
+    "Otras implementaciones de multihilo (por ejemplo, Polyester.jl)",
+    "Computación de propósito general en unidades de procesamiento gráfico",
+    "Computación distribuida en Julia (distribuida)",
+    "Otras implementaciones de computación distribuida (por ejemplo, MPI.jl, UCX.jl)",
+    "Computación paralela a gran escala (>100 nodos)",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -614,7 +614,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-¿Cuál de los siguientes campos aplica en su trabajo? Selecciona todas las opciones que apliquen.
+¿Cuáles de los siguientes campos aplica en su trabajo? Selecciona todas las opciones que apliquen.
 """
 choices = [
 
@@ -626,7 +626,7 @@ choices = [
     "Aprendizaje automático científico",
     "Inteligencia artificial",
     "Diferenciación automática",
-    "Scripting", TRANSLATE
+    "Desarrollo de secuencia de comandos",
     "Visualización",
     "Ecuaciones diferenciales",
     "Gráficos",
@@ -720,7 +720,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-SI ES PROFESIONAL: ¿Cuáles de las siguientes opciones mejor describen su rol? Selecciona todas las opciones que apliquen.
+SI ES PROFESIONAL: ¿Cuáles de las siguientes opciones describen mejor su rol? Selecciona todas las opciones que apliquen.
 """
 choices = [
     "Ingeniería, programación",
