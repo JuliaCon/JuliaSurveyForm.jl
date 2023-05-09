@@ -1,8 +1,8 @@
 module TargetMarkdown
 
-using ..JuliaSurveyForm: 
+using ..JuliaSurveyForm:
     LOCALE,
-    en_US, zh_CN, zh_TW, ja_JP, ko_KR,
+    en_US, es_ES, zh_CN, zh_TW, ja_JP, ko_KR,
     Survey,
     Question,
     TextQuestion,
@@ -19,6 +19,7 @@ using ..JuliaSurveyForm:
 
 const MULTI_CHOICE = Dict(
     en_US => "Please select all that apply.",
+    es_ES => "Por favor seleccione todas las respuestas válidas.",
     zh_CN => "请选择所有适用的选项。",
     zh_TW => "請選擇所有適用的選項。",
     ja_JP => "該当するものをすべて選択してください。",
@@ -27,6 +28,7 @@ const MULTI_CHOICE = Dict(
 
 const NON_OF_THE_ABOVE = Dict(
     en_US => "None of the above.",
+    es_ES => "Ninguna de las anteriores.",
     zh_CN => "以上都不是。",
     zh_TW => "以上都不是。",
     ja_JP => "上記のどれでもない。",
@@ -35,6 +37,7 @@ const NON_OF_THE_ABOVE = Dict(
 
 const PREFER_NOT_TO_ANSWER = Dict(
     en_US => "Prefer not to answer.",
+    es_ES => "Prefiero no responder.",
     zh_CN => "我不愿意回答。",
     zh_TW => "我不願意回答。",
     ja_JP => "答えるのは気が進まない。",
@@ -43,6 +46,7 @@ const PREFER_NOT_TO_ANSWER = Dict(
 
 const OTHER_PLEASE_SPECIFY = Dict(
     en_US => "Other",
+    es_ES => "Otra",
     zh_CN => "其他",
     zh_TW => "其他",
     ja_JP => "他の",
