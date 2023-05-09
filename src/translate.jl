@@ -5,6 +5,7 @@ GOOGLE_TRANS_LOCALE = Dict(
     zh_MO => "zh-tw",
     zh_SG => "zh-tw",
     en_US => "en",
+    es_ES => "es",
     ja_JP => "ja",
     ko_KR => "ko",
 )

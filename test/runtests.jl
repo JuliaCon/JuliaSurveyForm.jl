@@ -6,6 +6,7 @@ surveys_dir(xs...) = pkgdir(JuliaSurveyForm, "surveys", xs...)
 
 survey_en_US = from_toml(Survey, surveys_dir("JuliaSurvey.en_US.toml"))
 survey_zh_CN = from_toml(Survey, surveys_dir("JuliaSurvey.zh_CN.toml"))
+survey_es_ES = from_toml(Survey, surveys_dir("JuliaSurvey.es_ES.toml"))
 
 # generates the reference translation
 # survey_zh_CN = JuliaSurveyForm.translate(survey, zh_CN)
@@ -22,8 +23,10 @@ JuliaSurveyForm.emit_toml(surveys_dir("JuliaSurvey.zh_CN.toml"), survey_zh_CN)
 JuliaSurveyForm.emit_toml(surveys_dir("JuliaSurvey.zh_TW.toml"), survey_zh_TW)
 JuliaSurveyForm.emit_toml(surveys_dir("JuliaSurvey.ja_JP.toml"), survey_ja_JP)
 JuliaSurveyForm.emit_toml(surveys_dir("JuliaSurvey.ko_KR.toml"), survey_ko_KR)
+JuliaSurveyForm.emit_toml(surveys_dir("JuliaSurvey.es_ES.toml"), survey_es_ES)
 
 
 JuliaSurveyForm.emit_markdown("JuliaSurvey.en_US.md", survey_en_US)
 JuliaSurveyForm.emit_markdown("JuliaSurvey.zh_CN.md", survey_zh_CN)
 JuliaSurveyForm.emit_markdown("JuliaSurvey.zh_TW.md", survey_zh_TW)
+JuliaSurveyForm.emit_markdown("JuliaSurvey.es_ES.md", survey_es_ES)

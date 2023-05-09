@@ -1,7 +1,6 @@
-export en_US, zh_CN, zh_HK,
-    zh_TW,
-    zh_SG,
-    zh_MO,
+export en_US,
+    es_ES,
+    zh_CN, zh_HK, zh_TW, zh_SG, zh_MO,
     ja_JP, ko_KR,
     Question,
     TextQuestion,
@@ -15,6 +14,7 @@ export en_US, zh_CN, zh_HK,
 
 @enum LOCALE begin
     en_US
+    es_ES
     zh_CN
     zh_HK
     zh_TW
