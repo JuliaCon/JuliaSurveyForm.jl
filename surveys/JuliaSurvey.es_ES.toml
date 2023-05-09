@@ -595,15 +595,15 @@ description = """
 ¿Qué recursos le han resultado más útiles al aprender Julia por primera vez o al aprender a hacer algo en Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-Manual de Julia
-Tutoriales de YouTube
-Presentaciones de JuliaCon
-Libros de Julia
-JuliaAcademy
-Cursos en línea
-Seminarios web
-Ruta de Julia en Exercism
-Cursos universitarios
+    "Manual de Julia",
+    "Tutoriales de YouTube",
+    "Presentaciones de JuliaCon",
+    "Libros de Julia",
+    "JuliaAcademy",
+    "Cursos en línea",
+    "Seminarios web",
+    "Ruta de Julia en Exercism",
+    "Cursos universitarios",
 ]
 multi_choice = true
 none_of_the_above = true
