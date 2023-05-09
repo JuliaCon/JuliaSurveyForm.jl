@@ -552,13 +552,13 @@ description = """
 ¿Cuáles de los siguientes tipos de paralelismo usa junto con Julia? Selecciona todas las opciones que apliquen.
 """
 choices = [
-    "Tasks/coroutines", TRANSLATE
-    "Julia multi-threading (Threads)", TRANSLATE
-    "Other multi-threading (e.g., Polyester.jl)", TRANSLATE
-    "GPU computing", TRANSLATE
-    "Julia distributed computing (Distributed)", TRANSLATE
-    "Other distributed computing (e.g., MPI.jl, UCX.jl)", TRANSLATE
-    "Large-scale parallel computing (>100 nodes)", TRANSLATE
+    "Tasks/coroutines",
+    "Multi-threading en Julia (Threads)",
+    "Otro paquete basado en multi-threading (e.g., Polyester.jl)",
+    "Cómputo en GPU",
+    "Cómputo distribuido de Julia (Distributed)",
+    "Otro tipo de cómputo distribuido (e.g., MPI.jl, UCX.jl)",
+    "Cómputo paralelo a gran escala (>100 nodos)",
 ]
 multi_choice = true
 none_of_the_above = true
@@ -626,7 +626,7 @@ choices = [
     "Aprendizaje automático científico",
     "Inteligencia artificial",
     "Diferenciación automática",
-    "Scripting", TRANSLATE
+    "Automatización con scripts",
     "Visualización",
     "Ecuaciones diferenciales",
     "Gráficos",
