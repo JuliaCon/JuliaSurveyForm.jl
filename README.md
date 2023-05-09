@@ -1,7 +1,7 @@
 # JuliaSurveyForm
 
 [![CI][ci-img]][ci-url]
-[![codecov][codecov-img]](codecov-url)
+[![codecov][codecov-img]][codecov-url]
 
 A package generates Julia-based survey form in many different languages and formats. This package
 is motivated by creating Chinese translation for JuliaCon's Julia survey every year and I'd like
