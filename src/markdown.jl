@@ -182,7 +182,7 @@ end
 function ask_for_other_answer(io, x::Question, lang::LOCALE)
     x.ask_for_other_answer || return
     if x.ask_for_other_answer
-        println(io, "- [ ] $(OTHER_PLEASE_SPECIFY[lang])/SPECIFY")
+        println(io, "- [ ] $(OTHER_PLEASE_SPECIFY[lang])")
     end
 end
 
