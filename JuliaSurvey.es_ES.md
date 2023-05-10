@@ -38,7 +38,7 @@ Co-creadores de Julia
 - [ ] Octave
 - [ ] Typescript
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 2. ¿Cuáles de los siguientes lenguajes de programación piensa utilizar frecuentemente durante el año que viene? Favor de seleccionar todos los que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -59,7 +59,7 @@ Co-creadores de Julia
 - [ ] Octave
 - [ ] Typescript
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 3. ¿Cuánto le gusta cada uno de los siguientes lenguajes de programación? Si no conoce o no ha usado el lenguaje deje la casilla en blanco, por favor.
@@ -101,7 +101,7 @@ Co-creadores de Julia
 - [ ] Indizado desde uno
 - [ ] Meta-programación
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 5. De los aspectos o características NO-TÉCNICAS de Julia, ¿cuáles son sus favoritos? Por favor, seleccione todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -115,7 +115,7 @@ Co-creadores de Julia
 - [ ] Abundante material de enseñanza y aprendizaje disponible en línea
 - [ ] La documentación es buena
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 6. De los aspectos técnicos, ¿cuáles son sus menos favoritos? Por favor, seleccione todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -135,7 +135,7 @@ Co-creadores de Julia
 - [ ] No se integra bien con interfaces o características
 - [ ] No se integra bien con otros lenguajes
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 7. De los aspectos o características NO-TÉCNICOS de Julia, ¿cuáles son sus menos favoritos? Por favor, seleccione todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -149,7 +149,7 @@ Co-creadores de Julia
 - [ ] Considero que los desarrolladores de Julia no comunican sus planes e intenciones adecuadamente
 - [ ] La comunidad de Julia es muy conservadora y reticente a realizar cambios útiles al lenguaje
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 8. ¿Por qué razones comenzó a utilizar Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -164,7 +164,7 @@ Co-creadores de Julia
 - [ ] Porque mi instructor para un curso quería que usáramos Julia para la clase
 - [ ] La elegancia del lenguaje
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 9. ¿Dónde interactúa con la comunidad de Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -182,7 +182,7 @@ Co-creadores de Julia
 - [ ] Julia Forem
 - [ ] YouTube
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 10. ¿Cuáles de los siguientes describen mejor su uso de Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -194,7 +194,7 @@ Co-creadores de Julia
 - [ ] Uso Julia porque es requerido para clases en mi universidad
 - [ ] Uso Julia como afición a la programación
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 11. ¿En cuáles de los siguientes tipos de paquetes para Julia ha participado como creador o colaborador?Por favor seleccione todas las respuestas válidas.
@@ -202,7 +202,7 @@ Co-creadores de Julia
 - [ ] Paquete de código abierto no publicado en el registro general
 - [ ] Privado y no publicado en el registro genera
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 12. SI CREADOR O COLABORADOR: ¿Cuál es su estado laboral con respeto a la programación en Julia?
@@ -259,7 +259,7 @@ Co-creadores de Julia
 - [ ] IntelliJ (u otro producto de Jetbrains)
 - [ ] Kate
 - [ ] Ninguno - Escribo todo mi código en la REPL de Julia
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 18. ¿Qué tipos de asistencia de inteligencia artificial utiliza con frecuencia con Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -267,7 +267,7 @@ Co-creadores de Julia
 - [ ] ChatGPT
 - [ ] Otra inteligencia artificial generativa en línea
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 19. ¿Cuáles de las soluciones de computación en la nube o supercomputadoras, si usa alguna, utiliza con Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -280,7 +280,7 @@ Co-creadores de Julia
 - [ ] REPL.it
 - [ ] MyBinder
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 20. ¿Qué tan útil y colaborativa es la comunidad de Julia?
@@ -316,7 +316,7 @@ Co-creadores de Julia
 - [ ] A través de Homebrew cask en Mac
 - [ ] Imagen oficial de Docker
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 23. ¿Cuáles de los siguientes sistemas operativos utiliza con Julia frecuentemente? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -329,7 +329,7 @@ Co-creadores de Julia
 - [ ] Linux/ARM
 - [ ] Linux/PPC
 - [ ] FreeBSD
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 24. ¿Cuáles de los siguientes tipos de paralelismo usa junto con Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -341,7 +341,7 @@ Co-creadores de Julia
 - [ ] Otras implementaciones de computación distribuida (por ejemplo, MPI.jl, UCX.jl)
 - [ ] Computación paralela a gran escala (>100 nodos)
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 25. ¿Cuáles de los siguientes tipos de acelerador de hardware utiliza con Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -354,7 +354,7 @@ Co-creadores de Julia
 - [ ] Cluster distribuido de GPUs
 - [ ] Computadora cuántica
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 26. ¿Qué recursos le han resultado más útiles al aprender Julia por primera vez o al aprender a hacer algo en Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -368,7 +368,7 @@ Co-creadores de Julia
 - [ ] Ruta de Julia en Exercism
 - [ ] Cursos universitarios
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 27. ¿Cuáles de los siguientes campos aplica en su trabajo? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -391,7 +391,7 @@ Co-creadores de Julia
 - [ ] Visión artificial
 - [ ] Programación probabilística
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 28. ¿Cuáles de las siguientes opciones le describen mejor? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -411,7 +411,7 @@ Co-creadores de Julia
 - [ ] Ingeniero de software investigador
 - [ ] Administración de sistemas
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 30. SI USTED TRABAJA EN LA ACADEMIA: ¿Cuál es su campo de estudio o investigación principal? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -439,7 +439,7 @@ Co-creadores de Julia
 - [ ] Ciencias políticas
 - [ ] Sociología
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 31. SI ES PROFESIONAL: ¿Cuáles de las siguientes opciones describen mejor su rol? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -449,7 +449,7 @@ Co-creadores de Julia
 - [ ] Gerencia
 - [ ] Gerencia de producto
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 32. SI ES PROFESIONAL, ¿En qué industrias trabaja? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
@@ -472,7 +472,7 @@ Co-creadores de Julia
 - [ ] Automatización
 - [ ] Agricultura
 - [ ] Ninguna de las anteriores.
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 33. ¿Cuántos años de experiencia en programación tiene?
@@ -706,7 +706,7 @@ Co-creadores de Julia
 - [ ] Yemen
 - [ ] Zambia
 - [ ] Zimbabue
-- [ ] Otra/SPECIFY
+- [ ] Otra
 - [ ] Prefiero no responder.
 
 
@@ -912,7 +912,7 @@ Co-creadores de Julia
 - [ ] Yemen
 - [ ] Zambia
 - [ ] Zimbabue
-- [ ] Otra/SPECIFY
+- [ ] Otra
 - [ ] Prefiero no responder.
 
 
@@ -986,7 +986,7 @@ Co-creadores de Julia
 - [ ] Yoruba
 - [ ] Zulú
 - [ ] Prefiero no contestar
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 38. ¿Cómo se describe a sí mismo en términos de raza o etnia? Seleccione todas las opciones que correspondan.Por favor seleccione todas las respuestas válidas.
@@ -1000,7 +1000,7 @@ Co-creadores de Julia
 - [ ] Indígena de Australia
 - [ ] Maori
 - [ ] Prefiero no contestar
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 39. ¿Cuál es su género?
@@ -1008,7 +1008,7 @@ Co-creadores de Julia
 - [ ] Mujer
 - [ ] No binario
 - [ ] Prefiero no contestar
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 40. ¿Se identifica como LGBTQIA+ (lesbiana, gay, bisexual, transgenero, queer, intersexual, asexual/agender)?
@@ -1032,7 +1032,7 @@ Co-creadores de Julia
 - [ ] Creencias políticas o ideológicas
 - [ ] No me identifico como poco/a representado/a en los campos de ciencias o cómputo
 - [ ] Prefiero no contestar
-- [ ] Otra/SPECIFY
+- [ ] Otra
 
 
 42. SI PROFESIONAL: Haga clic aquí si desea que JuliaHub se ponga en contacto con usted y ayude a su empresa a sacar el mayor provecho de Julia.

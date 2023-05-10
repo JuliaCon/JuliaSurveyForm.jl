@@ -728,7 +728,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Yemen
 - [ ] Zambia
 - [ ] Zimbabwe
-- [ ] Other/SPECIFY
+- [ ] Other
 - [ ] Prefer not to answer.
 
 
@@ -936,7 +936,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Yemen
 - [ ] Zambia
 - [ ] Zimbabwe
-- [ ] Other/SPECIFY
+- [ ] Other
 - [ ] Prefer not to answer.
 
 
@@ -1010,7 +1010,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Yoruba
 - [ ] Zulu
 - [ ] Prefer not to answer
-- [ ] Other/SPECIFY
+- [ ] Other
 
 
 39. Which of the following best describe your race or ethnicity? Please select all that apply.Please select all that apply.
@@ -1024,7 +1024,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Australian Aboriginal
 - [ ] Maori
 - [ ] Prefer not to answer
-- [ ] Other/SPECIFY
+- [ ] Other
 
 
 40. What is your gender?
@@ -1032,7 +1032,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Woman
 - [ ] Non-binary
 - [ ] Prefer not to answer
-- [ ] Other/SPECIFY
+- [ ] Other
 
 
 41. Do you identify as LGBTQ?
@@ -1056,7 +1056,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Political or ideological beliefs
 - [ ] I do not identify as underrepresented in science or computing
 - [ ] Prefer not to answer
-- [ ] Other/SPECIFY
+- [ ] Other
 
 
 43. IF PROFESSIONAL: Please click here if you would like JuliaHub to contact you to
