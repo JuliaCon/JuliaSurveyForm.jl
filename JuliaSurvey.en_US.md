@@ -25,7 +25,7 @@ Julia Co-Creators
 ---
 
 
-1. Which of the following languages have you used regularly or frequently during the past year?Please select all that apply.
+1. Which of the following languages have you used regularly or frequently during the past year? Please select all that apply.
 - [ ] Julia
 - [ ] Python
 - [ ] Shell, Bash, PowerShell
@@ -42,11 +42,11 @@ Julia Co-Creators
 - [ ] Go
 - [ ] Octave
 - [ ] Typescript
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-2. Which of the following languages do you plan to use regularly or frequently during the next year?Please select all that apply.
+2. Which of the following languages do you plan to use regularly or frequently during the next year? Please select all that apply.
 - [ ] Julia
 - [ ] Python
 - [ ] Shell, Bash, PowerShell
@@ -63,7 +63,7 @@ Julia Co-Creators
 - [ ] Go
 - [ ] Octave
 - [ ] Typescript
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
@@ -91,7 +91,7 @@ If you don't know or have not used a language, please leave it blank.
 
 
 4. Which of the following are the TECHNICAL aspects or features you
-like MOST about Julia? Please select all that apply.Please select all that apply.
+like MOST about Julia? Please select all that apply.
 - [ ] Speed, performance
 - [ ] Ease of use
 - [ ] Open source - code is available and can be modified
@@ -107,12 +107,12 @@ like MOST about Julia? Please select all that apply.Please select all that apply
 - [ ] Editor and IDE support (Emacs, Vi, Juno, VS Code)
 - [ ] One-based indexing
 - [ ] Metaprogramming
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
 5. Which of the following are the NON-TECHNICAL aspects or features you
-like MOST about Julia? Please select all that apply.Please select all that apply.
+like MOST about Julia? Please select all that apply.
 - [ ] Free – don't have to pay to use Julia
 - [ ] Julia community of developers is talented and active
 - [ ] MIT license
@@ -122,12 +122,12 @@ like MOST about Julia? Please select all that apply.Please select all that apply
 - [ ] Easy to contribute to the language
 - [ ] Lots of great teaching and learning resources available online
 - [ ] Great documentation
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
 6. Which of the following are the TECHNICAL aspects or features you
-like LEAST about Julia? Please select all that apply.Please select all that apply.
+like LEAST about Julia? Please select all that apply.
 - [ ] Slow compile times - for example, it takes too long to generate the first plot
 - [ ] Confusing or overly verbose error messages
 - [ ] Cannot generate self contained binaries or libraries such as .exe, .dll, .so, etc.
@@ -148,7 +148,7 @@ like LEAST about Julia? Please select all that apply.Please select all that appl
 
 
 7. Which of the following are the NON-TECHNICAL aspects or features you like LEAST about Julia?
-Please select all that apply.Please select all that apply.
+Please select all that apply.
 - [ ] There are not enough Julia users in my field or industry
 - [ ] My company, university, clients or other organizations I work with do not allow or support Julia
 - [ ] Online tutorials and documentation are outdated or insufficient
@@ -158,11 +158,11 @@ Please select all that apply.Please select all that apply.
 - [ ] The Julia community is not diverse enough
 - [ ] I feel that the Julia developer team does not communicate its plans or intentions clearly enough
 - [ ] The Julia community is too conservative and too reluctant to make useful changes to the language
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-8. Why did you start using Julia? Please select all that apply.Please select all that apply.
+8. Why did you start using Julia? Please select all that apply.
 - [ ] Julia seems like the language of the future
 - [ ] Julia solves the two language problem
 - [ ] Faster for the work I am doing
@@ -173,11 +173,11 @@ Please select all that apply.Please select all that apply.
 - [ ] Because colleagues in my field use Julia and I want to collaborate with them
 - [ ] Because my instructor or a course I wanted to take uses Julia
 - [ ] Elegance of Julia
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-9. Where do you interact with the Julia community? Please select all that apply.Please select all that apply.
+9. Where do you interact with the Julia community? Please select all that apply.
 - [ ] GitHub
 - [ ] Discourse (discourse.julialang.org)
 - [ ] Slack
@@ -190,11 +190,11 @@ Please select all that apply.Please select all that apply.
 - [ ] JuliaCN Discourse (discourse.juliacn.com)
 - [ ] Julia Forem
 - [ ] YouTube
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-10. Which of the following best describe your use of Julia? Please select all that apply.Please select all that apply.
+10. Which of the following best describe your use of Julia? Please select all that apply.
 - [ ] I use Julia for research
 - [ ] I use Julia for work individually
 - [ ] I use Julia for teaching
@@ -202,15 +202,15 @@ Please select all that apply.Please select all that apply.
 - [ ] I use Julia in production for a business critical task
 - [ ] I use Julia because it is required for classes at my university
 - [ ] I use Julia for hobby programming
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-11. Which of the following types of Julia packages have you created or contributed to?Please select all that apply.
+11. Which of the following types of Julia packages have you created or contributed to? Please select all that apply.
 - [ ] Open source and registered in the Julia general registry
 - [ ] Open source and not registered in the Julia general registry
 - [ ] Private and not registered in the Julia general registry
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
@@ -220,7 +220,7 @@ Please select all that apply.Please select all that apply.
 - [ ] Part paid, part voluntary
 - [ ] Completely voluntary
 - [ ] Prefer not to say
-- [ ] None of the above.
+- [ ] None of the above
 
 
 13. IF OPEN SOURCE CREATOR OR CONTRIBUTOR: In which of the following capacities do you contribute to Julia?
@@ -229,7 +229,7 @@ Please select all that apply.Please select all that apply.
 - [ ] Part paid, part voluntary
 - [ ] Completely voluntary
 - [ ] Prefer not to say
-- [ ] None of the above.
+- [ ] None of the above
 
 
 14. IF OPEN SOURCE CREATOR OR CONTRIBUTOR: How many volunteer hours do you spend working on open source Julia projects or the Julia community per week?
@@ -240,7 +240,7 @@ Please select all that apply.Please select all that apply.
 - [ ] Prefer not to say
 
 
-15. When did you first start using Julia? ENTER YEAR (2009-2022)enter year from 2023 to 2009
+15. When did you first start using Julia? ENTER YEAR (2009-2023)
 
 
 16. What percentage of the programming you do is in Julia?
@@ -262,7 +262,7 @@ Please select all that apply.Please select all that apply.
 - [ ] Don't know
 
 
-18. Which editors or IDEs do you use frequently? Please select all that apply.Please select all that apply.
+18. Which editors or IDEs do you use frequently? Please select all that apply.
 - [ ] VS Code
 - [ ] Pluto
 - [ ] Jupyter
@@ -280,15 +280,15 @@ Please select all that apply.Please select all that apply.
 - [ ] Other
 
 
-19. What types of AI assistance do you use frequently with Julia? Please select all that apply.Please select all that apply.
+19. What types of AI assistance do you use frequently with Julia? Please select all that apply.
 - [ ] GitHub Copilot
 - [ ] ChatGPT
 - [ ] Other Web-based generative AI
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-20. Which cloud solutions, if any, do you use together with Julia? Please select all that apply.Please select all that apply.
+20. Which cloud solutions, if any, do you use together with Julia? Please select all that apply.
 - [ ] Local cluster
 - [ ] JuliaHub
 - [ ] Amazon Web Services, AWS
@@ -297,7 +297,7 @@ Please select all that apply.Please select all that apply.
 - [ ] Google Colab
 - [ ] REPL.it
 - [ ] MyBinder
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
@@ -309,7 +309,7 @@ Please select all that apply.Please select all that apply.
 - [ ] Don't know
 
 
-22. Have you attended or do you plan to attend JuliaCon? Please select all that apply.Please select all that apply.
+22. Have you attended or do you plan to attend JuliaCon? Please select all that apply.
 - [ ] 2023 (Boston)
 - [ ] 2022 (Online)
 - [ ] 2021 (Online)
@@ -326,18 +326,18 @@ Please select all that apply.Please select all that apply.
 - [ ] Don't know
 
 
-23. How do you download and install Julia?Please select all that apply.
+23. How do you download and install Julia? Please select all that apply.
 - [ ] Binaries from JuliaLang.org
 - [ ] I compile Julia from source
 - [ ] JuliaUp
 - [ ] From my Linux distribution
 - [ ] From Homebrew cask on Mac
 - [ ] Official Docker container
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-24. With which operating system(s) do you use Julia most frequently? Please select all that apply.Please select all that apply.
+24. With which operating system(s) do you use Julia most frequently? Please select all that apply.
 - [ ] Linux/x86
 - [ ] Windows
 - [ ] Windows with WSL
@@ -350,7 +350,7 @@ Please select all that apply.Please select all that apply.
 - [ ] Other
 
 
-25. Which kind of parallelism, if any, do you use together with Julia? Please select all that apply.Please select all that apply.
+25. Which kind of parallelism, if any, do you use together with Julia? Please select all that apply.
 - [ ] Tasks/coroutines
 - [ ] Julia multi-threading (Threads)
 - [ ] Other multi-threading (e.g., Polyester.jl)
@@ -358,11 +358,11 @@ Please select all that apply.Please select all that apply.
 - [ ] Julia distributed computing (Distributed)
 - [ ] Other distributed computing (e.g., MPI.jl, UCX.jl)
 - [ ] Large-scale parallel computing (>100 nodes)
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-26. Which hardware accelerators, if any, do you use together with Julia? Please select all that apply.Please select all that apply.
+26. Which hardware accelerators, if any, do you use together with Julia? Please select all that apply.
 - [ ] Nvidia GPU (released in the last 2 years)
 - [ ] Nvidia GPU (older than 2 years)
 - [ ] Multiple Nvidia GPUs in one system
@@ -371,12 +371,11 @@ Please select all that apply.Please select all that apply.
 - [ ] Intel GPU
 - [ ] Distributed cluster of GPUs
 - [ ] Quantum computer
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-27. What resources have you found most useful when learning Julia for the first
-time or when learning how to do something in Julia? Please select all that apply.Please select all that apply.
+27. What resources have you found most useful when learning Julia for the first time or when learning how to do something in Julia? Please select all that apply.
 - [ ] Julia manual
 - [ ] YouTube tutorials
 - [ ] JuliaCon presentations
@@ -386,11 +385,11 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Webinars
 - [ ] Exercism Julia track
 - [ ] University courses
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-28. Which of the following do you use? Please select all that apply.Please select all that apply.
+28. Which of the following do you use? Please select all that apply.
 - [ ] Data science
 - [ ] Modeling and simulation
 - [ ] Statistics
@@ -409,18 +408,17 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Supercomputing
 - [ ] Computer vision
 - [ ] Probabilistic programming
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-29. Which of the following best describes you? Please select all that apply.Please select all that apply.
+29. Which of the following best describes you? Please select all that apply.
 - [ ] Academic - student, researcher, instructor, scientist
 - [ ] Professional - analyst, engineer, developer, researcher, manager, scientist
 - [ ] Hobbyist
-- [ ] None of the above.
+- [ ] None of the above
 
-
-30. IF ACADEMIC: Which of the following best describes you? Please select all that apply.Please select all that apply.
+30. IF ACADEMIC: Which of the following best describes you? Please select all that apply.
 - [ ] Graduate student
 - [ ] Postdoctoral researcher or fellow
 - [ ] Faculty
@@ -430,11 +428,11 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Researcher
 - [ ] Research software engineer
 - [ ] System administrator
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-31. IF ACADEMIC: What are your primary fields of study or research? Please select all that apply.Please select all that apply.
+31. IF ACADEMIC: What are your primary fields of study or research? Please select all that apply.
 - [ ] Computer science
 - [ ] Mathematics
 - [ ] Statistics
@@ -458,21 +456,21 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Humanities
 - [ ] Political science
 - [ ] Sociology
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-32. IF PROFESSIONAL: Which of the following best describes you? Please select all that apply.Please select all that apply.
+32. IF PROFESSIONAL: Which of the following best describes you? Please select all that apply.
 - [ ] Engineer, developer
 - [ ] Researcher
 - [ ] Analyst
 - [ ] Manager
 - [ ] Product manager
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
-33. IF PROFESSIONAL: What are the primary industries in which you work?Please select all that apply.
+33. IF PROFESSIONAL: What are the primary industries in which you work? Please select all that apply.
 - [ ] Software, IT
 - [ ] Engineering
 - [ ] Finance
@@ -491,7 +489,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Ecommerce
 - [ ] Automation
 - [ ] Agriculture
-- [ ] None of the above.
+- [ ] None of the above
 - [ ] Other
 
 
@@ -940,7 +938,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Prefer not to answer.
 
 
-38. In what language(s) are you fluent? Please select all that apply.Please select all that apply.
+38. In what language(s) are you fluent? Please select all that apply.
 - [ ] Afrikaans
 - [ ] Albanian
 - [ ] American Sign Language
@@ -1013,7 +1011,7 @@ time or when learning how to do something in Julia? Please select all that apply
 - [ ] Other
 
 
-39. Which of the following best describe your race or ethnicity? Please select all that apply.Please select all that apply.
+39. Which of the following best describe your race or ethnicity? Please select all that apply.
 - [ ] White, Caucasian, European
 - [ ] Asian, Asian-American
 - [ ] Latin American, Latino, Hispanic
