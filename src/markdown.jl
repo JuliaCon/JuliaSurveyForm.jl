@@ -27,21 +27,21 @@ const MULTI_CHOICE = Dict(
 )
 
 const NON_OF_THE_ABOVE = Dict(
-    en_US => "None of the above.",
-    es_ES => "Ninguna de las anteriores.",
-    zh_CN => "以上都不是。",
-    zh_TW => "以上都不是。",
-    ja_JP => "上記のどれでもない。",
-    ko_KR => "위의 어느 것도.",
+    en_US => "None of the above",
+    es_ES => "Ninguna de las anteriores",
+    zh_CN => "以上都不是",
+    zh_TW => "以上都不是",
+    ja_JP => "上記のどれでもない",
+    ko_KR => "위의 어느 것도",
 )
 
 const PREFER_NOT_TO_ANSWER = Dict(
-    en_US => "Prefer not to answer.",
-    es_ES => "Prefiero no responder.",
-    zh_CN => "我不愿意回答。",
-    zh_TW => "我不願意回答。",
-    ja_JP => "答えるのは気が進まない。",
-    ko_KR => "나는 대답하기를 꺼린다.",
+    en_US => "Prefer not to answer",
+    es_ES => "Prefiero no responder",
+    zh_CN => "我不愿意回答",
+    zh_TW => "我不願意回答",
+    ja_JP => "答えるのは気が進まない",
+    ko_KR => "나는 대답하기를 꺼린다",
 )
 
 const OTHER_PLEASE_SPECIFY = Dict(
