@@ -1,6 +1,6 @@
 Estimado/a participante,
 
-Se le ha invitado a participar de la quinta encuesta anual de usuarios y desarrolladores de Julia. Los resultados serán presentados durante JuliaCon 2023 (este verano) y estarán disponibles en línea para el público general. La encuesta ha sido desarrollada, es administrada y será analizada por JuliaHub con las aportaciones de la comunidad de Julia. Valoramos su tiempo y agradecemos su participación. Este cuestionario consiste en 40 preguntas y debería tomar no más de 10-15 minutos para completar.
+Se le ha invitado a participar de la quinta encuesta anual de usuarios y desarrolladores de Julia. Los resultados serán presentados durante JuliaCon 2023 (este verano) y estarán disponibles en línea para el público general. La encuesta ha sido desarrollada, es administrada y será analizada por JuliaHub con las aportaciones de la comunidad de Julia. Valoramos su tiempo y agradecemos su participación. Este cuestionario consiste en aproximadamente 40 preguntas y debería tomar no más de 10-15 minutos para completar.
 
 Gracias a Roger Luo por crear JuliaSurveyForm.jl, y nos agradecemos a todos traductores por traducción.
 
@@ -20,7 +20,7 @@ Co-creadores de Julia
 ---
 
 
-1. ¿Cuáles de los siguientes lenguajes de programación ha utilizado frecuentemente durante el año pasado? Favor de seleccionar todos los que apliquen.Por favor seleccione todas las respuestas válidas.
+1. ¿Cuáles de los siguientes lenguajes de programación ha utilizado frecuentemente durante el año pasado? Favor de seleccionar todos los que apliquen.
 - [ ] Julia
 - [ ] Python
 - [ ] Shell, Bash, PowerShell
@@ -37,11 +37,11 @@ Co-creadores de Julia
 - [ ] Go
 - [ ] Octave
 - [ ] Typescript
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-2. ¿Cuáles de los siguientes lenguajes de programación piensa utilizar frecuentemente durante el año que viene? Favor de seleccionar todos los que apliquen.Por favor seleccione todas las respuestas válidas.
+2. ¿Cuáles de los siguientes lenguajes de programación piensa utilizar frecuentemente durante el año que viene? Favor de seleccionar todos los que apliquen.
 - [ ] Julia
 - [ ] Python
 - [ ] Shell, Bash, PowerShell
@@ -58,7 +58,7 @@ Co-creadores de Julia
 - [ ] Go
 - [ ] Octave
 - [ ] Typescript
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
@@ -84,7 +84,7 @@ Co-creadores de Julia
 | Typescript              |                                                |          |         |             |
 
 
-4. De los aspectos o características TÉCNICAS de Julia, ¿cuáles de los siguiente son sus favoritos? Por favor, seleccione todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+4. De los aspectos o características TÉCNICAS de Julia, ¿cuáles de los siguiente son sus favoritos? Por favor, seleccione todas las opciones que apliquen.
 - [ ] Rapidez, rendimiento
 - [ ] Facilidad de uso
 - [ ] Código abierto – el código está disponible y puede ser modificado
@@ -100,11 +100,11 @@ Co-creadores de Julia
 - [ ] Disponibilidad de entornos de desarrollo integrado y editores (Emacs, Vi(m), Juno, VS Code)
 - [ ] Indizado desde uno
 - [ ] Meta-programación
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-5. De los aspectos o características NO-TÉCNICAS de Julia, ¿cuáles son sus favoritos? Por favor, seleccione todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+5. De los aspectos o características NO-TÉCNICAS de Julia, ¿cuáles son sus favoritos? Por favor, seleccione todas las opciones que apliquen.
 - [ ] Es gratis, no hay coste por usar Julia
 - [ ] La comunidad de desarrolladores de Julia es talentosa y activa
 - [ ] Licencia MIT
@@ -114,11 +114,11 @@ Co-creadores de Julia
 - [ ] Facilidad para contribuir al desarrollo del lenguaje
 - [ ] Abundante material de enseñanza y aprendizaje disponible en línea
 - [ ] La documentación es buena
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-6. De los aspectos técnicos, ¿cuáles son sus menos favoritos? Por favor, seleccione todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+6. De los aspectos técnicos, ¿cuáles son sus menos favoritos? Por favor, seleccione todas las opciones que apliquen.
 - [ ] La compilación tarda mucho tiempo - tarda demasiado tiempo generar la primera gráfica
 - [ ] Mensajes de errores verbosos o difíciles de entender
 - [ ] No puedo generar binarios o bibliotecas autocontenidas como .exe, .dll, .so, etc.
@@ -134,11 +134,11 @@ Co-creadores de Julia
 - [ ] No soporta arreglos mutables de tamaño fijo
 - [ ] No se integra bien con interfaces o características
 - [ ] No se integra bien con otros lenguajes
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-7. De los aspectos o características NO-TÉCNICOS de Julia, ¿cuáles son sus menos favoritos? Por favor, seleccione todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+7. De los aspectos o características NO-TÉCNICOS de Julia, ¿cuáles son sus menos favoritos? Por favor, seleccione todas las opciones que apliquen.
 - [ ] No hay suficiente usuarios de Julia en mi campo o industria
 - [ ] Mi compañía, universidad, clientes u otras organizaciones con las que trabajo no soportan o no permiten usar Julia
 - [ ] Documentación o tutorías en línea están anticuados o insuficientes
@@ -148,11 +148,11 @@ Co-creadores de Julia
 - [ ] La comunidad de Julia no incluye suficiente diversidad
 - [ ] Considero que los desarrolladores de Julia no comunican sus planes e intenciones adecuadamente
 - [ ] La comunidad de Julia es muy conservadora y reticente a realizar cambios útiles al lenguaje
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-8. ¿Por qué razones comenzó a utilizar Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+8. ¿Por qué razones comenzó a utilizar Julia? Selecciona todas las opciones que apliquen.
 - [ ] Me parecía el lenguaje del futuro
 - [ ] Resuelve el problema de tener que usar dos lenguajes (uno para desarrollar prototipos y otro para la eficiencia)
 - [ ] Es más eficiente para el trabajo que hago
@@ -163,11 +163,11 @@ Co-creadores de Julia
 - [ ] Porque colegas en mi campo usan Julia y quería colaborar con ellos
 - [ ] Porque mi instructor para un curso quería que usáramos Julia para la clase
 - [ ] La elegancia del lenguaje
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-9. ¿Dónde interactúa con la comunidad de Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+9. ¿Dónde interactúa con la comunidad de Julia? Selecciona todas las opciones que apliquen.
 - [ ] GitHub
 - [ ] Discourse (discourse.julialang.org)
 - [ ] Slack
@@ -181,11 +181,11 @@ Co-creadores de Julia
 - [ ] JuliaCN Discourse (discourse.juliacn.com)
 - [ ] Julia Forem
 - [ ] YouTube
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-10. ¿Cuáles de los siguientes describen mejor su uso de Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+10. ¿Cuáles de los siguientes describen mejor su uso de Julia? Selecciona todas las opciones que apliquen.
 - [ ] Uso Julia para investigación
 - [ ] Uso Julia para trabajo individual
 - [ ] Uso Julia para enseñar
@@ -193,15 +193,15 @@ Co-creadores de Julia
 - [ ] Uso Julia en producción como parte de tareas críticas para mi empresa
 - [ ] Uso Julia porque es requerido para clases en mi universidad
 - [ ] Uso Julia como afición a la programación
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-11. ¿En cuáles de los siguientes tipos de paquetes para Julia ha participado como creador o colaborador?Por favor seleccione todas las respuestas válidas.
+11. ¿En cuáles de los siguientes tipos de paquetes para Julia ha participado como creador o colaborador? Por favor seleccione todas las respuestas válidas.
 - [ ] Paquete de código abierto publicado en el registro general
 - [ ] Paquete de código abierto no publicado en el registro general
 - [ ] Privado y no publicado en el registro genera
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
@@ -211,7 +211,7 @@ Co-creadores de Julia
 - [ ] Pagado en parte, voluntario en parte
 - [ ] Enteramente voluntario
 - [ ] Prefiero no contestar
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 
 
 13. SI CREADOR O COLABORADOR: ¿Cuántas horas no pagadas contribuye a la comunidad de Julia o a proyectos de código abierto cada semana?
@@ -222,7 +222,7 @@ Co-creadores de Julia
 - [ ] Prefiero no contestar
 
 
-14. ¿En qué año comenzó a usar Julia? INDIQUE EL AÑO (2009-2023)enter year from 2023 to 2009
+14. ¿En qué año comenzó a usar Julia? INDIQUE EL AÑO (2009-2023)
 
 
 15. ¿Qué porcentaje de su trabajo de programación lo hace utilizando Julia?
@@ -244,7 +244,7 @@ Co-creadores de Julia
 - [ ] Desconozco
 
 
-17. ¿Cuáles de los editores o entornos de desarrollo integrado utiliza frecuentemente? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+17. ¿Cuáles de los editores o entornos de desarrollo integrado utiliza frecuentemente? Selecciona todas las opciones que apliquen.
 - [ ] VS Code
 - [ ] Pluto
 - [ ] Jupyter
@@ -262,15 +262,15 @@ Co-creadores de Julia
 - [ ] Otra
 
 
-18. ¿Qué tipos de asistencia de inteligencia artificial utiliza con frecuencia con Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+18. ¿Qué tipos de asistencia de inteligencia artificial utiliza con frecuencia con Julia? Selecciona todas las opciones que apliquen.
 - [ ] GitHub Copilot
 - [ ] ChatGPT
 - [ ] Otra inteligencia artificial generativa en línea
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-19. ¿Cuáles de las soluciones de computación en la nube o supercomputadoras, si usa alguna, utiliza con Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+19. ¿Cuáles de las soluciones de computación en la nube o supercomputadoras, si usa alguna, utiliza con Julia? Selecciona todas las opciones que apliquen.
 - [ ] Cluster local
 - [ ] JuliaHub
 - [ ] Amazon Web Services, AWS
@@ -279,7 +279,7 @@ Co-creadores de Julia
 - [ ] Google Colab
 - [ ] REPL.it
 - [ ] MyBinder
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
@@ -291,7 +291,7 @@ Co-creadores de Julia
 - [ ] Desconozco
 
 
-21. ¿Ha asistido o contempla asistir a JuliaCon? Seleccione todas las convenciones que apliquen.Por favor seleccione todas las respuestas válidas.
+21. ¿Ha asistido o contempla asistir a JuliaCon? Seleccione todas las convenciones que apliquen.
 - [ ] 2023 (Boston)
 - [ ] 2022 (en línea)
 - [ ] 2021 (en línea)
@@ -308,18 +308,18 @@ Co-creadores de Julia
 - [ ] Desconozco
 
 
-22. ¿De qué maneras frecuentemente instala la versión de Julia que más usa? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+22. ¿De qué maneras frecuentemente instala la versión de Julia que más usa? Selecciona todas las opciones que apliquen.
 - [ ] Binarias de JuliaLang.org
 - [ ] Compio Julia de la fuente
 - [ ] JuliaUp
 - [ ] A través de mi distribución de Linux
 - [ ] A través de Homebrew cask en Mac
 - [ ] Imagen oficial de Docker
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-23. ¿Cuáles de los siguientes sistemas operativos utiliza con Julia frecuentemente? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+23. ¿Cuáles de los siguientes sistemas operativos utiliza con Julia frecuentemente? Selecciona todas las opciones que apliquen.
 - [ ] Linux/x86
 - [ ] Windows
 - [ ] Windows con WSL
@@ -332,7 +332,7 @@ Co-creadores de Julia
 - [ ] Otra
 
 
-24. ¿Cuáles de los siguientes tipos de paralelismo usa junto con Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+24. ¿Cuáles de los siguientes tipos de paralelismo usa junto con Julia? Selecciona todas las opciones que apliquen.
 - [ ] Tareas/corutinas
 - [ ] Multihilo en Julia
 - [ ] Otras implementaciones de multihilo (por ejemplo, Polyester.jl)
@@ -340,11 +340,11 @@ Co-creadores de Julia
 - [ ] Computación distribuida en Julia (distribuida)
 - [ ] Otras implementaciones de computación distribuida (por ejemplo, MPI.jl, UCX.jl)
 - [ ] Computación paralela a gran escala (>100 nodos)
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-25. ¿Cuáles de los siguientes tipos de acelerador de hardware utiliza con Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+25. ¿Cuáles de los siguientes tipos de acelerador de hardware utiliza con Julia? Selecciona todas las opciones que apliquen.
 - [ ] Nvidia GPU (disponible desde hace menos de 2 años)
 - [ ] Nvidia GPU (disponible desde hace más de 2 años)
 - [ ] Multiple Nvidia GPUs en un gabinete
@@ -353,11 +353,11 @@ Co-creadores de Julia
 - [ ] Intel GPU
 - [ ] Cluster distribuido de GPUs
 - [ ] Computadora cuántica
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-26. ¿Qué recursos le han resultado más útiles al aprender Julia por primera vez o al aprender a hacer algo en Julia? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+26. ¿Qué recursos le han resultado más útiles al aprender Julia por primera vez o al aprender a hacer algo en Julia? Selecciona todas las opciones que apliquen.
 - [ ] Manual de Julia
 - [ ] Tutoriales de YouTube
 - [ ] Presentaciones de JuliaCon
@@ -367,11 +367,11 @@ Co-creadores de Julia
 - [ ] Seminarios web
 - [ ] Ruta de Julia en Exercism
 - [ ] Cursos universitarios
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-27. ¿Cuáles de los siguientes campos aplica en su trabajo? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+27. ¿Cuáles de los siguientes campos aplica en su trabajo? Selecciona todas las opciones que apliquen.
 - [ ] Ciencia de datos
 - [ ] Modelización y simulación
 - [ ] Estadística
@@ -390,18 +390,18 @@ Co-creadores de Julia
 - [ ] Supercomputación
 - [ ] Visión artificial
 - [ ] Programación probabilística
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-28. ¿Cuáles de las siguientes opciones le describen mejor? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+28. ¿Cuáles de las siguientes opciones le describen mejor? Selecciona todas las opciones que apliquen.
 - [ ] Trabajo en la academia - estudiante, investigador, profesor, hago investigación científica
 - [ ] Soy profesional - en el área de análisis, ingeniería, desarrollo, investigación, gerencia, investigación científica
 - [ ] Aficionado/a
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 
 
-29. SI USTED TRABAJA EN LA ACADEMIA: ¿Cuáles de las siguientes opciones mejor describen su rol? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+29. SI USTED TRABAJA EN LA ACADEMIA: ¿Cuáles de las siguientes opciones mejor describen su rol? Selecciona todas las opciones que apliquen.
 - [ ] Estudiante de posgrado / investigador
 - [ ] Facultad
 - [ ] Instructor/a
@@ -410,11 +410,11 @@ Co-creadores de Julia
 - [ ] Investigación científica
 - [ ] Ingeniero de software investigador
 - [ ] Administración de sistemas
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-30. SI USTED TRABAJA EN LA ACADEMIA: ¿Cuál es su campo de estudio o investigación principal? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+30. SI USTED TRABAJA EN LA ACADEMIA: ¿Cuál es su campo de estudio o investigación principal? Selecciona todas las opciones que apliquen.
 - [ ] Ciencias de la computación
 - [ ] Matemáticas
 - [ ] Estadísticas
@@ -438,21 +438,21 @@ Co-creadores de Julia
 - [ ] Humanidades
 - [ ] Ciencias políticas
 - [ ] Sociología
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-31. SI ES PROFESIONAL: ¿Cuáles de las siguientes opciones describen mejor su rol? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+31. SI ES PROFESIONAL: ¿Cuáles de las siguientes opciones describen mejor su rol? Selecciona todas las opciones que apliquen.
 - [ ] Ingeniería, programación
 - [ ] Investigación
 - [ ] Analista
 - [ ] Gerencia
 - [ ] Gerencia de producto
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
-32. SI ES PROFESIONAL, ¿En qué industrias trabaja? Selecciona todas las opciones que apliquen.Por favor seleccione todas las respuestas válidas.
+32. SI ES PROFESIONAL, ¿En qué industrias trabaja? Selecciona todas las opciones que apliquen.
 - [ ] Computación, sistemas de información
 - [ ] Ingeniería
 - [ ] Finanzas
@@ -471,7 +471,7 @@ Co-creadores de Julia
 - [ ] Comercio electrónico
 - [ ] Automatización
 - [ ] Agricultura
-- [ ] Ninguna de las anteriores.
+- [ ] Ninguna de las anteriores
 - [ ] Otra
 
 
@@ -916,7 +916,7 @@ Co-creadores de Julia
 - [ ] Prefiero no responder.
 
 
-37. ¿En qué idiomas habla fluidamente? Seleccione todas las opciones que correspondan.Por favor seleccione todas las respuestas válidas.
+37. ¿En qué idiomas habla fluidamente? Seleccione todas las opciones que correspondan.
 - [ ] Africaans
 - [ ] Albanés
 - [ ] Lenguaje de signos americano
@@ -989,7 +989,7 @@ Co-creadores de Julia
 - [ ] Otra
 
 
-38. ¿Cómo se describe a sí mismo en términos de raza o etnia? Seleccione todas las opciones que correspondan.Por favor seleccione todas las respuestas válidas.
+38. ¿Cómo se describe a sí mismo en términos de raza o etnia? Seleccione todas las opciones que correspondan.
 - [ ] Caucásico, europeo
 - [ ] Asiático, asiático-americano
 - [ ] Latinoamericano, latino, hispano
@@ -1042,7 +1042,7 @@ Co-creadores de Julia
 ---
 
 
-¡Gracias por completar la encuesta de usuarios y desarrolladores de Julia de 2022!
+¡Gracias por completar la encuesta de usuarios y desarrolladores de Julia de 2023!
 Valoramos y agradecemos enormemente su participación.
 
 Ingrese su dirección de correo electrónico aquí si JuliaHub le debe contactar a Ud. para ayudarle a su empresa a tener éxito usando Julia.
