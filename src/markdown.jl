@@ -27,12 +27,12 @@ const MULTI_CHOICE = Dict(
 )
 
 const NON_OF_THE_ABOVE = Dict(
-    en_US => "None of the above.",
-    es_ES => "Ninguna de las anteriores.",
-    zh_CN => "以上都不是。",
-    zh_TW => "以上都不是。",
-    ja_JP => "上記のどれでもない。",
-    ko_KR => "위의 어느 것도.",
+    en_US => "None of the above",
+    es_ES => "Ninguna de las anteriores",
+    zh_CN => "以上都不是",
+    zh_TW => "以上都不是",
+    ja_JP => "上記のどれでもない",
+    ko_KR => "위의 어느 것도",
 )
 
 const PREFER_NOT_TO_ANSWER = Dict(
@@ -100,7 +100,7 @@ end
 
 function emit_markdown(io::IO, x::ChoiceQuestion, lang::LOCALE)
     if x.multi_choice
-        println(io, MULTI_CHOICE[lang])
+        println(io, " ", MULTI_CHOICE[lang])
     else
         println(io)
     end

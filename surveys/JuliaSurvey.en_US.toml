@@ -139,7 +139,7 @@ translate_cols = true
 type = "choice"
 description = """
 Which of the following are the TECHNICAL aspects or features you
-like MOST about Julia? Please select all that apply.
+like MOST about Julia?
 """
 choices = [
     "Speed, performance",
@@ -168,7 +168,7 @@ translate_choices = true
 type = "choice"
 description = """
 Which of the following are the NON-TECHNICAL aspects or features you
-like MOST about Julia? Please select all that apply.
+like MOST about Julia?
 """
 choices = [
     "Free – don't have to pay to use Julia",
@@ -191,7 +191,7 @@ translate_choices = true
 type = "choice"
 description = """
 Which of the following are the TECHNICAL aspects or features you
-like LEAST about Julia? Please select all that apply.
+like LEAST about Julia?
 """
 choices = [
     "Slow compile times - for example, it takes too long to generate the first plot",
@@ -242,7 +242,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Why did you start using Julia? Please select all that apply.
+Why did you start using Julia?
 """
 choices = [
     "Julia seems like the language of the future",
@@ -265,7 +265,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Where do you interact with the Julia community? Please select all that apply.
+Where do you interact with the Julia community?
 """
 choices = [
     "GitHub",
@@ -290,7 +290,7 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which of the following best describe your use of Julia? Please select all that apply.
+Which of the following best describe your use of Julia?
 """
 choices = [
     "I use Julia for research",
@@ -428,7 +428,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which editors or IDEs do you use frequently? Please select all that apply.
+Which editors or IDEs do you use frequently?
 """
 choices = [
     "VS Code",
@@ -455,7 +455,7 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-What types of AI assistance do you use frequently with Julia? Please select all that apply.
+What types of AI assistance do you use frequently with Julia?
 """
 choices = [
     "GitHub Copilot",
@@ -471,7 +471,7 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which cloud solutions, if any, do you use together with Julia? Please select all that apply. 
+Which cloud solutions, if any, do you use together with Julia? 
 """
 choices = [
     "Local cluster",
@@ -510,7 +510,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Have you attended or do you plan to attend JuliaCon? Please select all that apply.
+Have you attended or do you plan to attend JuliaCon?
 """
 choices = [
     "2023 (Boston)",
@@ -556,7 +556,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-With which operating system(s) do you use Julia most frequently? Please select all that apply.
+With which operating system(s) do you use Julia most frequently?
 """
 choices = [
     "Linux/x86",
@@ -578,7 +578,7 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which kind of parallelism, if any, do you use together with Julia? Please select all that apply.
+Which kind of parallelism, if any, do you use together with Julia?
 """
 choices = [
     "Tasks/coroutines",
@@ -598,7 +598,7 @@ translate_choices = false
 [[questions]]
 type = "choice"
 description = """
-Which hardware accelerators, if any, do you use together with Julia? Please select all that apply.
+Which hardware accelerators, if any, do you use together with Julia?
 """
 choices = [
     "Nvidia GPU (released in the last 2 years)",
@@ -620,7 +620,7 @@ translate_choices = false
 type = "choice"
 description = """
 What resources have you found most useful when learning Julia for the first
-time or when learning how to do something in Julia? Please select all that apply.
+time or when learning how to do something in Julia?
 """
 choices = [
     "Julia manual",
@@ -642,7 +642,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following do you use? Please select all that apply.
+Which of the following do you use?
 """
 choices = [
     "Data science",
@@ -673,7 +673,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following best describes you? Please select all that apply.
+Which of the following best describes you?
 """
 choices = [
     "Academic - student, researcher, instructor, scientist",
@@ -689,7 +689,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF ACADEMIC: Which of the following best describes you? Please select all that apply.
+IF ACADEMIC: Which of the following best describes you?
 """
 choices = [
     "Graduate student",
@@ -711,7 +711,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF ACADEMIC: What are your primary fields of study or research? Please select all that apply.
+IF ACADEMIC: What are your primary fields of study or research?
 """
 choices = [
     "Computer science",
@@ -747,7 +747,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF PROFESSIONAL: Which of the following best describes you? Please select all that apply.
+IF PROFESSIONAL: Which of the following best describes you?
 """
 choices = [
     "Engineer, developer",
@@ -1275,7 +1275,7 @@ translate_countries = true
 [[questions]]
 type = "choice"
 description = """
-In what language(s) are you fluent? Please select all that apply.
+In what language(s) are you fluent?
 """
 choices = [
     "Afrikaans",
@@ -1357,7 +1357,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Which of the following best describe your race or ethnicity? Please select all that apply.
+Which of the following best describe your race or ethnicity?
 """
 choices = [
     "White, Caucasian, European",
