@@ -100,7 +100,7 @@ end
 
 function emit_markdown(io::IO, x::ChoiceQuestion, lang::LOCALE)
     if x.multi_choice
-        println(io, MULTI_CHOICE[lang])
+        println(io, " ", MULTI_CHOICE[lang])
     else
         println(io)
     end
