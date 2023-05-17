@@ -1397,7 +1397,7 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-Do you identify as LGBTQ?
+Do you identify as LGBTQIA+?
 """
 choices = [
     "Yes",
