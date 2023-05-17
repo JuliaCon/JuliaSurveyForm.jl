@@ -36,12 +36,12 @@ const NON_OF_THE_ABOVE = Dict(
 )
 
 const PREFER_NOT_TO_ANSWER = Dict(
-    en_US => "Prefer not to answer.",
-    es_ES => "Prefiero no responder.",
-    zh_CN => "我不愿意回答。",
-    zh_TW => "我不願意回答。",
-    ja_JP => "答えるのは気が進まない。",
-    ko_KR => "나는 대답하기를 꺼린다.",
+    en_US => "Prefer not to answer",
+    es_ES => "Prefiero no responder",
+    zh_CN => "我不愿意回答",
+    zh_TW => "我不願意回答",
+    ja_JP => "答えるのは気が進まない",
+    ko_KR => "나는 대답하기를 꺼린다",
 )
 
 const OTHER_PLEASE_SPECIFY = Dict(
