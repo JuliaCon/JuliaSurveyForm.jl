@@ -380,7 +380,7 @@ translate_choices = true
 [[questions]]
 type = "year"
 description = """
-When did you first start using Julia? ENTER YEAR (2009-2022)
+When did you first start using Julia?
 """
 upper = 2009
 lower = 2023
