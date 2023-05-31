@@ -326,24 +326,6 @@ translate_choices = true
 [[questions]]
 type = "choice"
 description = """
-IF OPEN SOURCE CREATOR OR CONTRIBUTOR: What is your work status in relation to writing Julia code?
-"""
-choices = [
-    "Paid programmer",
-    "Write Julia as a component of other paid work (such as research for academics)",
-    "Part paid, part voluntary",
-    "Completely voluntary",
-    "Prefer not to say",
-]
-multi_choice = false
-none_of_the_above = true
-ask_for_other_answer = false
-translate_choices = true
-
-
-[[questions]]
-type = "choice"
-description = """
 IF OPEN SOURCE CREATOR OR CONTRIBUTOR: In which of the following capacities do you contribute to Julia?
 """
 choices = [
